@@ -1,0 +1,56 @@
+Reference OTL: Die Mordeltern Es waren einmal zwei Bauernsoehn,
+Reference ARE: Europa, Osteuropa, UdSSR, Bessarabien
+Reference YOR: 4, S. 313
+Comment	   ????
+Reference SCT: Q0085n
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	1500	67
+Note	2000	2500	67
+Note	3000	3500	67
+Note	4000	4500	71
+Note	5000	5500	69
+Note	6000	6500	67
+Note	7000	8000	74
+Note	9000	9250	74
+Note	9500	9750	76
+Note	10000	11000	74
+Note	12000	12500	74
+Note	13000	14000	74
+Note	15000	15250	74
+Note	15500	15750	76
+Note	16000	16500	74
+Note	17000	17500	72
+Note	18000	18250	72
+Note	18500	18750	74
+Note	19000	20000	71
+Note	21000	21250	74
+Note	21500	21750	71
+Note	22000	23000	69
+Note	24000	24500	62
+Note	25000	26000	67
+Note	27000	27500	69
+Note	28000	28500	71
+Note	29000	29500	69
+Note	30000	30500	67
+Note	31000	32000	76
+Note	33000	33500	79
+Note	34000	35000	74
+Note	36000	36250	79
+Note	36500	36750	78
+Note	37000	38000	76
+Note	39000	39500	76
+Note	40000	41000	74
+Note	42000	42500	71
+Note	43000	43500	74
+Note	44000	44500	72
+Note	45000	45500	74
+Note	46000	46500	71
+Reference AGN: Ballade, Habgier, Mord, Reue, Selbstmord
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

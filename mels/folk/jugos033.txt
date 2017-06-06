@@ -1,0 +1,33 @@
+Reference OTL: Jungfer Doertchen Es hiet a Knaeblein shiesn Shluf,
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee
+Reference YOR: 3, S. 88
+Comment	   1895 gedruckt in Graz
+Reference SCT: Q0057B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  3/4; 2/4
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	1500	67
+Note	1500	2000	71
+Note	2000	3000	74
+Note	3000	4000	74
+Note	4000	4500	76
+Note	4500	5000	76
+Note	5000	5500	74
+Note	5500	5750	76
+Note	5750	6000	74
+Note	6000	6500	72
+Note	6500	7000	74
+Note	7000	7500	71
+Note	7500	8000	74
+Note	8000	9000	74
+Note	9000	9500	72
+Note	9500	10000	74
+Note	10000	11000	71
+Reference AGN: Ballade, Todesahnung, Tod, Selbstmord
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

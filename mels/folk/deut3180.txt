@@ -1,0 +1,49 @@
+Reference OTL: Wiedersehen an der Bahre 'Nun adje, Schatz, und ich muss fort,
+Reference ARE: Europa, Mitteleuropa, Deutschland / France, Lothringen
+Reference YOR: 3, S. 86
+Comment	   ????
+Reference SCT: Q0056P
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	1000	67
+Note	1000	3000	62
+Note	3000	4000	67
+Note	4000	6000	70
+Note	6000	7000	69
+Note	7000	9000	67
+Note	9000	10000	65
+Note	10000	12000	67
+Note	12000	13000	65
+Note	13000	15000	70
+Note	15000	16000	72
+Note	16000	18000	74
+Note	18000	19000	77
+Note	19000	20000	74
+Note	20000	21000	70
+Note	21000	22000	72
+Note	22000	24000	74
+Note	24000	25000	74
+Note	25000	27000	77
+Note	27000	28000	74
+Note	28000	29000	75
+Note	29000	30000	74
+Note	30000	31000	72
+Note	31000	33000	74
+Note	33000	34000	72
+Note	34000	36000	70
+Note	36000	37000	74
+Note	37000	39000	74
+Note	39000	40000	72
+Note	40000	41000	72
+Note	41000	42000	70
+Note	42000	43000	69
+Note	43000	45000	67
+Note	45000	46000	65
+Note	46000	48000	67
+Reference AGN: Ballade, Abschied, Enttaeuschung, Tod, Selbstmord
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

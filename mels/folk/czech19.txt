@@ -1,0 +1,40 @@
+Reference OTL: Die verkaufte Muellerin Es wollt' ein Muellner in Walde fahren,
+Reference ARE: Europa, Osteuropa, Tschechoslowakei, Dt. Proben, Sprachinsel Kremnitz, Gaidel
+Reference ARD1: Europa%Osteuropa%Tschechoslowakei@Dt. Proben#Sprachinsel Kremnitz:Gaidel!?
+Reference ARL1: ? / ?
+Reference ARD2: Europa%Osteuropa%Slovensko@Sprachinsel Kremnitz:
+Reference ARL2: 48.70/18.91:
+Reference YOR: 4, S. 321
+Comment	   1930 aufgezeichnet
+Reference SCT: Q0086B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	3+2 metric grouping
+Info keysig 2 sharps
+Info key D Major
+Note	0	1000	62
+Note	1000	2000	66
+Note	2000	3000	66
+Note	3000	5000	64
+Note	5000	5500	62
+Note	5500	6000	62
+Note	6000	7000	69
+Note	7000	8000	69
+Note	8000	9000	67
+Note	9000	10000	64
+Note	10000	11000	62
+Note	11000	12000	69
+Note	12000	12500	66
+Note	12500	13000	66
+Note	13000	15000	64
+Note	15000	15500	62
+Note	15500	16000	62
+Note	16000	17000	66
+Note	17000	18000	64
+Note	18000	20000	64
+Reference AGN: Ballade, Menschenhandel, Rettung, Hinrichtung
+Comment	Verzierung (Glissando) in der ersten Zeile.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quintuple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

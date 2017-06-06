@@ -1,0 +1,40 @@
+Reference OTL: Tod der Geschwister ohne Text
+Reference ARE: Suedeuropa, Italia, Sizilien
+Reference YOR: 5, S. 207
+Comment	   1957 gedruckt in Palermo
+Reference SCT: Q3107C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	71
+Note	1000	1500	72
+Note	1500	3000	74
+Note	3000	3500	74
+Note	3500	3833	75
+Note	3833	4167	77
+Note	4167	4500	75
+Note	4500	6000	74
+Note	6000	6500	72
+Note	6500	8500	71
+Note	8500	9500	71
+Note	9500	10000	75
+Note	10000	11000	75
+Note	11000	12000	74
+Note	12000	13000	71
+Note	13000	14000	67
+Note	14000	14333	72
+Note	14333	14667	74
+Note	14667	15000	72
+Note	15000	15750	70
+Note	15750	16000	68
+Note	16000	17000	67
+Note	17000	19000	67
+Reference AGN: ???
+Comment	Melodievergleich zu Q0107B, anderes Lied. Verzierung (Vorschlag) .
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

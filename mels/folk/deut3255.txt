@@ -1,0 +1,58 @@
+Reference OTL: Die wiedergefundene Schwester (Suedeli - Ballade) Ohne Text (Braut Sondeli)
+Reference ARE: Europa, Mitteleuropa, Deutschland / France, Lothringen
+Reference YOR: 4, S. 37
+Comment	   ????
+Reference SCT: Q0072R
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	60
+Note	1000	2500	65
+Note	2500	3000	64
+Note	3000	4000	65
+Note	4000	5000	67
+Note	5000	6000	65
+Note	6000	7000	67
+Note	7000	8500	69
+Note	8500	9000	67
+Note	9000	9500	69
+Note	9500	10000	67
+Note	10000	12000	65
+Note	12000	12500	65
+Note	12500	13000	69
+Note	13000	14500	72
+Note	14500	15000	74
+Note	15000	16000	72
+Note	16000	17000	69
+Note	17000	18000	67
+Note	18000	19000	72
+Note	19000	21000	69
+Note	21000	22000	69
+Note	22000	23000	69
+Note	23000	24000	67
+Note	24000	25000	69
+Note	25000	26500	69
+Note	26500	27000	70
+Note	27000	27500	72
+Note	27500	28000	74
+Note	28000	29500	72
+Note	29500	30000	70
+Note	30000	31000	69
+Note	31000	33000	67
+Note	34000	36000	65
+Note	36000	37000	69
+Note	37000	40000	67
+Note	40000	41000	69
+Note	41000	42000	72
+Note	42000	43000	69
+Note	43000	44000	67
+Note	44000	45000	65
+Note	45000	46000	67
+Note	46000	48000	65
+Reference AGN: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+Comment	Textlose Uebertragung einer Phonogrammaufnahme.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

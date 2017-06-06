@@ -1,0 +1,39 @@
+Reference OTL: Die Bluthochzeit Es fuhr sich ein Pfalzgraf wohl ueber den Rhein,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Rheinprovinz, Grafschaft Berg
+Reference YOR: 2, S. 169
+Comment	   1830 aufgezeichnet (ca.)
+Reference SCT: Q0046C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	69
+Note	500	1500	74
+Note	1500	2000	74
+Note	2000	2500	76
+Note	2500	3500	77
+Note	3500	4000	76
+Note	4000	4500	74
+Note	4500	5000	76
+Note	5000	5500	77
+Note	5500	6000	76
+Note	6000	6500	74
+Note	6500	8000	72
+Note	8000	8500	74
+Note	8500	9500	74
+Note	9500	10000	69
+Note	10000	10500	70
+Note	10500	11500	72
+Note	11500	12000	72
+Note	12000	12500	70
+Note	12500	13500	69
+Note	13500	14000	70
+Note	14000	14500	69
+Note	14500	15500	67
+Reference AGN: Ballade, Entfuehrung, Mord, Vergeltung
+Comment	Variante des Nachsatzes von Q0046A. Verzierung (Vorschlag) in der
+Comment	   ersten Zeile.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

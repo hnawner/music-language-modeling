@@ -1,0 +1,52 @@
+Reference OTL: Alter Ostergesang
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0552B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/1; 6/1; 5/1%%%2+3%
+Info keysig 1 sharp
+Info key G Major
+Note	0	8000	74
+Note	2000	6000	72
+Note	3000	7000	74
+Note	4000	12000	77
+Note	6000	14000	79
+Note	8000	16000	74
+Note	10000	14000	74
+Note	11000	15000	72
+Note	12000	16000	74
+Note	13000	17000	70
+Note	14000	18000	69
+Note	15000	19000	70
+Note	16000	20000	67
+Note	17500	19500	67
+Note	18000	24000	72
+Note	19500	21500	72
+Note	20000	24000	70
+Note	21000	25000	67
+Note	22000	26000	70
+Note	23000	27000	72
+Note	24000	32000	74
+Note	26000	30000	74
+Note	27000	31000	70
+Note	28000	32000	74
+Note	29000	33000	70
+Note	30000	34000	69
+Note	31000	35000	70
+Note	32000	36000	67
+Note	33000	37000	69
+Note	34000	38000	65
+Note	35000	37000	67
+Note	35500	37500	70
+Note	36000	40000	69
+Note	37000	39000	70
+Note	37500	41500	67
+Note	38500	40500	66
+Note	39000	55000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Vorletzter Takt eigentlich 2 Takte 2/1 3/1.
+Comment	   H Finck 1536, vor 1596 notiert.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

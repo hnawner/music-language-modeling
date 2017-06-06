@@ -1,0 +1,40 @@
+Reference OTL: ICH DENKE DEIN WENN DURCH DEN HAIN DER NACHTIGALLEN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0393
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	62
+Note	500	1000	66
+Note	1000	1500	67
+Note	1500	3000	69
+Note	3000	3500	69
+Note	3500	4000	71
+Note	4000	4500	66
+Note	4500	5500	69
+Note	6000	6500	74
+Note	6500	7000	76
+Note	7000	7500	74
+Note	7500	8000	73
+Note	8000	8500	71
+Note	8500	9000	71
+Note	9000	9500	71
+Note	9500	10000	74
+Note	10000	10500	71
+Note	10500	11000	71
+Note	11000	11500	69
+Note	11500	12000	69
+Note	12000	12500	66
+Note	12500	13000	69
+Note	13000	13500	71
+Note	13500	15000	64
+Note	15000	15500	66
+Note	15500	16000	67
+Note	16000	16500	69
+Note	16500	18000	66
+Reference AGN: Liebes - Lied, Liebes - Lust
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,39 @@
+Reference OTL: WOLLT IHR WISSEN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Rheinland
+Reference SCT: K2239
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	71
+Note	1000	2000	74
+Note	2000	3000	74
+Note	3000	3500	76
+Note	3500	4000	74
+Note	4000	5000	71
+Note	5000	6000	67
+Note	6000	6500	67
+Note	6500	7000	67
+Note	7000	8000	72
+Note	8000	9000	69
+Note	9000	10000	66
+Note	10000	12000	67
+Note	12000	13000	67
+Note	13000	15000	74
+Note	15000	15500	76
+Note	15500	16000	74
+Note	16000	17000	71
+Note	17000	18000	67
+Note	18000	18333	67
+Note	18333	18667	67
+Note	18667	19000	67
+Note	19000	20000	72
+Note	20000	21000	69
+Note	21000	22000	66
+Note	22000	24000	67
+Reference AGN: Kinder - Lied, Reigen, Tanz, Nachahmungs - Spiel
+Reference ONB: ESAC (Essen Associative Code) Database: KINDER
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

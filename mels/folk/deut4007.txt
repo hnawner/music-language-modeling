@@ -1,0 +1,47 @@
+Reference OTL: Ringeltanz
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0285
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	4000	65
+Note	2000	4000	65
+Note	3000	7000	69
+Note	5000	7000	70
+Note	6000	10000	72
+Note	8000	10000	72
+Note	9000	13000	72
+Note	11000	13000	72
+Note	12000	14000	65
+Note	13000	15000	65
+Note	14000	16000	65
+Note	15000	19000	69
+Note	17000	19000	70
+Note	18000	24000	72
+Note	21000	25000	72
+Note	23000	25000	72
+Note	24000	28000	74
+Note	26000	28000	72
+Note	27000	31000	72
+Note	29000	31000	70
+Note	30000	34000	69
+Note	32000	34000	69
+Note	33000	37000	69
+Note	35000	37000	69
+Note	36000	38000	67
+Note	37000	39000	67
+Note	38000	40000	67
+Note	39000	43000	67
+Note	41000	43000	67
+Note	42000	46000	72
+Note	44000	46000	69
+Note	45000	47000	70
+Note	46000	50000	67
+Note	48000	54000	65
+Reference AGN: Romanze, Ballade, Lied
+Comment	Geistl Ringeltentze 1550 No. 12.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

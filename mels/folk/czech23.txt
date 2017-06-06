@@ -1,0 +1,51 @@
+Reference OTL: Ritter und Magd Ein Koenigssohn und eine Koenigstochter
+Reference ARE: Europa, Osteuropa, Tschechoslowakei, Sudetenland
+Reference ARD: Europa%Osteuropa%Ceska Republika@Sudetenland#
+Reference ARL: 49.75/15.00#
+Reference YOR: 3, S. 61
+Comment	   1908 gedruckt in Wien
+Reference SCT: Q0055c
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	57
+Note	500	1250	66
+Note	1250	1500	66
+Note	1500	1750	66
+Note	1750	2000	66
+Note	2000	2250	64
+Note	2250	2500	64
+Note	2500	3250	62
+Note	3250	3500	62
+Note	3500	4000	62
+Note	4000	4500	57
+Note	4500	5250	62
+Note	5250	5500	62
+Note	5500	6000	67
+Note	6000	6500	66
+Note	6500	7500	66
+Note	7500	8000	64
+Note	8000	8500	57
+Note	8500	9000	64
+Note	9000	9250	64
+Note	9250	9500	64
+Note	9500	10000	64
+Note	10000	10500	62
+Note	10500	11250	61
+Note	11250	11500	61
+Note	11500	12000	61
+Note	12000	12500	59
+Note	12500	13000	57
+Note	13000	13500	57
+Note	13500	14000	66
+Note	14000	14500	64
+Note	14500	15500	64
+Note	15500	16000	62
+Reference AGN: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+Comment	Grundton in der zweigestrichenen Oktave.
+Comment	   Dritte Zeile = Refrain auf sinnfreie Silben.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

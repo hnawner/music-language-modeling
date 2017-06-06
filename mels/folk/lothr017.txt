@@ -1,0 +1,50 @@
+Reference OTL: Der himmlische Ackersmann Was wollen wir singen und fangen an?
+Reference ARE: Europa, Mitteleuropa, Lothringen, Weiler
+Reference SCT: D0018
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key E Minor
+Note	0	500	67
+Note	500	1000	64
+Note	1000	2000	64
+Note	2000	3000	64
+Note	3000	4000	64
+Note	4000	5000	71
+Note	5000	6000	71
+Note	6000	7000	69
+Note	7000	9000	71
+Note	9000	10000	69
+Note	10000	12000	67
+Note	12000	13000	69
+Note	13000	15000	69
+Note	15000	16000	71
+Note	16000	17000	72
+Note	17000	18000	71
+Note	18000	19000	69
+Note	19000	20000	67
+Note	20000	21000	64
+Note	21000	22000	66
+Note	22000	24000	64
+Note	25000	28000	69
+Note	28000	29000	67
+Note	29000	30000	66
+Note	30000	31000	64
+Note	31000	33000	62
+Note	33000	34000	62
+Note	34000	35000	67
+Note	35000	36000	67
+Note	36000	37000	69
+Note	37000	38000	71
+Note	38000	39000	71
+Note	39000	40000	69
+Note	40000	41000	67
+Note	41000	42000	64
+Note	42000	43000	66
+Note	43000	45000	64
+Reference AGN: geistliches Lied
+Comment	Inzipit = Variante zum Lied; Verzierungen
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

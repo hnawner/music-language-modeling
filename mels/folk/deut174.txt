@@ -1,0 +1,63 @@
+Reference OTL: IN DEM WALD STEHT EIN HAUS
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0312
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	250	74
+Note	500	750	74
+Note	1000	1500	74
+Note	2000	2250	71
+Note	2500	2750	69
+Note	3000	3250	71
+Note	3500	3750	72
+Note	4000	5000	74
+Note	6000	6250	76
+Note	6500	6750	74
+Note	7000	7250	72
+Note	7500	7750	71
+Note	8000	8250	69
+Note	8500	8750	67
+Note	9000	9250	66
+Note	9500	9750	74
+Note	10000	11000	71
+Note	12000	12250	71
+Note	12500	12750	71
+Note	13000	13500	69
+Note	14000	14250	66
+Note	14500	14750	69
+Note	15000	15250	74
+Note	15500	15750	76
+Note	16000	16500	78
+Note	17000	17500	74
+Note	18000	18250	69
+Note	18500	18750	71
+Note	19000	19500	69
+Note	20000	20250	66
+Note	20500	20750	69
+Note	21000	21250	74
+Note	21500	21750	76
+Note	22000	22500	78
+Note	23000	23500	74
+Note	24000	24500	62
+Note	25000	26000	74
+Note	27000	27500	62
+Note	28000	29000	74
+Note	30000	30250	69
+Note	30500	30750	74
+Note	31000	32000	78
+Note	33000	33500	74
+Note	34000	35000	74
+Note	36000	36500	74
+Note	37000	37250	79
+Note	37500	37750	74
+Note	38000	38500	71
+Note	39000	39250	69
+Note	39500	39750	74
+Note	40000	41000	67
+Reference AGN: Jugend - Lied, Kinder -, Scherz -, Tanz - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

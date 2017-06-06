@@ -1,0 +1,42 @@
+Reference OTL: DER HIMMEL UNSER HORT DIE FREIHEIT UNSER WORT
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0061
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	1000	50
+Note	500	2000	54
+Note	1250	1750	54
+Note	1500	3000	57
+Note	2250	2750	57
+Note	2500	4500	62
+Note	4000	4750	62
+Note	4375	4625	61
+Note	4500	5500	59
+Note	5000	5750	61
+Note	5375	5625	58
+Note	5500	6500	59
+Note	6000	6750	61
+Note	6375	6625	58
+Note	6500	8500	59
+Note	8000	8500	61
+Note	8250	8750	62
+Note	8500	10000	64
+Note	9250	9750	62
+Note	9500	10250	61
+Note	9875	10125	59
+Note	10000	10750	57
+Note	10375	10625	55
+Note	10500	12500	54
+Note	11500	13500	57
+Note	12500	14000	59
+Note	13250	13750	64
+Note	13500	14500	62
+Note	14000	15000	61
+Note	14500	16500	62
+Reference AGN: Kriegs -, Sieges -, Soldaten - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,61 @@
+Reference OTL: Bei der Lind'n bin i's gsessn bei der Lind'n sitz i's gern
+Reference ARE: Europa, Mitteleuropa, Deutschland, Oberbayern, Woernsmuehl
+Reference SCT: D0124
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	500	1000	71
+Note	1000	2000	71
+Note	2000	3000	69
+Note	3000	3500	62
+Note	3500	4000	72
+Note	4000	5000	72
+Note	5000	6000	71
+Note	6000	6500	62
+Note	6500	7000	71
+Note	7000	8000	71
+Note	8000	9000	69
+Note	9000	9500	62
+Note	9500	10000	72
+Note	10000	11000	72
+Note	11000	12000	71
+Note	12000	13000	71
+Note	13000	13500	72
+Note	13500	14000	76
+Note	14000	15000	76
+Note	15000	15500	74
+Note	15500	16000	76
+Note	16000	16500	72
+Note	16500	17000	71
+Note	17000	17500	79
+Note	17500	18000	74
+Note	18000	18500	74
+Note	18500	19000	79
+Note	19000	20000	78
+Note	20500	21000	72
+Note	21000	22000	72
+Note	22000	24000	71
+Note	24000	25000	71
+Note	25000	25500	72
+Note	25500	26000	76
+Note	26000	27000	76
+Note	27000	27500	74
+Note	27500	28000	76
+Note	28000	28500	72
+Note	28500	29000	71
+Note	29000	29500	79
+Note	29500	30000	74
+Note	30000	30500	74
+Note	30500	31000	79
+Note	31000	32000	78
+Note	32500	33000	72
+Note	33000	34000	72
+Note	34000	36000	71
+Reference AGN: Liebes - Lied
+Comment	Zeilenwiederholung; zweistimmig ( parallele Terzen )
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

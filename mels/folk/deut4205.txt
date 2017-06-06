@@ -1,0 +1,29 @@
+Reference OTL: Badeliedlein
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0485B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	4000	67
+Note	2000	4000	70
+Note	3000	5000	69
+Note	4000	6000	67
+Note	5000	7000	65
+Note	6000	10000	72
+Note	8000	12000	69
+Note	10000	12000	72
+Note	11000	13000	72
+Note	12000	16000	72
+Note	14000	16000	77
+Note	15000	17000	77
+Note	16000	18000	72
+Note	17000	19000	72
+Note	18000	22000	74
+Note	20000	24000	72
+Reference AGN: Romanze, Ballade, Lied
+Comment	Schmeltzel, 1544 Quodl. 20.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,45 @@
+Reference OTL: "Zum Sterben verliebt" ZUM STERBEN BIN ICH VERLIEBET
+Reference ARE: Europa, Mitteleuropa, Deutschland, Franken
+Reference SCT: Z1258
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	72
+Note	1000	1500	77
+Note	2000	2500	72
+Note	3000	3500	69
+Note	4000	5000	65
+Note	6000	6250	69
+Note	6500	6750	72
+Note	7000	7500	70
+Note	8000	8500	70
+Note	9000	9250	69
+Note	9500	9750	72
+Note	10000	11000	67
+Note	12000	12250	65
+Note	12500	12750	67
+Note	13000	13500	69
+Note	14000	14500	69
+Note	15000	15500	72
+Note	16000	16500	70
+Note	17000	17500	67
+Note	18000	18250	65
+Note	18500	18750	67
+Note	19000	19500	69
+Note	20000	20500	69
+Note	21000	21500	72
+Note	22000	22500	70
+Note	23000	23500	67
+Note	24000	24500	72
+Note	25000	25500	77
+Note	26000	26250	72
+Note	26500	26750	70
+Note	27000	27250	69
+Note	27500	27750	67
+Note	28000	29000	65
+Reference AGN: Liebes - Lied; Tanz
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

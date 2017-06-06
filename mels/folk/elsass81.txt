@@ -1,0 +1,52 @@
+Reference OTL: GIB MIR DIE BLUMEN GIB MIR DEN KRANZ
+Reference ARE: Europa, Mitteleuropa, Deutschland; France, Elsass
+Reference SCT: B0383
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	1000	1500	69
+Note	2000	2500	71
+Note	3000	3500	74
+Note	4000	4500	72
+Note	5000	5500	69
+Note	6000	6500	71
+Note	7000	7500	67
+Note	8000	8500	71
+Note	9000	10000	69
+Note	12000	12500	69
+Note	13000	13500	71
+Note	14000	14500	72
+Note	15000	15500	76
+Note	16000	16500	74
+Note	17000	17500	71
+Note	18000	18500	74
+Note	19000	19500	72
+Note	20000	20500	69
+Note	21000	22000	67
+Note	24000	24500	69
+Note	25000	25500	69
+Note	26000	26500	69
+Note	27000	27500	69
+Note	28000	28500	78
+Note	29000	29500	74
+Note	30000	30500	73
+Note	31000	31500	71
+Note	32000	32500	73
+Note	33000	34500	74
+Note	36000	36500	71
+Note	37000	37500	71
+Note	38000	38500	71
+Note	39000	39750	74
+Note	40500	40750	72
+Note	41000	41500	71
+Note	42000	42500	69
+Note	43000	43500	67
+Note	44000	44500	69
+Note	45000	46000	67
+Reference AGN: Liebes - Lied, Liebes - Lust
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

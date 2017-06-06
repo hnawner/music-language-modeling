@@ -1,0 +1,52 @@
+Reference OTL: ES TAGET AUS DEM OSTEN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Rheinland; Niederlande
+Reference SCT: Z0038
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	1000	67
+Note	1000	2000	62
+Note	2000	3000	62
+Note	3000	4000	65
+Note	4000	5000	67
+Note	5000	7000	70
+Note	7000	8000	69
+Note	8000	9000	74
+Note	9000	11000	72
+Note	11000	12000	70
+Note	12000	13000	67
+Note	13000	14000	69
+Note	14000	15500	72
+Note	15500	16000	70
+Note	16000	16500	69
+Note	16500	17000	67
+Note	17000	19000	69
+Note	20000	21000	69
+Note	21000	22000	70
+Note	22000	23000	72
+Note	23000	24000	74
+Note	24000	25000	74
+Note	25000	26000	72
+Note	26000	27000	74
+Note	27000	29000	70
+Note	29000	31000	69
+Note	31000	32000	70
+Note	32000	33000	69
+Note	33000	36000	67
+Note	36000	37000	69
+Note	37000	38000	62
+Note	38000	39000	62
+Note	39000	40000	64
+Note	40000	41000	65
+Note	41000	43000	67
+Note	43000	43500	70
+Note	43500	44000	69
+Note	44000	44500	67
+Note	44500	45000	65
+Note	45000	48000	67
+Reference AGN: Sagen - Lied, Romanze
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

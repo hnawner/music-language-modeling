@@ -1,0 +1,45 @@
+Reference OTL: HERZ MIS HERZ WARUM SO TRURIG
+Reference ARE: Europa, Mitteleuropa, Schweiz
+Reference SCT: B0530
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	1000	70
+Note	2000	2500	70
+Note	3000	4000	69
+Note	5000	5500	69
+Note	6000	7000	67
+Note	8000	8500	69
+Note	9000	10000	66
+Note	11000	11500	62
+Note	12000	13000	70
+Note	14000	14500	70
+Note	15000	16000	69
+Note	17000	17500	69
+Note	18000	19000	67
+Note	20000	20500	69
+Note	21000	22500	66
+Note	24000	25000	71
+Note	26000	26500	71
+Note	27000	28000	72
+Note	29000	29500	72
+Note	30000	31000	72
+Note	32000	32250	76
+Note	32500	32750	74
+Note	33000	34000	71
+Note	35000	35500	67
+Note	36000	37000	74
+Note	38000	38500	71
+Note	39000	40000	69
+Note	41000	41250	76
+Note	41500	41750	72
+Note	42000	43000	71
+Note	44000	44500	69
+Note	45000	46500	67
+Reference AGN: Wander -, Heimat - Lied
+Comment	modulierend
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

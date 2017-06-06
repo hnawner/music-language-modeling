@@ -1,0 +1,41 @@
+Reference OTL: A Dirndel geht um Holz in Wald, recht zeitig in der Frueeh
+Reference ARE: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+Reference SCT: D0164A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	2000	71
+Note	3000	3500	71
+Note	4000	5000	69
+Note	6000	6500	67
+Note	7000	8000	72
+Note	9000	9500	72
+Note	10000	11000	69
+Note	12000	12500	62
+Note	13000	14000	72
+Note	15000	15500	72
+Note	16000	17000	71
+Note	18000	18500	69
+Note	19000	20000	74
+Note	24000	24500	71
+Note	25000	26000	74
+Note	27000	27500	74
+Note	28000	29000	72
+Note	30000	30500	71
+Note	31000	32000	76
+Note	33000	33500	76
+Note	34000	35000	69
+Note	36000	36500	74
+Note	37000	38000	78
+Note	39000	39500	76
+Note	40000	41000	74
+Note	42000	42500	72
+Note	43000	44000	71
+Reference AGN: Jaeger - Lied, Liebes - Lied
+Comment	Inzipit = Variante zum Lied
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

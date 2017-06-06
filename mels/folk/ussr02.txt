@@ -1,0 +1,47 @@
+Reference OTL: Ritter und Magd Es spielt' ein Graf mit seiner Magd
+Reference ARE: Europa, Osteuropa, UdSSR, Rossiya, Kreis Leningrad, Kamenka
+Reference YOR: 3, S. 15
+Comment	   1926 aufgezeichnet
+Reference SCT: Q0055G
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	55
+Note	500	1000	60
+Note	1000	1500	55
+Note	1500	2000	52
+Note	2000	2500	55
+Note	2500	3000	60
+Note	3000	3500	60
+Note	3500	4000	60
+Note	4000	4500	64
+Note	4500	5000	62
+Note	5000	5500	60
+Note	5500	6000	59
+Note	6000	6500	57
+Note	6500	7000	57
+Note	7000	7500	55
+Note	7500	8000	55
+Note	8000	8500	60
+Note	8500	9000	53
+Note	9000	9500	53
+Note	9500	10000	60
+Note	10000	10500	53
+Note	10500	11000	52
+Note	11000	11500	55
+Note	11500	12000	60
+Note	12000	12500	60
+Note	12500	13000	59
+Note	13000	13500	62
+Note	13500	14000	65
+Note	14000	14500	59
+Note	14500	15000	62
+Note	15000	15500	60
+Note	15500	16000	60
+Reference AGN: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+Comment	Grundton in der eingestrichenen Oktave.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

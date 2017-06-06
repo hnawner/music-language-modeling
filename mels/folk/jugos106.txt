@@ -1,0 +1,30 @@
+Reference OTL: Die Rabenmutter Bie vrie ischt auf dos Schufhirtle!
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee, Buehel
+Reference YOR: 5, S. 254
+Comment	   1906 aufgezeichnet
+Reference SCT: Q0114D
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	1000	70
+Note	1000	1500	69
+Note	1500	2000	67
+Note	2000	3000	65
+Note	3000	4000	70
+Note	4000	4500	69
+Note	4500	5000	67
+Note	5000	6000	65
+Note	6000	7000	65
+Note	7000	7500	69
+Note	7500	8000	69
+Note	8000	9000	65
+Note	9000	10000	72
+Note	10000	10500	69
+Note	10500	11000	72
+Note	11000	12000	70
+Reference AGN: Ballade, Kinds - Mord, Strafe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

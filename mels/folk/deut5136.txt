@@ -1,0 +1,38 @@
+Reference OTL: Siehst du wohl, da kimmt er, grosse Schritte nimmt er
+Reference ARE: Europa, Mitteleuropa, Deutschland, Ober - Franken, Schauenstein
+Reference SCT: V0003H
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	750	60
+Note	750	1000	60
+Note	1000	1500	62
+Note	1500	2000	60
+Note	2000	3000	64
+Note	3000	4000	64
+Note	4000	4500	60
+Note	4500	5000	60
+Note	5000	5500	62
+Note	5500	6000	60
+Note	6000	7000	65
+Note	7000	8000	65
+Note	8000	8750	69
+Note	8750	9000	69
+Note	9000	9500	70
+Note	9500	10000	69
+Note	10000	10500	69
+Note	10500	11000	67
+Note	11000	12000	67
+Note	12000	12750	67
+Note	12750	13000	67
+Note	13000	13500	69
+Note	13500	14000	67
+Note	14000	14500	67
+Note	14500	15000	65
+Note	15000	16000	65
+Reference AGN: Geselligkeits - Lied, Scherz
+Reference ONB: ESAC (Essen Associative Code) Database: VARIANT
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

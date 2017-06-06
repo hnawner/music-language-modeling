@@ -1,0 +1,64 @@
+Reference OTL: Der Gluecksjaeger Es war ein Jaeger von stolzem Mut, stolzem Mut,
+Reference ARE: Europa, Suedosteuropa, Rumaenien, Bukowina, Eichenau
+Reference YOR: 6, S. 193
+Comment	   1937 aufgezeichnet (ca.)
+Reference SCT: Q0134C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	55
+Note	1000	2000	60
+Note	3000	3500	60
+Note	4000	4750	64
+Note	5500	5750	62
+Note	6000	6500	60
+Note	7000	7750	62
+Note	8500	8750	60
+Note	9000	9500	59
+Note	10000	10750	62
+Note	11500	11750	60
+Note	12000	12500	59
+Note	13000	13500	62
+Note	14000	14500	62
+Note	15000	15250	62
+Note	15500	15750	62
+Note	16000	17000	62
+Note	18000	18250	57
+Note	18500	18750	57
+Note	19000	19750	57
+Note	20500	20750	55
+Note	21000	21500	55
+Note	22000	22750	57
+Note	23500	23750	55
+Note	24000	24500	55
+Note	25000	25500	60
+Note	26000	26500	59
+Note	27000	27500	60
+Note	28000	28500	55
+Note	29000	29500	57
+Note	30000	30500	55
+Note	31000	31500	60
+Note	32000	32500	59
+Note	33000	33500	60
+Note	34000	34500	55
+Note	35000	35500	57
+Note	36000	36500	55
+Note	37000	37500	60
+Note	38000	38500	60
+Note	39000	39250	60
+Note	39500	39750	60
+Note	40000	40750	64
+Note	41500	41750	60
+Note	42000	42500	60
+Note	43000	43750	62
+Note	44500	44750	64
+Note	45000	45500	62
+Note	46000	47000	60
+Reference AGN: Ballade, Jagd, Flucht, Verfuehrung
+Comment	Grundton in der zweigestrichenen Oktave.
+Comment	   Dritte Zeile = Refrain auf sinnfreie Silben.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

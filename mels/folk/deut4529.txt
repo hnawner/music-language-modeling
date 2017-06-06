@@ -1,0 +1,47 @@
+Reference OTL: DET VORO TVA AEDLA KONUNGABARN
+Reference ARE: Europa, Nordeuropa, Sverige
+Reference SCT: Z0027
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	500	67
+Note	1000	1500	69
+Note	2000	2500	70
+Note	3000	3500	67
+Note	4000	4500	69
+Note	5000	5500	70
+Note	6000	6500	67
+Note	7000	7500	69
+Note	8000	8500	70
+Note	9000	9500	72
+Note	10000	11000	74
+Note	12000	12500	72
+Note	13000	13500	70
+Note	14000	14500	69
+Note	15000	15500	70
+Note	16000	16500	67
+Note	17000	17500	69
+Note	18000	18500	70
+Note	19000	21000	69
+Note	24000	24500	74
+Note	25000	25500	74
+Note	26000	26500	75
+Note	27000	27500	74
+Note	28000	28500	72
+Note	29000	29500	70
+Note	30000	30500	69
+Note	31000	32500	70
+Note	34000	35000	69
+Note	36000	36500	69
+Note	37000	38000	67
+Note	39000	39500	67
+Note	40000	40500	62
+Note	41000	41500	64
+Note	42000	42500	66
+Note	43000	45000	67
+Reference AGN: Sagen - Lied, Romanze
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

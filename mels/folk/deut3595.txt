@@ -1,0 +1,43 @@
+Reference OTL: Der Jaeger im Tannenholz Es wollt ein Jaeger jagen
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Niedersachsen, Hadeln, Ottendorf
+Reference YOR: 7, S. 170
+Comment	   1929 aufgezeichnet
+Reference SCT: Q0151B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	67
+Note	1000	2000	66
+Note	3000	3500	67
+Note	4000	5000	67
+Note	6000	6500	66
+Note	7000	8500	66
+Note	10000	11000	64
+Note	12000	12500	69
+Note	13000	14000	71
+Note	15000	15500	69
+Note	16000	17000	64
+Note	18000	18500	67
+Note	19000	20500	66
+Note	23000	23500	62
+Note	24000	24500	62
+Note	25000	25500	62
+Note	26000	26500	62
+Note	27000	27500	66
+Note	28000	29000	69
+Note	30000	30500	74
+Note	31000	32500	78
+Note	34000	35000	74
+Note	36000	36500	73
+Note	37000	38000	71
+Note	39000	39250	69
+Note	39500	39750	69
+Note	40000	41000	69
+Note	42000	42500	67
+Note	43000	44500	66
+Reference AGN: Ballade, abgewiesener Freier, Abschied
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

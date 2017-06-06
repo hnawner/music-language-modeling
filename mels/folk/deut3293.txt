@@ -1,0 +1,38 @@
+Reference OTL: Die dienende Schwester Es war einmal ein Graf vom Rhein,
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien, Oberlausitz
+Reference YOR: 4, S. 114
+Comment	   ????
+Reference SCT: Q0075h
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	67
+Note	500	1000	67
+Note	1000	1500	72
+Note	1500	3000	72
+Note	3000	3500	64
+Note	3500	4000	65
+Note	4000	4500	64
+Note	4500	6000	62
+Note	6000	6500	65
+Note	6500	7000	65
+Note	7000	7500	69
+Note	7500	9000	69
+Note	9000	9500	67
+Note	9500	10250	65
+Note	10250	10500	64
+Note	10500	12000	64
+Note	12000	12500	67
+Note	12500	13000	67
+Note	13000	13500	76
+Note	13500	15000	76
+Note	15000	15500	72
+Note	15500	16000	74
+Note	16000	16500	71
+Note	16500	18000	72
+Reference AGN: Ballade, Adelige als Dienstmagd, Tod; Kinder - Spiel, Tanz
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

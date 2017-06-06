@@ -1,0 +1,44 @@
+Reference OTL: ICH KOMME VOM GEBIRGE HER
+Reference ARE: Europa, Mitteleuropa, Deutschland; France, Elsass,Weissenburg
+Reference SCT: B0661
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	500	65
+Note	500	1000	70
+Note	1000	1500	65
+Note	1500	3000	62
+Note	3000	3500	62
+Note	3500	4250	65
+Note	4250	4500	63
+Note	4500	6000	63
+Note	6000	6500	69
+Note	6500	7000	72
+Note	7000	7500	70
+Note	7500	9000	69
+Note	9000	9500	63
+Note	9500	10000	67
+Note	10000	10500	65
+Note	10500	11500	62
+Note	12000	12500	65
+Note	12500	13000	70
+Note	13000	13500	65
+Note	13500	15000	74
+Note	15000	15500	70
+Note	15500	16000	70
+Note	16000	16500	67
+Note	16500	18000	67
+Note	18000	18500	70
+Note	18500	19000	69
+Note	19000	19500	67
+Note	19500	21000	65
+Note	21000	21500	65
+Note	21500	22000	75
+Note	22000	22500	69
+Note	22500	23500	70
+Reference AGN: Moral - Lied, Einsamkeit
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

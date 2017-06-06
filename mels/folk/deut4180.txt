@@ -1,0 +1,66 @@
+Reference OTL: Die Schreiber (Studenten)
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0457
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/2; 6/2
+Info keysig no accidentals
+Info key C Major
+Note	0	2000	60
+Note	1000	3000	60
+Note	2000	4000	60
+Note	3000	5000	64
+Note	4000	6000	60
+Note	5000	7000	67
+Note	6000	8000	67
+Note	7000	11000	72
+Note	9000	13000	71
+Note	11000	13000	67
+Note	12000	16000	69
+Note	14000	16000	67
+Note	15000	19000	64
+Note	18000	20000	60
+Note	19000	21000	67
+Note	20000	22000	69
+Note	21000	23000	71
+Note	22000	24000	67
+Note	23000	27000	72
+Note	25000	29000	71
+Note	27000	29000	69
+Note	28000	32000	67
+Note	30000	32000	64
+Note	31000	33000	65
+Note	32000	34000	62
+Note	33000	37000	60
+Note	36000	38000	60
+Note	37000	39000	67
+Note	38000	40000	67
+Note	39000	41000	65
+Note	40000	42000	64
+Note	41000	45000	65
+Note	43000	47000	64
+Note	45000	49000	60
+Note	47000	51000	64
+Note	49000	51000	69
+Note	50000	54000	67
+Note	52000	54000	65
+Note	53000	57000	62
+Note	55000	59000	69
+Note	57000	59000	67
+Note	58000	60000	67
+Note	59000	61000	65
+Note	60000	62000	64
+Note	61000	65000	60
+Note	63000	67000	64
+Note	65000	69000	69
+Note	67000	71000	67
+Note	69000	71000	64
+Note	70000	72000	65
+Note	71000	75000	62
+Note	73000	79000	60
+Reference AGN: Romanze, Ballade, Lied
+Comment	Rotenbucher Bergkreyen 1551 Bo. 21.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,64 @@
+Reference OTL: Der Wolf ( Der Abendgang ) Wer wohnt in jenem Tale ?
+Reference ARE: Europa, Mitteleuropa, Lothringen, Woelflingen
+Reference SCT: D0064
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	2500	67
+Note	2500	3000	69
+Note	3000	4000	71
+Note	4000	4500	71
+Note	4500	5000	74
+Note	5000	6500	69
+Note	6500	6750	71
+Note	6750	7000	69
+Note	7000	8000	67
+Note	8000	9000	62
+Note	9000	10500	67
+Note	10500	11000	69
+Note	11000	12000	71
+Note	12000	12500	71
+Note	12500	13000	74
+Note	13000	16000	69
+Note	16000	16500	71
+Note	16500	17000	69
+Note	17000	18500	67
+Note	18500	19000	69
+Note	19000	20000	71
+Note	20000	20500	72
+Note	20500	21000	76
+Note	21000	22500	74
+Note	22500	23000	76
+Note	23000	24000	74
+Note	24000	24750	74
+Note	24750	25000	72
+Note	25000	26000	71
+Note	26000	27000	71
+Note	27000	28000	69
+Note	28000	28500	69
+Note	28500	29000	66
+Note	29000	32000	67
+Note	32000	33000	62
+Note	33000	34500	67
+Note	34500	35000	69
+Note	35000	36000	71
+Note	36000	36500	72
+Note	36500	37000	76
+Note	37000	38500	74
+Note	38500	39000	76
+Note	39000	40000	74
+Note	40000	40750	74
+Note	40750	41000	72
+Note	41000	42000	71
+Note	42000	43000	71
+Note	43000	44000	69
+Note	44000	44500	69
+Note	44500	45000	66
+Note	45000	48000	67
+Reference AGN: Ballade, Tod eines Geliebten
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

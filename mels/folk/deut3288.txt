@@ -1,0 +1,44 @@
+Reference OTL: Die dienende Schwester Es wohnte ein Pfalzgraf wohl ueber dem Rhein,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Wuerttemberg
+Reference YOR: 4, S. 112
+Comment	   ????
+Reference SCT: Q0075b
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	72
+Note	1000	1750	72
+Note	2500	2750	72
+Note	3000	3500	72
+Note	4000	4500	72
+Note	5000	5500	72
+Note	6000	6500	72
+Note	7000	7750	74
+Note	8500	8750	74
+Note	9000	9500	74
+Note	10000	11000	70
+Note	12000	12500	70
+Note	13000	13500	70
+Note	14000	14500	70
+Note	15000	15500	70
+Note	16000	17000	70
+Note	18000	18500	74
+Note	19000	20000	72
+Note	21000	21500	72
+Note	22000	23000	69
+Note	24000	24500	72
+Note	25000	25500	72
+Note	26000	26500	72
+Note	27000	27500	72
+Note	28000	28500	77
+Note	29000	29500	76
+Note	30000	30500	74
+Note	31000	32000	76
+Note	33000	33500	74
+Note	34000	35000	72
+Reference AGN: Ballade, Adelige als Dienstmagd, Tod; Kinder - Spiel, Tanz
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

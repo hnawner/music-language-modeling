@@ -1,0 +1,45 @@
+Reference OTL: Die elfjaehrige Markgraefin Es war ein Maedchen von kaum zwoelf Jahren,
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien, Grafschaft Glatz
+Reference YOR: 2, S. 299
+Comment	   1911 gedruckt in Habelschwerdt
+Reference SCT: Q0053R
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	1000	3000	72
+Note	3000	4000	72
+Note	4000	5000	72
+Note	5000	6000	70
+Note	6000	7000	74
+Note	7000	8000	72
+Note	8000	9000	70
+Note	9000	10000	70
+Note	10000	12000	70
+Note	12000	13000	72
+Note	13000	14500	69
+Note	14500	15000	69
+Note	15000	16000	69
+Note	16000	17000	72
+Note	17000	18000	70
+Note	18000	19000	69
+Note	19000	21000	67
+Note	21000	22000	70
+Note	22000	24000	69
+Note	24000	25000	72
+Note	25000	26500	69
+Note	26500	27000	69
+Note	27000	28000	69
+Note	28000	29000	72
+Note	29000	30000	70
+Note	30000	31000	69
+Note	31000	33000	67
+Note	33000	34000	67
+Note	34000	36000	65
+Reference AGN: Ballade, Braut - Werbung, Hochzeit, Minderjaehrige, Tod
+Comment	"Verselbstaendigter Mittel- und Nachsatz" ?
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

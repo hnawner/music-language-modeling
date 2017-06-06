@@ -1,0 +1,65 @@
+Reference OTL: Der Schaefer von der neuen Stadt
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0298
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	4000	65
+Note	1000	9000	65
+Note	3000	7000	65
+Note	4000	12000	72
+Note	6000	10000	72
+Note	7000	15000	74
+Note	9000	13000	74
+Note	10000	18000	72
+Note	12000	16000	65
+Note	13000	21000	72
+Note	15000	19000	77
+Note	16000	20000	76
+Note	17000	21000	76
+Note	18000	22000	72
+Note	19000	31000	74
+Note	22000	30000	72
+Note	24000	28000	65
+Note	25000	33000	65
+Note	27000	31000	65
+Note	28000	36000	72
+Note	30000	34000	72
+Note	31000	39000	74
+Note	33000	37000	74
+Note	34000	42000	72
+Note	36000	40000	65
+Note	37000	45000	72
+Note	39000	43000	77
+Note	40000	44000	76
+Note	41000	45000	76
+Note	42000	46000	72
+Note	43000	55000	74
+Note	46000	54000	72
+Note	48000	52000	74
+Note	49000	53000	72
+Note	50000	54000	70
+Note	51000	55000	67
+Note	52000	56000	69
+Note	53000	57000	65
+Note	54000	58000	74
+Note	55000	59000	72
+Note	56000	60000	70
+Note	57000	61000	67
+Note	58000	62000	69
+Note	59000	63000	65
+Note	60000	64000	60
+Note	61000	65000	65
+Note	62000	66000	65
+Note	63000	67000	69
+Note	64000	72000	72
+Note	66000	70000	69
+Note	67000	79000	67
+Note	70000	78000	65
+Reference AGN: Romanze, Ballade, Lied
+Comment	Schmeltzel Quodl. No. 8 (1544). Dritte Zeile von Boehme ergaenzt.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

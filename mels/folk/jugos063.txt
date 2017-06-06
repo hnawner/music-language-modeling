@@ -1,0 +1,39 @@
+Reference OTL: Der Meierin Sohn Bie vrie ischt auf de Moararin junkh!
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee, Buehel
+Reference YOR: 4, S. 234
+Comment	   1906 aufgezeichnet
+Reference SCT: Q0083
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	67
+Note	500	1000	69
+Note	1000	2000	70
+Note	2000	3000	69
+Note	3000	3500	70
+Note	3500	4000	69
+Note	4000	5000	67
+Note	5000	6000	65
+Note	6000	7000	67
+Note	7000	8000	69
+Note	8000	9000	69
+Note	9000	10000	67
+Note	10000	12000	65
+Note	12000	12500	65
+Note	12500	13000	67
+Note	13000	14000	69
+Note	14000	15000	67
+Note	15000	15500	69
+Note	15500	16000	67
+Note	16000	17000	65
+Note	17000	18000	64
+Note	18000	19000	65
+Note	19000	21000	67
+Note	21000	22000	67
+Note	22000	24000	65
+Reference AGN: Ballade, Mord, Vergeltung, Heirat
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0
