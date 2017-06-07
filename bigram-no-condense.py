@@ -55,7 +55,32 @@ def distributions(mels):
     return p_bigrams, p_starts
 
 
-def predict(mels, p_bigrams):
+def genre_match(mels, p_bigrams, p_start):
+
+    P = []
+    ignoredavg = []
+    ignoredtotal = 0
+
+    for mel in mels:
+        p = 0
+        prev = -1
+        ignored = 0
+        for note in mel:
+            if prev == -1 and note in p_start:
+                p -= log(p_start[note])
+            elif prev in p_bigrams and note in p_bigrams[prev]:
+                p -= log((p_bigrams[prev])[note])
+            else: ignored += 1
+        P.append(p)
+        ignoredavg.append(ignored)
+        ignoredtotal += ignored
+
+    print("Genre match mean: ", np.mean(P))
+    print("Total notes ignored: ", ignoredtotal)
+    print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+
+
+def predict(mels, p_bigrams, p_start):
 
     def keywithmaxval(d):
         # creates a list of keys and vals; returns key with max val
@@ -68,6 +93,11 @@ def predict(mels, p_bigrams):
     ignored = 0
 
     for mel in mels:
+
+        # start prediction
+        pred = keywithmaxval(p_start)
+        if pred == mel[0]: correct += 1
+        predictions += 1
         
         for index in range(1, len(mel)):
             prev = mel[index-1]
@@ -99,7 +129,8 @@ def cross_validation(mels):
         train_data, test_data = mels[train_index], mels[test_index]
         p_distr, s_distr = distributions(train_data)
 
-        e = predict(test_data, p_distr) # returns error
+        genre_match(test_data,  p_distr, s_distr)
+        e = predict(test_data, p_distr, s_distr) # returns error
         errors.append(e)
 
     mean = np.mean(errors)

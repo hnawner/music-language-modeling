@@ -1,102 +1,120 @@
-from __future__ import division
+#!/usr/bin/env python
+
+from __future__ import division, print_function
 import os, sys
+import numpy as np
 from math import log
-# from functools import reduce
+from sklearn.model_selection import KFold
+from read_files import read
 
-def distributions(folder):
-        # list of files in input directory
-    files = os.listdir(folder)
-    num_files = len(files)
+def distributions(mels):
 
-    # number of files used in training set
-    train_max = int(.7 * num_files)
-    # files already used in training
-    trained = 0
-
-    # ignoring octaves
-    note_counts = [0 for i in range(12)]
+    unigrams = {}
     total_notes = 0
 
-    # melodies in training / test files
-    train_seqs = list()
-    test_seqs = list()
+    for mel in mels:
 
-    for file in files:
-        path = folder + '/' + file
-        with open(path, 'r', 0) as f:
-            # current melody being processed
-            melody = list()
-            for line in f:
-                words = line.split()
-                if words[0] == "Info" and words[1] == "key":
-                    if words[2] != "C" or words[3] != "Major": break
+        for pitch in mel:
 
-                elif words[0] == "Note":
-                    # ignores octaves
-                    pitch = int(words[3]) % 12
-                    melody.append(pitch)
-                    if trained < train_max:
-                        # if still in training data
-                        note_counts[pitch] += 1
-                        total_notes += 1
+            if pitch in unigrams: unigrams[pitch] += 1
+            else: unigrams[pitch] = 1
 
-            if melody == []:
-                trained += 1
-                continue
-            elif trained < train_max:
-                trained += 1
-                train_seqs.append(melody)
-            else:
-                test_seqs.append(melody)
+            total_notes += 1
+    
+    P = {}
 
-    probabilities = [0 for i in range(len(note_counts))]
+    for pitch in unigrams:
+        P[pitch] = unigrams[pitch] / total_notes
 
-    for note in range(0, len(note_counts)):
-        probabilities[note] = note_counts[note] / total_notes
+    return P
 
-    return (train_seqs, test_seqs, probabilities)
 
-def run_test(sequences, prob_dist):
-    P = list()
+def genre_match(mels, P):
 
-    for mel in sequences:
+    P = []
+    ignoredavg = []
+    ignoredtotal = 0
+
+    for mel in mels:
         p = 0
+        ignored = 0
         for note in mel:
-            p -= log(prob_dist[note])
-        p /= len(mel)
+            if note in P: p -= log(P[note])
+            else: ignored += 1
+
         P.append(p)
+        ignoredavg.append(ignored)
+        ignoredtotal += ignored
 
-    mean = reduce(lambda x, y: x + y, P) / len(P)
-    P.sort()
-    mid = len(P) // 2
-    median = P[mid]
+    print("Genre match mean: ", np.mean(P))
+    print("Total notes ignored: ", ignoredtotal)
+    print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
 
-    print "Mean: ", mean
-    print "Median: ", median
 
-def sum(L):
-    total = 0
-    for i in L:
-        total += i
-    return total
-            
+def predict(mels, P):
+
+    def keywithmaxval(d):
+        # creates a list of keys and vals; returns key with max val
+        v = list(d.values())
+        k = list(d.keys())
+        return k[v.index(max(v))]
+
+    correct = 0
+    predictions = 0
+    ignored = 0
+
+    for mel in mels:
+
+        for index in range(1, len(mel)):
+            # prediction
+            if mel[index] not in P: ignored += 1
+            elif keywithmaxval(P) == mel[index]: correct += 1
+
+            predictions += 1
+    
+    accuracy = correct / predictions
+
+    print("(ignored)", ignored)
+    print("Total predictions: ", predictions)
+    print("Percentage correct: ", accuracy, "\n")
+
+    return 1 - accuracy
+
+
+def cross_validation(mels):
+    errors = []
+    splits = 10
+    kf = KFold(n_splits=splits, shuffle=True)
+    count = 1
+
+    for train_index, test_index in kf.split(mels):
+        train, test = mels[train_index], mels[test_index]
+
+        P = distributions(train)
+        print("Test ", count)
+        genre_match(test, P)
+        e = predict(test, P) # returns error
+        errors.append(e)
+        count += 1
+
+    mean = np.mean(errors)
+    std = np.std(errors)
+
+    print("Mean error: ", mean)
+    print("Standard deviation: ", std)
+    print()
 
 def main():
     if len(sys.argv) != 2:
-        print "Usage: folder containing mel files"
+        print("Usage: folder containing mel files")
         return 1
 
-    train, test, probs = distributions(sys.argv[1])
+    maj_mels, min_mels = read(sys.argv[1])
 
-    # print "Probability distributions: ", str(probs)
-    # print "Sum: ", str(sum(probs))
+    cross_validation(maj_mels)
+    cross_validation(min_mels)
 
-    print "Testing training data..."
-    run_test(train, probs)
-    print "Testing test data..."
-    run_test(test, probs)
-
-    print "Done."
+    print("Done.")
     return 0
 
 if __name__ == '__main__':
