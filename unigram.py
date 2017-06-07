@@ -28,8 +28,12 @@ def distributions(mels):
 
     return P
 
+def softmax(x):
+    e_x = np.exp(x - np.max(x))
+    return e_x / e_x.sum()
 
-def genre_match(mels, P):
+
+def genre_match(mels, dists):
 
     P = []
     ignoredavg = []
@@ -39,14 +43,14 @@ def genre_match(mels, P):
         p = 0
         ignored = 0
         for note in mel:
-            if note in P: p -= log(P[note])
+            if note in dists: p -= log(dists[note])
             else: ignored += 1
 
         P.append(p)
         ignoredavg.append(ignored)
         ignoredtotal += ignored
 
-    print("Genre match mean: ", np.mean(P))
+    print("Genre match mean: ", np.mean(softmax(P)))
     print("Total notes ignored: ", ignoredtotal)
     print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
 
