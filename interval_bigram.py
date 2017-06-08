@@ -160,7 +160,7 @@ def predict(p_int_bg, p_int_ug, p_st, test):
 
             else: #all other notes
                 if(prev_interval in p_int_bg):
-                	pred = prev + keywithmaxval(p_int_bg[prev_interval])
+                	prediction = prev + keywithmaxval(p_int_bg[prev_interval])
                 else:
 		            unknown += 1
                 
