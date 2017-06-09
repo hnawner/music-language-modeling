@@ -76,13 +76,20 @@ def genre_match(mels, p_bigrams, p_start):
             elif prev in p_bigrams and note in p_bigrams[prev]:
                 p -= log((p_bigrams[prev])[note])
             else: ignored += 1
-        P.append(p / len(mel))
+	    
+            prev = note
+
+        p /= len(mel)
+	P.append(p)
         ignoredavg.append(ignored)
         ignoredtotal += ignored
 
-    print("Genre match mean: ", np.mean(P))
+    mean = np.mean(P)
+
+    print("Genre match mean: ", mean)
     print("Total notes ignored: ", ignoredtotal)
     print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+    return mean
 
 
 def predict(mels, p_bigrams, p_start):
@@ -127,6 +134,7 @@ def predict(mels, p_bigrams, p_start):
 
 def cross_validation(mels):
     errors = []
+    gm_means = []
     splits = 10 # amount of tests run
     kf = KFold(n_splits=splits, shuffle=True)
     
@@ -134,7 +142,9 @@ def cross_validation(mels):
         train_data, test_data = mels[train_index], mels[test_index]
         p_distr, s_distr = distributions(train_data)
 
-        genre_match(test_data,  p_distr, s_distr)
+        gm = genre_match(test_data,  p_distr, s_distr)
+	gm_means.append(gm)
+
         e = predict(test_data, p_distr, s_distr) # returns error
         errors.append(e)
 
@@ -143,7 +153,9 @@ def cross_validation(mels):
 
     print("Mean error: ", mean)
     print("Standard deviation: ", std)
-
+    
+    print("Mean genre match: " + str(np.mean(gm_means)))
+    print("Standard deviation genre match: " + str(np.std(gm_means)))
 
 def main():
     if len(sys.argv) != 2:
