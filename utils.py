@@ -39,3 +39,18 @@ def read_files(folder):
     
     return maj_mels_np, min_mels_np
 
+
+def make_ngrams(seqs, n):
+    print(len(seqs))
+    grams = [[]]
+    for seq in seqs:
+        prevs = [-1] * (n-1)
+        for element in seq:
+            prevs += [element]
+            #print(prevs)
+            grams.append(prevs)
+            prevs = prevs[1:]
+            #print(len(prevs_clone))
+    return grams
+
+
