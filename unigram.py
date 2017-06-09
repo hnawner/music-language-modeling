@@ -5,7 +5,7 @@ import os, sys
 import numpy as np
 from math import log
 from sklearn.model_selection import KFold
-from read_files import read
+from utils import read_files as read
 
 def distributions(mels):
 
@@ -46,11 +46,11 @@ def genre_match(mels, dists):
             if note in dists: p -= log(dists[note])
             else: ignored += 1
 
-        P.append(p)
+        P.append(p/len(mel))
         ignoredavg.append(ignored)
         ignoredtotal += ignored
 
-    print("Genre match mean: ", np.mean(softmax(P)))
+    print("Genre match mean: ", np.mean(P))
     print("Total notes ignored: ", ignoredtotal)
     print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
 

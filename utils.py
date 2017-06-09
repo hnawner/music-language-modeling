@@ -3,7 +3,7 @@
 import os
 import numpy as np
 
-def read(folder):
+def read_files(folder):
     files = os.listdir(folder)
 
     maj_mels = []
