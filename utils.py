@@ -41,16 +41,35 @@ def read_files(folder):
 
 
 def make_ngrams(seqs, n):
-    print(len(seqs))
-    grams = [[]]
+    grams = []
     for seq in seqs:
-        prevs = [-1] * (n-1)
-        for element in seq:
+        prevs = seq[:(n-1)]
+        for index in range((n-1), len(seq)):
             prevs += [element]
-            #print(prevs)
             grams.append(prevs)
             prevs = prevs[1:]
-            #print(len(prevs_clone))
     return grams
+
+
+def one_hot_ngram(grams):
+    vecs_list = []
+    targets = []
+    for gram in grams:
+        vecs = []
+        for index in range(len(gram) - 1):
+            vec = [0] * 88
+            vec[(gram[index])] = 1
+            vecs.append(vec)
+        target = gram[-1]
+        vecs_list.append(vecs)
+        targets.append(target)
+
+    return vecs_list, targets
+
+        
+
+
+
+
 
 
