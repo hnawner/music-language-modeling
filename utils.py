@@ -67,3 +67,16 @@ def one_hot_ngram(grams):
     return vecs_list, targets
 
 
+        
+def setup(folder, n, mode):
+    major, minor = read_files(folder)
+    if(mode == "major"):
+    	maj_grams = make_ngrams(major, n)
+	major_X, major_y = one_hot_ngram(maj_grams)
+	major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
+	return major_X_train, major_X_test, major_y_train, major_y_test
+    else:
+	min_grams = make_ngrams(minor, n)
+        minor_X, minor_y = one_hot_ngram(min_grams)
+	minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
+        return minor_X_train, minor_X_test, minor_y_train, minor_y_test
