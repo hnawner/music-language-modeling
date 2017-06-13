@@ -60,8 +60,9 @@ def one_hot_ngram(grams):
             vec = [0] * 88
             vec[(gram[index])] = 1
             vecs.append(vec)
-        target = gram[-1]
-        vecs_list.append(vecs)
+        target = [0] * 88
+        target[(gram[-1])] = 1
+        :ecs_list.append(vecs)
         targets.append(target)
 
     return vecs_list, targets
