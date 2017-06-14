@@ -2,6 +2,7 @@
 
 import os
 import numpy as np
+from sklearn.model_selection import train_test_split as tts
 
 def read_files(folder):
     files = os.listdir(folder)
@@ -45,7 +46,7 @@ def make_ngrams(seqs, n):
     for seq in seqs:
         prevs = seq[:(n-1)]
         for index in range((n-1), len(seq)):
-            prevs += [element]
+            prevs += [ (seq[index]) ]
             grams.append(prevs)
             prevs = prevs[1:]
     return grams
@@ -59,10 +60,9 @@ def one_hot_ngram(grams):
         for index in range(len(gram) - 1):
             vec = [0] * 88
             vec[(gram[index])] = 1
-            vecs.append(vec)
-        target = [0] * 88
-        target[(gram[-1])] = 1
-        :ecs_list.append(vecs)
+            vecs += vec
+        target = gram[-1]
+        vecs_list.append(vecs)
         targets.append(target)
 
     return vecs_list, targets
@@ -72,12 +72,14 @@ def one_hot_ngram(grams):
 def setup(folder, n, mode):
     major, minor = read_files(folder)
     if(mode == "major"):
-    	maj_grams = make_ngrams(major, n)
-	major_X, major_y = one_hot_ngram(maj_grams)
-	major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
-	return major_X_train, major_X_test, major_y_train, major_y_test
+        maj_grams = make_ngrams(major, n)
+        major_X, major_y = one_hot_ngram(maj_grams)
+        major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
+        return major_X_train, major_X_test, major_y_train, major_y_test
     else:
-	min_grams = make_ngrams(minor, n)
+        min_grams = make_ngrams(minor, n)
         minor_X, minor_y = one_hot_ngram(min_grams)
-	minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
+        minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
         return minor_X_train, minor_X_test, minor_y_train, minor_y_test
+
+
