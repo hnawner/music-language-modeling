@@ -69,7 +69,7 @@ def one_hot_ngram(grams):
 
 
         
-def setup(folder, n, mode):
+def setup_ngram(folder, n, mode):
     major, minor = read_files(folder)
     if(mode == "major"):
         maj_grams = make_ngrams(major, n)
