@@ -1,0 +1,47 @@
+Reference OTL: WAS KLINGET UND SINGET
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0492
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	60
+Note	1000	1750	60
+Note	2500	2750	64
+Note	3000	3500	64
+Note	4000	4750	64
+Note	5500	5750	67
+Note	6000	6500	67
+Note	7000	8000	67
+Note	9000	9500	72
+Note	10000	11000	72
+Note	12000	12500	72
+Note	13000	14000	72
+Note	15000	15500	67
+Note	16000	16750	76
+Note	17500	17750	74
+Note	18000	18500	76
+Note	19000	20000	72
+Note	21000	21500	67
+Note	22000	23000	67
+Note	24000	24500	64
+Note	25000	25750	64
+Note	26500	26750	62
+Note	27000	27500	64
+Note	28000	29000	67
+Note	30000	30500	62
+Note	31000	32500	65
+Note	34000	35000	64
+Note	36000	36500	64
+Note	37000	37750	64
+Note	38500	38750	62
+Note	39000	39500	64
+Note	40000	41000	67
+Note	42000	42500	62
+Note	43000	44500	65
+Note	46000	46500	64
+Reference AGN: Abschieds - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

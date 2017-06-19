@@ -7,7 +7,7 @@ from math import log
 from sklearn.model_selection import KFold
 from utils import read_files as read
 
-def distributions(mels):
+def distribution(mels):
 
     unigrams = {}
     total_notes = 0
@@ -26,14 +26,22 @@ def distributions(mels):
     for pitch in unigrams:
         P[pitch] = unigrams[pitch] / total_notes
 
+    #P = dict_softmax(P)
+
     return P
 
 def softmax(x):
     e_x = np.exp(x - np.max(x))
     return e_x / e_x.sum()
 
+def dict_softmax(d):
+    expD = {np.exp(v) for v in d.values()}
+    s = sum(expD)
+    softmax = {k: (np.exp(v) / s) for k, v in d.items()}
+    return softmax
 
-def genre_match(mels, dists):
+
+def neg_log_prob(mels, dists):
 
     P = []
     ignoredavg = []
@@ -43,16 +51,16 @@ def genre_match(mels, dists):
         p = 0
         ignored = 0
         for note in mel:
-            if note in dists: p -= log(dists[note])
+            if note in dists: P.append(-1*log(dists[note]))
             else: ignored += 1
 
-        P.append(p/len(mel))
+        #P.append(p/len(mel))
         ignoredavg.append(ignored)
         ignoredtotal += ignored
 
-    print("Genre match mean: ", np.mean(P))
-    print("Total notes ignored: ", ignoredtotal)
-    print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+    print("Negative log probability: ", np.mean(P))
+    #print("Total notes ignored: ", ignoredtotal)
+    #print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
 
 
 def predict(mels, P):
@@ -78,9 +86,9 @@ def predict(mels, P):
     
     accuracy = correct / predictions
 
-    print("(ignored)", ignored)
-    print("Total predictions: ", predictions)
-    print("Percentage correct: ", accuracy, "\n")
+    #print("(ignored)", ignored)
+    #print("Total predictions: ", predictions)
+    print("Accuracy: ", accuracy, "\n")
 
     return 1 - accuracy
 
@@ -94,9 +102,9 @@ def cross_validation(mels):
     for train_index, test_index in kf.split(mels):
         train, test = mels[train_index], mels[test_index]
 
-        P = distributions(train)
+        P = distribution(train)
         print("Test ", count)
-        genre_match(test, P)
+        neg_log_prob(test, P)
         e = predict(test, P) # returns error
         errors.append(e)
         count += 1

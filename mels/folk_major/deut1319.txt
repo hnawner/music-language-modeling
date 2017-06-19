@@ -1,0 +1,48 @@
+Reference OTL: LINCHEN GING EINMAL SPAZIEREN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Brandenburg; Schlesien
+Reference SCT: E0712
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	2000	2500	69
+Note	3000	4000	72
+Note	5000	5500	77
+Note	6000	6500	77
+Note	7000	7500	76
+Note	8000	8500	74
+Note	9000	9500	74
+Note	10000	10500	72
+Note	11000	11500	72
+Note	12000	12500	67
+Note	13000	13500	70
+Note	14000	14500	74
+Note	15000	15500	72
+Note	16000	16500	70
+Note	17000	17500	67
+Note	18000	19500	65
+Note	24000	24500	72
+Note	25000	25500	79
+Note	26000	26500	79
+Note	27000	27500	79
+Note	28000	28500	76
+Note	29000	29500	72
+Note	30000	30500	72
+Note	31000	31500	77
+Note	32000	32500	77
+Note	33000	33500	77
+Note	34000	34500	72
+Note	35000	35500	69
+Note	36000	36500	67
+Note	37000	37500	70
+Note	38000	38500	74
+Note	39000	39500	72
+Note	40000	40500	70
+Note	41000	41500	67
+Note	42000	43500	65
+Reference AGN: Liebes - Lied, Leid, Klage
+Reference ONB: ESAC (Essen Associative Code) Database: ERK2
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

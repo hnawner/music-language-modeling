@@ -1,0 +1,53 @@
+Reference OTL: ES BLIES EIN JAEGER WOHL IN SEIN HORN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: Z0233
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	2000	67
+Note	3000	3500	67
+Note	4000	4500	67
+Note	5000	5500	69
+Note	6000	6500	71
+Note	7000	8000	69
+Note	9000	9500	69
+Note	10000	11000	69
+Note	12000	12500	71
+Note	13000	14000	69
+Note	15000	15500	69
+Note	16000	17000	69
+Note	18000	18500	62
+Note	19000	20000	67
+Note	21000	21500	71
+Note	22000	22500	74
+Note	23000	23500	72
+Note	24000	24500	71
+Note	25000	26000	69
+Note	27000	27500	62
+Note	28000	29000	62
+Note	31000	31500	64
+Note	32000	32500	64
+Note	33000	33500	64
+Note	34000	35000	64
+Note	37000	37500	66
+Note	38000	38500	66
+Note	39000	39500	66
+Note	40000	41000	66
+Note	42000	42500	62
+Note	43000	43500	62
+Note	44000	44500	67
+Note	45000	45500	67
+Note	46000	46500	67
+Note	47000	47500	71
+Note	48000	48500	71
+Note	49000	49500	62
+Note	50000	50500	64
+Note	51000	51500	66
+Note	52000	53000	67
+Reference AGN: Jaeger - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

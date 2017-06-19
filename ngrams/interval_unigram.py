@@ -3,11 +3,11 @@
 #Bigram model with prediction error
 
 #imports:
-from __future__ import division
+from __future__ import division, print_function
 import os
 import math
 import sys
-from read_files import read
+from utils import read_files
 import pandas as pd
 from sklearn.model_selection import KFold
 import numpy as np
@@ -28,6 +28,12 @@ def main(*args):
     cv_test(min_mel)
 
 
+def dict_softmax(d):
+    expD = {np.exp(v) for v in d.values()}
+    s = sum(expD)
+    softmax = {k: (np.exp(v) / s) for k, v in d.items()}
+    return softmax
+
 
 def cv_test(mels):
     errors = list()
@@ -37,9 +43,9 @@ def cv_test(mels):
     kf = KFold(n_splits = 10, shuffle = True)       
     for train_index, test_index in kf.split(mels):
         train_data, test_data = mels[train_index], mels[test_index]
-        int_distr, s_distr = get_distr(train_data)
-        err, unkown = predict(int_distr, s_distr, test_data)
-        mnlp = mean_neg_log_prob(int_distr, s_distr, test_data)
+        int_distr = get_distr(train_data)
+        err, unkown = predict(int_distr, test_data)
+        mnlp = neg_log_prob(int_distr, test_data)
 	uk.append(unkown)
         errors.append(err)
         mnlps.append(mnlp)
@@ -56,22 +62,17 @@ def cv_test(mels):
 #inputs melodies, splits test/train, 
 #calculates start note probabilities
 #and conditional probabilities
-def get_distr(mels):
+def distribution(mels):
     intervals = {}
     num_inter = 0
-    starts = {}
     num_mels = len(mels)
     
 
     for mel in mels:
         prev = -1        
         for pitch in mel:
-            if(prev == -1):
-                if(pitch in starts):
-                    starts[pitch] += 1
-                else:
-                    starts[pitch] = 1
-            else:
+
+            if(prev != -1):
                 interval = pitch - prev
                 num_inter += 1
                 if(interval in intervals):
@@ -81,19 +82,18 @@ def get_distr(mels):
             prev = pitch
           
     p_intervals = {}
-    p_starts = {}
+
 
     for interval in intervals:
-        p_intervals[interval] = intervals[interval] / num_inter
-    for st in starts:
-        p_starts[st] = starts[st] / num_mels 
+        p_intervals[interval] = intervals[interval] / num_inter 
     
-    return p_intervals, p_starts
-  
+    #p_intervals = dict_softmax(p_intervals)
+
+    return p_intervals
 
 #predicts next note in melody, excluding first note
 #prints the percent it guesses correctly    
-def predict(p_int, p_st, test):
+def predict(test, p_int):
 
     def keywithmaxval(d):
         v = list(d.values())
@@ -115,51 +115,48 @@ def predict(p_int, p_st, test):
 
             pred = -1
 
-            #start note in melody
-            if(prev == -1):
-                pred = keywithmaxval(p_st)
-            #all other notes
-            else:
+            if(prev != -1):
                 interval = keywithmaxval(p_int)
                 pred = prev + interval
-                
-            prev = pitch
-
-            #compare prediction with reality
-            if(pred == pitch):
-                correct += 1
+                predictions += 1
             
-            predictions += 1
+
+                #compare prediction with reality
+            	if(pred == pitch):
+                    correct += 1
+
+            prev = pitch
+            
+            
 
     accuracy = correct / predictions
+    print("Accuracy: ", accuracy)
 
     return (1 - accuracy), unknown
 
-def mean_neg_log_prob(p_int, p_st, test):
-    mel_probs = list()
+def neg_log_prob(test, p_int):
+    P = []
 
     for mel in test:
         prev = -1
         prob = 0
 
         for pitch in mel:
-            if(prev == -1):
-                if(pitch in p_st):
-                    prob -= math.log(p_st[pitch])
-            else:
+
+            if(prev != -1):
                 interval = pitch - prev
                 if(interval in p_int):
-                    prob -= math.log(p_int[interval])
+                    P.append(-1*math.log(p_int[interval]))
             prev = pitch
 
-        prob = prob / len(mel)
-        mel_probs.append(prob)
+        ##prob = prob / (len(mel) - 1)
+        #mel_probs.append(prob)
 
-    mean = np.mean(mel_probs)
-
+    mean = np.mean(P)
+    print("Negative log probability: ", mean)
     return mean
     
 
 #takes name of melody files 
 #directory as user argument
-main(sys.argv[1])
+#main(sys.argv[1])

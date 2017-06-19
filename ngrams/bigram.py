@@ -1,153 +1,160 @@
-#!/usr/bin/env python2.6
-#SBATCH --partition=standard
+#!/usr/bin/env python
 
 from __future__ import division, print_function
 import os, sys
+import numpy as np
 from math import log
-import offsets
+from sklearn.model_selection import KFold
+from utils import read_files as read
 
-def distributions(folder):
-    # list of files in input directory
-    files = os.listdir(folder)
-    num_files = len(files)
+def distribution(mels):
 
-    # number of files used in training set
-    train_max = int(0.7 * num_files)
-    print("Partition: ", train_max)
-    # files already used in training
-    trained = 0
+    unigrams = {}
+    bigrams = {}
 
-    train_seqs = list()
-    test_seqs = list()
+    for mel in mels:
 
-    # temp variable for tracking major-key melodies
-    num_melodies_recorded = 0
-
-    # ignoring octaves
-    matrix = [ [0] * 12 for i in range(12) ]
-    note_counts = [0] * 12
-    start_counts = [0] * 12
-
-    for file in os.listdir(folder):
-        path = folder + "/" + file
-        offset = 0 # offset from key of C
-        with open(path, 'r', 0) as f:
-            melody = list()
-            prev_note = -1
-            for line in f:
-                words = line.split()
-
-                if words[0] == "Info" and words[1] == "key":
-                    if words[3] == "Major":
-                        offset = offsets.d[words[2]]
-                    else: break
-
-                elif words[0] == "Note":
-                    # ignores octaves
-                    pitch = (int(words[3]) - offset) % 12
-                    melody.append(pitch)
-                    if trained < train_max:
-                        # if still in training data
-                        if prev_note == -1:
-                            start_counts[pitch] += 1
-                        else:
-                            note_counts[pitch] += 1
-                            matrix[prev_note][pitch] += 1
-                        prev_note = pitch
-
-            if melody == []:
-                trained += 1
-            elif trained < train_max:
-                trained += 1
-                num_melodies_recorded += 1
-                train_seqs.append(melody)
-            else:
-                test_seqs.append(melody)
-
-    print("Training sequences: ", len(train_seqs))
-    print("Testing sequences: ", len(test_seqs))
-
-    #-- Probability calculations --#
-
-    p_matrix = [ ([0] * 12) for i in range(len(note_counts)) ]
-    p_start = [ 0 for i in range(len(start_counts)) ]
-
-    for note1 in range(0, len(note_counts)):
-        p_start[note1] = start_counts[note1] / num_melodies_recorded
-        for note2 in range(0, len(note_counts)):
-            p_matrix[note1][note2] = matrix[note1][note2] / note_counts[note1]
-
-    return (train_seqs, test_seqs, p_matrix, p_start)
-
-def genre_match(sequences, p_matrix, p_start):
-    P = list()
-
-    for mel in sequences:
-        p = 0
         prev = -1
+
+        for pitch in mel:
+            
+            if (prev != -1):
+                # key to outer bigrams dict = prev
+                # key to inner bigrams dict = pitch
+                # access value as bigrams[prev][pitch]
+                if prev in bigrams:
+                    if pitch in bigrams[prev]: (bigrams[prev])[pitch] += 1
+                    else: (bigrams[prev])[pitch] = 1
+                else:
+                    bigrams[prev] = {} # initialize value as dictionary
+                    (bigrams[prev])[pitch] = 1 # add pitch to dictionary
+
+            if pitch in unigrams: unigrams[pitch] += 1
+            else: unigrams[pitch] = 1
+
+            prev = pitch
+
+    p_bigrams = {}
+
+    for prev in bigrams:
+        p_bigrams[prev] = {} # initialize inner dictionary
+        for pitch in bigrams[prev]:
+            (p_bigrams[prev])[pitch] = (bigrams[prev])[pitch] / unigrams[prev]
+
+    num_mels = len(mels)
+
+    # Perform softmax on each dictionary
+    #for dict in p_bigrams:
+    #    p_bigrams[dict] = dict_softmax(p_bigrams[dict])
+
+    return p_bigrams
+
+
+def dict_softmax(d):
+    expD = {np.exp(v) for v in d.values()}
+    s = sum(expD)
+    softmax = {k: (np.exp(v) / s) for k, v in d.items()}
+    return softmax
+
+def neg_log_prob(mels, p_bigrams):
+
+    P = []
+    ignoredavg = []
+    ignoredtotal = 0
+
+    for mel in mels:
+        #p = 0
+        prev = -1
+        ignored = 0
         for note in mel:
-            if prev == -1:
-                if p_start[note] != 0:
-                    p -= log(p_start[note])
-            else:
-                if p_matrix[prev][note] != 0:
-                    p -= log(p_matrix[prev][note])
+            if prev in p_bigrams and note in p_bigrams[prev]:
+                P.append(-1*log((p_bigrams[prev])[note]))
+            else: ignored += 1
+	    
             prev = note
-        p /= len(mel)
-        P.append(p)
 
-    mean = reduce(lambda x, y: x + y, P) / len(P)
-    P.sort()
-    mid = len(P) // 2
-    median = P[mid]
+        #p /= (len(mel) - 1)
+        #P.append(p)
+        ignoredavg.append(ignored)
+        ignoredtotal += ignored
 
-    print("Mean: ", mean)
-    print("Median: ", median, "\n")
+    mean = np.mean(P)
 
-def predict(sequences, p_matrix):
+    print("Negative log probability: ", mean)
+    #print("Total notes ignored: ", ignoredtotal)
+    #print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+    return mean
+
+
+def predict(mels, p_bigrams):
+
+    def keywithmaxval(d):
+        # creates a list of keys and vals; returns key with max val
+        v = list(d.values())
+        k = list(d.keys())
+        return k[v.index(max(v))]
+
     correct = 0
     predictions = 0
+    ignored = 0
 
-    for mel in sequences:
+    for mel in mels:
+
         for index in range(1, len(mel)):
             prev = mel[index-1]
-            note = 0
-            for i in range(1, len(p_matrix[prev])):
-                if p_matrix[prev][note] < p_matrix[prev][i]:
-                    note = i
+            pred = -1 # in case we see a bigram that hasn't occured
+            
+            if prev in p_bigrams:
+                pred = keywithmaxval(p_bigrams[prev])
+            else: ignored += 1
 
-            if mel[index] == note:
-                correct += 1
-
+            if pred == mel[index]: correct += 1
             predictions += 1
 
-    print("Total predictions: ", predictions)
-    print("Total correct predictions: ", correct)
-    print("Percentage correct: ", correct / predictions, "\n")
+    accuracy = correct / predictions
 
-#--- debug ---#
-def print_list(L):
-    print("[", end="")
-    for item in L:
-        print(item, end=" ")
-    print("]")
+    #print("(ignored) ", ignored)
+    #print("Total predictions: ", predictions)
+    #print("Total correct predictions: ", correct)
+    print("Accuracy: ", accuracy, "\n")
 
+    return 1 - accuracy # error
+
+
+def cross_validation(mels):
+    errors = []
+    gm_means = []
+    splits = 10 # amount of tests run
+    kf = KFold(n_splits=splits, shuffle=True)
+    
+    for train_index, test_index in kf.split(mels):
+        train_data, test_data = mels[train_index], mels[test_index]
+        p_distr = distributions(train_data)
+
+        gm = neg_log_prob(test_data,  p_distr)
+        gm_means.append(gm)
+
+        e = predict(test_data, p_distr) # returns error
+        errors.append(e)
+
+    mean = np.mean(errors)
+    std = np.std(errors)
+
+    print("Mean error: ", mean)
+    print("Standard deviation: ", std)
+    
+    print("Mean genre match: " + str(np.mean(gm_means)))
+    print("Standard deviation genre match: " + str(np.std(gm_means)))
 
 def main():
     if len(sys.argv) != 2:
         print("Usage: folder containing mel files")
         return 1
 
-    train, test, p_matrix, p_start = distributions(sys.argv[1])
+    maj_mels, min_mels = read(sys.argv[1])
 
-    print("Testing training data: genre matching...")
-    genre_match(train, p_matrix, p_start)
-    print("Testing test data: genre matching...")
-    genre_match(test, p_matrix, p_start)
-    print("Testing training data: predictions...")
-    predict(train, p_matrix)
-    print("Testing test data: predictions...")
-    predict(test, p_matrix)
+    cross_validation(maj_mels)
+    cross_validation(min_mels)
 
     print("Done.")
     return 0
