@@ -1,0 +1,99 @@
+SOFTMAX
+
+
+____Unigram Test____
+__Major Train:__
+Negative log probability:  3.4350415975
+Accuracy:  0.181430694381 
+
+
+
+__Minor Train:__
+Negative log probability:  3.2662859655
+Accuracy:  0.179210167953 
+
+
+
+__Major Test:__
+Negative log probability:  3.43497746672
+Accuracy:  0.183509710431 
+
+
+
+__Minor Test:__
+Negative log probability:  3.26514512341
+Accuracy:  0.180655226209 
+
+
+
+
+
+____Bigram Test____
+__Major Train:__
+Negative log probability:  2.80708032295
+Accuracy:  0.345009388716 
+
+
+
+__Minor Train:__
+Negative log probability:  2.42669747517
+Accuracy:  0.378241791496 
+
+
+
+__Major Test:__
+Negative log probability:  2.80499404532
+Accuracy:  0.343993487615 
+
+
+
+__Minor Test:__
+Negative log probability:  2.43730286042
+Accuracy:  0.374102964119 
+
+
+
+
+
+____Interval Unigram Test____
+__Major Train:__
+Negative log probability:  3.3971531503
+Accuracy:  0.219780430767
+
+
+__Minor Train:__
+Negative log probability:  3.12313431646
+Accuracy:  0.215705855651
+
+
+__Major Test:__
+Negative log probability:  3.39668878588
+Accuracy:  0.220219405357
+
+
+__Minor Test:__
+Negative log probability:  3.1240990796
+Accuracy:  0.213104524181
+
+
+
+
+____Interval Bigram Test____
+__Major Train:__
+Negative log probability:  3.19170426426
+Accuracy:  0.293010267714
+
+
+__Minor Train:__
+Negative log probability:  2.85774527367
+Accuracy:  0.309460380398
+
+
+__Major Test:__
+Negative log probability:  3.19123331019
+Accuracy:  0.294301667129
+
+
+__Minor Test:__
+Negative log probability:  2.85752742879
+Accuracy:  0.304889741131
