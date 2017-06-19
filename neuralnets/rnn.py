@@ -24,7 +24,7 @@ class RNN:
         stop = start + size
         return X[start:stop], y[start:stop]
 
-    def construct(self, n_neurons, activation = tf.tanh, loss_fun, mu = 0.001):
+    def construct(self, n_neurons, loss_fun, activation = tf.tanh, mu = 0.001):
 
         n_outputs = 88
 
