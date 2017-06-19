@@ -1,0 +1,43 @@
+Reference OTL: Die dienende Schwester Es wohnt ein Kaiser an dem Rhein,
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Westpreussen, Neumark
+Reference YOR: 4, S. 116
+Comment	   ????
+Reference SCT: Q0075m
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  3/4; 2/4
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	65
+Note	500	1000	65
+Note	1000	1500	69
+Note	1500	2500	72
+Note	2500	3500	69
+Note	3500	4000	70
+Note	4000	4500	74
+Note	4500	5500	67
+Note	6000	6500	67
+Note	6500	7000	67
+Note	7000	7500	69
+Note	7500	8500	70
+Note	8500	9500	67
+Note	9500	10000	69
+Note	10000	10500	72
+Note	10500	11500	65
+Note	11500	12000	69
+Note	12000	12500	70
+Note	12500	13500	72
+Note	14000	14500	77
+Note	14500	15000	77
+Note	15000	15500	77
+Note	15500	16500	77
+Note	16500	17500	69
+Note	17500	18000	67
+Note	18000	18500	67
+Note	18500	19500	65
+Reference AGN: Ballade, Adelige als Dienstmagd, Tod; Kinder - Spiel, Tanz
+Comment	Einschiebsel am Anfang der dritten Zeile.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

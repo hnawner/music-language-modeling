@@ -1,0 +1,35 @@
+Reference OTL: Die Rabenmutter Es treibt ein Schaefer die Laemmer aus
+Reference ARE: Europa, Suedosteuropa, Rumaenien, Siebenbuergen
+Reference YOR: 5, S. 268
+Comment	   1938 gedruckt (1936/38) in Herrmannstadt
+Reference SCT: Q0114L
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	74
+Note	1000	2000	74
+Note	3000	3500	79
+Note	4000	4750	71
+Note	5500	5750	71
+Note	6000	6500	74
+Note	7000	7500	74
+Note	8000	8500	72
+Note	9000	9500	76
+Note	10000	11000	69
+Note	12000	12500	71
+Note	13000	13500	72
+Note	14000	14500	71
+Note	15000	15500	74
+Note	16000	16500	67
+Note	17000	17500	67
+Note	18000	18500	71
+Note	19000	19500	69
+Note	20000	20500	72
+Note	21000	21500	66
+Note	22000	23000	67
+Reference AGN: Ballade, Kinds - Mord, Strafe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,44 @@
+Reference OTL: Alter Reihen um das erste Veilchen
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0280A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	2000	67
+Note	1000	5000	67
+Note	3000	5000	67
+Note	4000	6000	67
+Note	5000	9000	69
+Note	7000	9000	69
+Note	8000	10000	69
+Note	9000	11000	70
+Note	10000	12000	69
+Note	11000	13000	65
+Note	12000	14000	69
+Note	13000	17000	70
+Note	16000	18000	67
+Note	17000	19000	69
+Note	18000	20000	70
+Note	19000	21000	72
+Note	20000	22000	69
+Note	21000	25000	70
+Note	23000	25000	69
+Note	24000	26000	69
+Note	25000	27000	67
+Note	26000	28000	69
+Note	27000	29000	70
+Note	28000	30000	69
+Note	29000	33000	65
+Note	31000	35000	62
+Note	33000	35000	65
+Note	34000	36000	67
+Note	35000	37000	69
+Note	36000	38000	69
+Note	37000	43000	67
+Reference AGN: Romanze, Ballade, Lied
+Comment	Babst Gsgb 1553 II No. 35.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

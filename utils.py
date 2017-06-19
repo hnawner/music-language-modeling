@@ -144,3 +144,21 @@ def setup_CNN(folder, n, mode):
         minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
         return minor_X_train, minor_X_test, minor_y_train, minor_y_test
 
+
+def setupRNN(path, mode):
+    major, minor = read_files(folder)
+    if mode == 'major':
+        X = y = major
+        for i in range(len(major)):
+            X[i] = X[i][:-1] # removes last note (will not be given)
+            y[i] = y[i][1:] # removes first note (will not be tested)
+
+        return tts(X, y, test_size = 0.2)
+
+    else:
+        X = y = minor
+        for i in range(len(minor)):
+            X[i] = X[i][:-1]
+            y[i] = y[i][1:]
+
+        return tts(X, y, test_size = 0.2)
