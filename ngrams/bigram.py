@@ -43,18 +43,9 @@ def distribution(mels):
 
     num_mels = len(mels)
 
-    # Perform softmax on each dictionary
-    #for dict in p_bigrams:
-    #    p_bigrams[dict] = dict_softmax(p_bigrams[dict])
-
     return p_bigrams
 
 
-def dict_softmax(d):
-    expD = {np.exp(v) for v in d.values()}
-    s = sum(expD)
-    softmax = {k: (np.exp(v) / s) for k, v in d.items()}
-    return softmax
 
 def neg_log_prob(mels, p_bigrams):
 
@@ -63,26 +54,23 @@ def neg_log_prob(mels, p_bigrams):
     ignoredtotal = 0
 
     for mel in mels:
-        #p = 0
         prev = -1
         ignored = 0
         for note in mel:
             if prev in p_bigrams and note in p_bigrams[prev]:
                 P.append(-1*log((p_bigrams[prev])[note]))
-            else: ignored += 1
+            elif prev != -1: ignored += 1
 	    
             prev = note
 
-        #p /= (len(mel) - 1)
-        #P.append(p)
         ignoredavg.append(ignored)
         ignoredtotal += ignored
 
     mean = np.mean(P)
 
     print("Negative log probability: ", mean)
-    #print("Total notes ignored: ", ignoredtotal)
-    #print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+    print("Total notes ignored: ", ignoredtotal)
+    print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
     return mean
 
 
@@ -113,38 +101,45 @@ def predict(mels, p_bigrams):
 
     accuracy = correct / predictions
 
-    #print("(ignored) ", ignored)
-    #print("Total predictions: ", predictions)
-    #print("Total correct predictions: ", correct)
+    print("(ignored) ", ignored)
+    print("Total predictions: ", predictions)
+    print("Total correct predictions: ", correct)
     print("Accuracy: ", accuracy, "\n")
 
     return 1 - accuracy # error
 
 
 def cross_validation(mels):
-    errors = []
-    gm_means = []
+    accuracy = []
+    neglogprob_means = []
     splits = 10 # amount of tests run
     kf = KFold(n_splits=splits, shuffle=True)
+    count = 1
     
     for train_index, test_index in kf.split(mels):
         train_data, test_data = mels[train_index], mels[test_index]
-        p_distr = distributions(train_data)
+        p_distr = distribution(train_data)
+        print("Test ", count)
 
-        gm = neg_log_prob(test_data,  p_distr)
-        gm_means.append(gm)
 
-        e = predict(test_data, p_distr) # returns error
-        errors.append(e)
+        nlp = neg_log_prob(test_data,  p_distr)
+        neglogprob_means.append(nlp)
 
-    mean = np.mean(errors)
-    std = np.std(errors)
+        acc = predict(test_data, p_distr) # returns accuracy
+        accuracy.append(acc)
+        
+        count += 1
 
-    print("Mean error: ", mean)
-    print("Standard deviation: ", std)
+    mean = np.mean(accuracy)
+    std = np.std(accuracy)
     
-    print("Mean genre match: " + str(np.mean(gm_means)))
-    print("Standard deviation genre match: " + str(np.std(gm_means)))
+    print("**Overall**")
+
+    print("Mean accuracy: ", mean)
+    print("Standard deviation accuracy: ", std)
+    
+    print("Mean negative log probability: " + str(np.mean(neglogprob_means)))
+    print("Standard deviation negative log probability: " + str(np.std(neglogprob_means)))
 
 def main():
     if len(sys.argv) != 2:
@@ -152,8 +147,12 @@ def main():
         return 1
 
     maj_mels, min_mels = read(sys.argv[1])
+    
+    print("_______Bigram_______")
 
+    print("___Major___")
     cross_validation(maj_mels)
+    print("___Minor___")
     cross_validation(min_mels)
 
     print("Done.")

@@ -1,67 +1,16 @@
 #!/usr/bin/env python2.6
 
-#Bigram model with prediction error
 
-#imports:
 from __future__ import division, print_function
 import os
 import math
 import sys
-from utils import read_files
+from utils import read_files as read
 import pandas as pd
 from sklearn.model_selection import KFold
 import numpy as np
 
-#outputs results
-def main(*args):
-    if(len(args)!=1):
-        print("error")
 
-    maj_mel, min_mel = read(args[0])
-    print("__________Interval Unigram__________")
-    
-    print("Major test:")
-    cv_test(maj_mel)
-    print()
-
-    print("Minor test:")
-    cv_test(min_mel)
-
-
-def dict_softmax(d):
-    expD = {np.exp(v) for v in d.values()}
-    s = sum(expD)
-    softmax = {k: (np.exp(v) / s) for k, v in d.items()}
-    return softmax
-
-
-def cv_test(mels):
-    errors = list()
-    uk = list()
-    mnlps = list()
-    splits = 10
-    kf = KFold(n_splits = 10, shuffle = True)       
-    for train_index, test_index in kf.split(mels):
-        train_data, test_data = mels[train_index], mels[test_index]
-        int_distr = get_distr(train_data)
-        err, unkown = predict(int_distr, test_data)
-        mnlp = neg_log_prob(int_distr, test_data)
-	uk.append(unkown)
-        errors.append(err)
-        mnlps.append(mnlp)
-
-    print("  Errors: " + str(errors))
-    print("  Mean error: " + str(np.mean(errors)))
-    print("  SD errors: " + str(np.std(errors)))
-    print("  Mean negative log probabilities: " + str(mnlps))
-    print("  Mean of mean negative log probabilities: " + str(np.mean(mnlps)))
-    print("  SD of mean negative log probabilities:: " + str(np.std(mnlps)))
-    print("  Mean unkown: " + str(np.mean(uk)))
-
-
-#inputs melodies, splits test/train, 
-#calculates start note probabilities
-#and conditional probabilities
 def distribution(mels):
     intervals = {}
     num_inter = 0
@@ -87,12 +36,9 @@ def distribution(mels):
     for interval in intervals:
         p_intervals[interval] = intervals[interval] / num_inter 
     
-    #p_intervals = dict_softmax(p_intervals)
-
     return p_intervals
 
-#predicts next note in melody, excluding first note
-#prints the percent it guesses correctly    
+
 def predict(test, p_int):
 
     def keywithmaxval(d):
@@ -103,19 +49,17 @@ def predict(test, p_int):
     #predictions counters
     predictions = 0
     correct = 0
-    unknown = 0
     
-    #loop through melodies
     for mel in test:
 
         prev = -1
         
-        #loop through notes, excluding first
         for pitch in mel:
 
             pred = -1
 
             if(prev != -1):
+            	
                 interval = keywithmaxval(p_int)
                 pred = prev + interval
                 predictions += 1
@@ -130,16 +74,24 @@ def predict(test, p_int):
             
 
     accuracy = correct / predictions
-    print("Accuracy: ", accuracy)
+    
+    print("Total predictions: ", predictions)
+    print("Total correct predictions: ", correct)
+    print("Accuracy: ", accuracy, "\n")
 
-    return (1 - accuracy), unknown
+    return accuracy
+
 
 def neg_log_prob(test, p_int):
+    
     P = []
+    ignoredtotal = 0
+    ignoredavg = []
 
     for mel in test:
         prev = -1
         prob = 0
+        ignored = 0
 
         for pitch in mel:
 
@@ -147,16 +99,70 @@ def neg_log_prob(test, p_int):
                 interval = pitch - prev
                 if(interval in p_int):
                     P.append(-1*math.log(p_int[interval]))
+                else: ignored += 1
+            
             prev = pitch
+            
+            ignoredavg.append(ignored)
+            ignoredtotal += ignored
 
-        ##prob = prob / (len(mel) - 1)
-        #mel_probs.append(prob)
 
     mean = np.mean(P)
+    
     print("Negative log probability: ", mean)
+    print("Total notes ignored: ", ignoredtotal)
+    print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
     return mean
     
+def cv_test(mels):
+    accuracy = []
+    neglogprob_means = []
+    splits = 10
+    kf = KFold(n_splits = 10, shuffle = True)    
+    count = 1
+    
+    for train_index, test_index in kf.split(mels):
+        train_data, test_data = mels[train_index], mels[test_index]
+        int_distr = distribution(train_data)
+        print("Test ", count)
+        
+        acc = predict(test_data, int_distr)
+        nlp = neg_log_prob(test_data, int_distr)
+        
+        accuracy.append(acc)
+        neglogprob_means.append(nlp)
+        
+        count += 1
+    
+    print("**Overall**")
 
-#takes name of melody files 
-#directory as user argument
-#main(sys.argv[1])
+    print("Mean accuracy: ", np.mean(accuracy))
+    print("Standard deviation accuracy: ", np.std(accuracy))
+    
+    print("Mean negative log probability: ", np.mean(neglogprob_means))
+    print("Standard deviation negative log probability: ", np.std(neglogprob_means))
+
+
+
+    
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: folder containing mel files")
+        return 1
+
+    maj_mels, min_mels = read(sys.argv[1])
+
+    print("_______Interval Unigram_______")
+    
+    print("___Major___")
+    cv_test(maj_mels)
+    print()
+
+    print("___Minor___")
+    cv_test(min_mels)
+    
+    print("Done")
+    return 0
+
+if __name__ == '__main__':
+    main()

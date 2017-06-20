@@ -26,19 +26,7 @@ def distribution(mels):
     for pitch in unigrams:
         P[pitch] = unigrams[pitch] / total_notes
 
-    #P = dict_softmax(P)
-
     return P
-
-def softmax(x):
-    e_x = np.exp(x - np.max(x))
-    return e_x / e_x.sum()
-
-def dict_softmax(d):
-    expD = {np.exp(v) for v in d.values()}
-    s = sum(expD)
-    softmax = {k: (np.exp(v) / s) for k, v in d.items()}
-    return softmax
 
 
 def neg_log_prob(mels, dists):
@@ -54,13 +42,15 @@ def neg_log_prob(mels, dists):
             if note in dists: P.append(-1*log(dists[note]))
             else: ignored += 1
 
-        #P.append(p/len(mel))
         ignoredavg.append(ignored)
         ignoredtotal += ignored
+        
+    mean = np.mean(P)
 
-    print("Negative log probability: ", np.mean(P))
-    #print("Total notes ignored: ", ignoredtotal)
-    #print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+    print("Negative log probability: ", mean)
+    print("Total notes ignored: ", ignoredtotal)
+    print("Avg notes ignored: ", np.mean(ignoredavg), "\n")
+    return mean
 
 
 def predict(mels, P):
@@ -73,48 +63,54 @@ def predict(mels, P):
 
     correct = 0
     predictions = 0
-    ignored = 0
 
     for mel in mels:
 
         for index in range(1, len(mel)):
             # prediction
-            if mel[index] not in P: ignored += 1
-            elif keywithmaxval(P) == mel[index]: correct += 1
+            if keywithmaxval(P) == mel[index]: correct += 1
 
             predictions += 1
     
     accuracy = correct / predictions
 
-    #print("(ignored)", ignored)
-    #print("Total predictions: ", predictions)
+    print("Total predictions: ", predictions)
+    print("Total correct predictions: ", correct)
     print("Accuracy: ", accuracy, "\n")
 
-    return 1 - accuracy
+    return accuracy
 
 
-def cross_validation(mels):
-    errors = []
+def cv_test(mels):
+    accuracy = []
+    neglogprob_means = []
     splits = 10
     kf = KFold(n_splits=splits, shuffle=True)
     count = 1
 
     for train_index, test_index in kf.split(mels):
         train, test = mels[train_index], mels[test_index]
-
         P = distribution(train)
         print("Test ", count)
-        neg_log_prob(test, P)
-        e = predict(test, P) # returns error
-        errors.append(e)
+        
+        nlp = neg_log_prob(test, P)
+        neglogprob_means.append(nlp)
+        
+        acc = predict(test, P) # returns accuracy
+        accuracy.append(acc)
+        
         count += 1
 
-    mean = np.mean(errors)
-    std = np.std(errors)
+    mean = np.mean(accuracy)
+    std = np.std(accuracy)
 
-    print("Mean error: ", mean)
-    print("Standard deviation: ", std)
-    print()
+    print("**Overall**")
+
+    print("Mean accuracy: ", mean)
+    print("Standard deviation accuracy: ", std)
+    
+    print("Mean negative log probability: " + str(np.mean(neglogprob_means)))
+    print("Standard deviation negative log probability: " + str(np.std(neglogprob_means)))
 
 def main():
     if len(sys.argv) != 2:
@@ -122,9 +118,14 @@ def main():
         return 1
 
     maj_mels, min_mels = read(sys.argv[1])
+    
+    print("_______Unigram_______")
 
-    cross_validation(maj_mels)
-    cross_validation(min_mels)
+    print("___Major___")
+    cv_test(maj_mels)
+    
+    print("___Minor___")
+    cv_test(min_mels)
 
     print("Done.")
     return 0
