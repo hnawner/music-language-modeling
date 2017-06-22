@@ -52,6 +52,24 @@ def make_ngrams(seqs, n):
     return grams
 
 
+def one_hot_ngram_PCandOctave(grams):
+    vecs_list = []
+    targets = []
+    for gram in grams:
+        vecs = []
+        for index in range(len(gram) - 1):
+            pc_vec = [0] * 12
+            octave_vec = [0] * 8
+            pc_vec[(gram[index] % 12)] = 1
+            octave_vec[(gram[index] / 12)] = 1
+            vecs += pc_vec
+            vecs += octave_vec
+        target = gram[-1]
+        vecs_list.append(vecs)
+        targets.append(target)
+
+    return vecs_list, targets
+
 def one_hot_ngram(grams):
     vecs_list = []
     targets = []
@@ -105,60 +123,15 @@ def one_hot_ngram_CNN(grams, n):
 
 
         
-def setup_ngrams(folder, n, mode):
+def setup_ngrams(folder, n, mode, encoder):
     major, minor = read_files(folder)
     if(mode == "major"):
         maj_grams = make_ngrams(major, n)
-        major_X, major_y = one_hot_ngram(maj_grams)
+        major_X, major_y = encoder(maj_grams)
         major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
         return major_X_train, major_X_test, major_y_train, major_y_test
     else:
         min_grams = make_ngrams(minor, n)
-        minor_X, minor_y = one_hot_ngram(min_grams)
-	minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
-        return minor_X_train, minor_X_test, minor_y_train, minor_y_test
-
-def setup_AbsAndPc(folder, n, mode):
-    major, minor = read_files(folder)
-    if(mode == "major"):
-        maj_grams = make_ngrams(major, n)
-        major_X, major_y = one_hot_ngram_AbsAndPc(maj_grams)
-        major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
-        return major_X_train, major_X_test, major_y_train, major_y_test
-    else:
-        min_grams = make_ngrams(minor, n)
-        minor_X, minor_y = one_hot_ngram_AbsAndPc(min_grams)
-	minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
-        return minor_X_train, minor_X_test, minor_y_train, minor_y_test
-
-def setup_CNN(folder, n, mode):
-    major, minor = read_files(folder)
-    if(mode == "major"):
-        maj_grams = make_ngrams(major, n)
-        major_X, major_y = one_hot_ngram_CNN(maj_grams, n)
-        major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
-        return major_X_train, major_X_test, major_y_train, major_y_test
-    else:
-        min_grams = make_ngrams(minor, n)
-        minor_X, minor_y = one_hot_ngram_CNN(min_grams, n)
+        minor_X, minor_y = encoder(min_grams)
         minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
         return minor_X_train, minor_X_test, minor_y_train, minor_y_test
-
-
-def setupRNN(path, mode):
-    major, minor = read_files(folder)
-    if mode == 'major':
-        X = y = major
-        for i in range(len(major)):
-            X[i] = X[i][:-1] # removes last note (will not be given)
-            y[i] = y[i][1:] # removes first note (will not be tested)
-
-        return tts(X, y, test_size = 0.2)
-
-    else:
-        X = y = minor
-        for i in range(len(minor)):
-            X[i] = X[i][:-1]
-            y[i] = y[i][1:]
-
-        return tts(X, y, test_size = 0.2)
