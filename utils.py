@@ -7,8 +7,7 @@ from sklearn.model_selection import train_test_split as tts
 def read_files(folder):
     files = os.listdir(folder)
 
-    maj_mels = []
-    min_mels = []
+    mels = []
 
     offsets = { "C":0, "C-sharp":1, "D-flat":1, "D":2, "D-sharp":3, "E-flat":3,
                 "E":4, "E-sharp":5, "F-flat":4, "F":5, "F-sharp":6, "G-flat":6,
@@ -18,27 +17,21 @@ def read_files(folder):
     for f in files:
         path = folder + "/" + f
         offset = 0 # offset from key of C
-        is_major = True # default
         with open(path, 'r', 0) as f:
             mel = []
             for line in f:
                 parsed = line.split() # delimiter as spaces
 
                 if parsed[0] == "Info" and parsed[1] == "key":
-                    if parsed[3] == "Minor": is_major = False
                     offset = offsets[parsed[2]]
 
                 elif parsed[0] == "Note":
                     pitch = int(parsed[3]) - offset
                     mel.append(pitch)
 
-            if is_major: maj_mels.append(mel)
-            else: min_mels.append(mel)
-
-    maj_mels_np = np.asarray(maj_mels)
-    min_mels_np = np.asarray(min_mels)
+            mels.append(mel)
     
-    return maj_mels_np, min_mels_np
+    return mels
 
 
 def make_ngrams(seqs, n):
@@ -70,6 +63,7 @@ def one_hot_ngram_PCandOctave(grams):
 
     return vecs_list, targets
 
+
 def one_hot_ngram(grams):
     vecs_list = []
     targets = []
@@ -84,6 +78,7 @@ def one_hot_ngram(grams):
         targets.append(target)
 
     return vecs_list, targets
+
 
 def one_hot_ngram_AbsAndPc(grams):
     vecs_list = []
@@ -105,6 +100,7 @@ def one_hot_ngram_AbsAndPc(grams):
 
     return vecs_list, targets
 
+
 def one_hot_ngram_CNN(grams, n):
     vecs_list = []
     targets = []
@@ -121,17 +117,12 @@ def one_hot_ngram_CNN(grams, n):
 
     return np.array(vecs_list), np.array(targets)
 
-
         
-def setup_ngrams(folder, n, mode, encoder):
-    major, minor = read_files(folder)
-    if(mode == "major"):
-        maj_grams = make_ngrams(major, n)
-        major_X, major_y = encoder(maj_grams)
-        major_X_train, major_X_test, major_y_train, major_y_test = tts(major_X, major_y, test_size = 0.2)
-        return major_X_train, major_X_test, major_y_train, major_y_test
-    else:
-        min_grams = make_ngrams(minor, n)
-        minor_X, minor_y = encoder(min_grams)
-        minor_X_train, minor_X_test, minor_y_train, minor_y_test = tts(minor_X, minor_y, test_size = 0.2)
-        return minor_X_train, minor_X_test, minor_y_train, minor_y_test
+def setup_ngrams(folder, n, encoder):
+    mels = read_files(folder)
+    grams = make_ngrams(mels, n)
+    X, y = encoder(grams)
+    X_train, X_test, y_train, y_test = tts(X, y, test_size = 0.2)
+    return X_train, X_test, y_train, y_test
+
+
