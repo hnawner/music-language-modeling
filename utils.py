@@ -121,8 +121,7 @@ def one_hot_ngram_CNN(grams, n):
 def setup_ngrams(folder, n, encoder):
     mels = read_files(folder)
     grams = make_ngrams(mels, n)
-    X, y = encoder(grams)
-    X_train, X_test, y_train, y_test = tts(X, y, test_size = 0.2)
-    return X_train, X_test, y_train, y_test
+    X, y = encoder(grams, n)
+    return tts(X, y, test_size = 0.2)
 
 
