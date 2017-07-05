@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+#SBATCH -p gpu --gres=gpu:1 -t 03:00:00 -o out
+
+module load tensorflow
+python rnn.py
+module unload tensorflow

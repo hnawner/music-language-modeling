@@ -1,0 +1,55 @@
+2017-06-30 13:03:25.324978: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-30 13:03:25.325213: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-30 13:03:25.326134: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-30 13:03:27.199195: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K20Xm
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:8b:00.0
+Total memory: 5.57GiB
+Free memory: 5.50GiB
+2017-06-30 13:03:27.199292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-06-30 13:03:27.199319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-06-30 13:03:27.199354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20Xm, pci bus id: 0000:8b:00.0)
+2017-06-30 13:03:27.305571: W tensorflow/core/framework/op_kernel.cc:1158] Invalid argument: indices[0] = 60 is not in [0, 36)
+	 [[Node: embedding_lookup = Gather[Tindices=DT_INT32, Tparams=DT_FLOAT, _class=["loc:@Variable"], validate_indices=true, _device="/job:localhost/replica:0/task:0/cpu:0"](Variable/read, _arg_Placeholder_0_0)]]
+2017-06-30 13:03:27.305731: W tensorflow/core/framework/op_kernel.cc:1158] Invalid argument: indices[0] = 60 is not in [0, 36)
+	 [[Node: embedding_lookup = Gather[Tindices=DT_INT32, Tparams=DT_FLOAT, _class=["loc:@Variable"], validate_indices=true, _device="/job:localhost/replica:0/task:0/cpu:0"](Variable/read, _arg_Placeholder_0_0)]]
+2017-06-30 13:03:27.307062: W tensorflow/core/framework/op_kernel.cc:1158] Invalid argument: indices[0] = 60 is not in [0, 36)
+	 [[Node: embedding_lookup = Gather[Tindices=DT_INT32, Tparams=DT_FLOAT, _class=["loc:@Variable"], validate_indices=true, _device="/job:localhost/replica:0/task:0/cpu:0"](Variable/read, _arg_Placeholder_0_0)]]
+2017-06-30 13:03:27.307120: W tensorflow/core/framework/op_kernel.cc:1158] Invalid argument: indices[0] = 60 is not in [0, 36)
+	 [[Node: embedding_lookup = Gather[Tindices=DT_INT32, Tparams=DT_FLOAT, _class=["loc:@Variable"], validate_indices=true, _device="/job:localhost/replica:0/task:0/cpu:0"](Variable/read, _arg_Placeholder_0_0)]]
+Data size 265864
+Initialized
+Traceback (most recent call last):
+  File "note2vec.py", line 171, in <module>
+    _, loss_val = session.run([optimizer, loss], feed_dict=feed_dict)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 789, in run
+    run_metadata_ptr)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 997, in _run
+    feed_dict_string, options, run_metadata)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1132, in _do_run
+    target_list, options, run_metadata)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1152, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: indices[0] = 60 is not in [0, 36)
+	 [[Node: embedding_lookup = Gather[Tindices=DT_INT32, Tparams=DT_FLOAT, _class=["loc:@Variable"], validate_indices=true, _device="/job:localhost/replica:0/task:0/cpu:0"](Variable/read, _arg_Placeholder_0_0)]]
+
+Caused by op u'embedding_lookup', defined at:
+  File "note2vec.py", line 122, in <module>
+    embed = tf.nn.embedding_lookup(embeddings, train_inputs)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/ops/embedding_ops.py", line 122, in embedding_lookup
+    return maybe_normalize(_do_gather(params[0], ids, name=name))
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/ops/embedding_ops.py", line 42, in _do_gather
+    return array_ops.gather(params, ids, name=name)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 1179, in gather
+    validate_indices=validate_indices, name=name)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+InvalidArgumentError (see above for traceback): indices[0] = 60 is not in [0, 36)
+	 [[Node: embedding_lookup = Gather[Tindices=DT_INT32, Tparams=DT_FLOAT, _class=["loc:@Variable"], validate_indices=true, _device="/job:localhost/replica:0/task:0/cpu:0"](Variable/read, _arg_Placeholder_0_0)]]
+
