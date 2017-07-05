@@ -20,57 +20,40 @@ from __future__ import print_function
 
 import collections
 import math
-import os
+import sys
 import random
-import zipfile
 
+from utils import read_files
 import numpy as np
 from six.moves import urllib
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
-# Step 1: Download the data.
-
 
 # Read the data into a list of strings.
-def read_data(filename):
-  """Extract the first file enclosed in a zip file as a list of words."""
-  with zipfile.ZipFile(filename) as f:
-    data = tf.compat.as_str(f.read(f.namelist()[0])).split()
-  return data
-
-vocabulary = read_data(filename)
+folder = sys.argv[1]
+vocabulary = read_files(folder)
+vocabulary = [item for sublist in vocabulary for item in sublist] # flattens
 print('Data size', len(vocabulary))
 
 # Step 2: Build the dictionary and replace rare words with UNK token.
-vocabulary_size = 50000
 
-
-def build_dataset(words, n_words):
+def build_dataset(words):
   """Process raw inputs into a dataset."""
-  count = [['UNK', -1]]
-  count.extend(collections.Counter(words).most_common(n_words - 1))
-  dictionary = dict()
-  for word, _ in count:
-    dictionary[word] = len(dictionary)
-  data = list()
-  unk_count = 0
-  for word in words:
-    if word in dictionary:
-      index = dictionary[word]
-    else:
-      index = 0  # dictionary['UNK']
-      unk_count += 1
-    data.append(index)
-  count[0][1] = unk_count
-  reversed_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
-  return data, count, dictionary, reversed_dictionary
+  count = collections.Counter(words).most_common() # orders by rarity
+  # dictionary = dict()
+  # for word, _ in count:
+    # dictionary[word] = len(dictionary)
+  data = words
+  # for word in words:
+    # index = dictionary[word]
+    # data.append(index)
+  # reversed_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
+  return data, count#, dictionary, reversed_dictionary
 
-data, count, dictionary, reverse_dictionary = build_dataset(vocabulary,
-                                                            vocabulary_size)
+data, count = build_dataset(vocabulary)
+vocabulary_size = len(count)
 del vocabulary  # Hint to reduce memory.
-print('Most common words (+UNK)', count[:5])
-print('Sample data', data[:10], [reverse_dictionary[i] for i in data[:10]])
 
 data_index = 0
 
@@ -102,16 +85,16 @@ def generate_batch(batch_size, num_skips, skip_window):
   data_index = (data_index + len(data) - span) % len(data)
   return batch, labels
 
-batch, labels = generate_batch(batch_size=8, num_skips=2, skip_window=1)
-for i in range(8):
-  print(batch[i], reverse_dictionary[batch[i]],
-        '->', labels[i, 0], reverse_dictionary[labels[i, 0]])
+#batch, labels = generate_batch(batch_size=8, num_skips=2, skip_window=1)
+#for i in range(8):
+#  print(batch[i], reverse_dictionary[batch[i]],
+#        '->', labels[i, 0], reverse_dictionary[labels[i, 0]])
 
 # Step 4: Build and train a skip-gram model.
 
 batch_size = 128
-embedding_size = 128  # Dimension of the embedding vector.
-skip_window = 1       # How many words to consider left and right.
+embedding_size = 20   # Dimension of the embedding vector.
+skip_window = 2       # How many words to consider left and right.
 num_skips = 2         # How many times to reuse an input to generate a label.
 
 # We pick a random validation set to sample nearest neighbors. Here we limit the
@@ -120,7 +103,7 @@ num_skips = 2         # How many times to reuse an input to generate a label.
 valid_size = 16     # Random set of words to evaluate similarity on.
 valid_window = 100  # Only pick dev samples in the head of the distribution.
 valid_examples = np.random.choice(valid_window, valid_size, replace=False)
-num_sampled = 64    # Number of negative examples to sample.
+num_sampled = 16    # Number of negative examples to sample.
 
 graph = tf.Graph()
 
@@ -156,7 +139,7 @@ with graph.as_default():
                      num_classes=vocabulary_size))
 
   # Construct the SGD optimizer using a learning rate of 1.0.
-  optimizer = tf.train.GradientDescentOptimizer(1.0).minimize(loss)
+  optimizer = tf.train.GradientDescentOptimizer(.01).minimize(loss)
 
   # Compute the cosine similarity between minibatch examples and all embeddings.
   norm = tf.sqrt(tf.reduce_sum(tf.square(embeddings), 1, keep_dims=True))
@@ -196,16 +179,17 @@ with tf.Session(graph=graph) as session:
       average_loss = 0
 
     # Note that this is expensive (~20% slowdown if computed every 500 steps)
-    if step % 10000 == 0:
-      sim = similarity.eval()
-      for i in xrange(valid_size):
-        valid_word = reverse_dictionary[valid_examples[i]]
-        top_k = 8  # number of nearest neighbors
-        nearest = (-sim[i, :]).argsort()[1:top_k + 1]
-        log_str = 'Nearest to %s:' % valid_word
-        for k in xrange(top_k):
-          close_word = reverse_dictionary[nearest[k]]
-          log_str = '%s %s,' % (log_str, close_word)
-        print(log_str)
+#    if step % 10000 == 0:
+#      sim = similarity.eval()
+#      for i in xrange(valid_size):
+#        valid_word = reverse_dictionary[valid_examples[i]]
+#        top_k = 8  # number of nearest neighbors
+#        nearest = (-sim[i, :]).argsort()[1:top_k + 1]
+#        log_str = 'Nearest to %s:' % valid_word
+#        for k in xrange(top_k):
+#          close_word = reverse_dictionary[nearest[k]]
+#          log_str = '%s %s,' % (log_str, close_word)
+#        print(log_str)
   final_embeddings = normalized_embeddings.eval()
+  np.savetxt('embedding_no_dicts.txt', final_embeddings)
 
