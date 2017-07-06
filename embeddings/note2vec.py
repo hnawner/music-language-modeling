@@ -41,15 +41,15 @@ print('Data size', len(vocabulary))
 def build_dataset(words):
   """Process raw inputs into a dataset."""
   count = collections.Counter(words).most_common() # orders by rarity
-  # dictionary = dict()
-  # for word, _ in count:
-    # dictionary[word] = len(dictionary)
+  dictionary = dict()
+  for word, _ in count:
+    dictionary[word] = len(dictionary)
   data = words
-  # for word in words:
-    # index = dictionary[word]
-    # data.append(index)
-  # reversed_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
-  return data, count#, dictionary, reversed_dictionary
+  for word in words:
+    index = dictionary[word]
+    data.append(index)
+  reversed_dictionary = dict(zip(dictionary.values(), dictionary.keys()))
+  return data, count, dictionary, reversed_dictionary
 
 data, count = build_dataset(vocabulary)
 vocabulary_size = len(count)
