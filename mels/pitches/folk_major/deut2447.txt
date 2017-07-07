@@ -1,0 +1,54 @@
+Reference OTL: MAIENBLUEMLEIN SO SCHOEN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0213
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	48
+Note	1000	1500	52
+Note	2000	2500	54
+Note	3000	3500	55
+Note	4000	4250	57
+Note	4500	4750	59
+Note	5000	5500	60
+Note	6000	6500	60
+Note	7000	7500	57
+Note	8000	8500	62
+Note	9000	9250	59
+Note	9500	9750	60
+Note	10000	10250	57
+Note	10500	10750	59
+Note	11000	11500	55
+Note	12000	12500	55
+Note	13000	13500	59
+Note	14000	14500	60
+Note	15000	16000	61
+Note	17000	17500	62
+Note	18000	18500	55
+Note	19000	19500	59
+Note	20000	20500	60
+Note	21000	22000	61
+Note	23000	23500	62
+Note	24000	24500	48
+Note	25000	25500	52
+Note	26000	26500	55
+Note	27000	27500	56
+Note	28000	28500	54
+Note	29000	29500	56
+Note	30000	31000	57
+Note	32000	32500	59
+Note	33000	34000	60
+Note	36000	36750	64
+Note	37500	37750	62
+Note	38000	38500	60
+Note	39000	39500	59
+Note	40000	40500	57
+Note	41000	41500	55
+Note	42000	43500	55
+Note	45000	46000	60
+Reference AGN: Jahreszeiten - Lied, Fruehling
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

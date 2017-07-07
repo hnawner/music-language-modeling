@@ -1,0 +1,41 @@
+Reference OTL: Die erzwungene Ehe 'Gaden Owend, ir Kechane, wa git et ech?'
+Reference ARE: Europa, Suedosteuropa, Rumaenien, Siebenbuergen
+Reference YOR: 2, S. 250
+Comment	   1931 gedruckt in Herrmannstadt (sehr alt)
+Reference SCT: Q1050B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	250	62
+Note	500	750	64
+Note	1000	1500	65
+Note	2000	2500	64
+Note	3000	3250	62
+Note	3500	3750	64
+Note	4000	4500	62
+Note	5000	5250	60
+Note	5500	5750	60
+Note	6000	6500	65
+Note	7000	7500	69
+Note	8000	8500	65
+Note	9000	9500	67
+Note	10000	11000	69
+Note	12000	12167	67
+Note	12333	12500	69
+Note	12667	12833	67
+Note	13000	14000	65
+Note	15000	15250	60
+Note	15500	15750	65
+Note	16000	17000	62
+Note	18000	18250	67
+Note	18500	18750	69
+Note	19000	20000	65
+Note	21000	21500	64
+Note	22000	22500	62
+Reference AGN: Hochzeits - Lied, Brauchtum
+Comment	Melodievergleich zu Q0050, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

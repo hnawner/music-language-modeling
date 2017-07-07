@@ -1,0 +1,94 @@
+Reference OTL: Verhaengnisvolle Heirat Daar reed er eenen kapitein twers door den bosch,
+Reference ARE: Europa, Mitteleuropa, Niederlande, West - Flandern
+Reference YOR: 2, S. 270
+Comment	   1900 aufgezeichnet (vor)
+Reference SCT: Q2052
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  3/2; 2/2
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	250	750	69
+Note	500	1250	71
+Note	875	1125	71
+Note	1000	1500	74
+Note	1250	1750	72
+Note	1500	3000	71
+Note	2250	2750	72
+Note	2500	3500	74
+Note	3000	4000	76
+Note	3500	4500	74
+Note	4000	5000	73
+Note	4500	7500	74
+Note	6250	6750	74
+Note	6500	7500	74
+Note	7000	7750	76
+Note	7375	7625	74
+Note	7500	9000	74
+Note	8250	8750	72
+Note	8500	9500	71
+Note	9000	10000	74
+Note	9500	10000	73
+Note	9750	10250	74
+Note	10000	10500	76
+Note	10250	10750	74
+Note	10500	11500	69
+Note	11000	12000	74
+Note	11500	12500	79
+Note	12000	13000	74
+Note	12500	13500	71
+Note	13000	14000	74
+Note	13500	14000	73
+Note	13750	14250	74
+Note	14000	14500	76
+Note	14250	14750	74
+Note	14500	15500	72
+Note	15000	15500	71
+Note	15250	15750	74
+Note	15500	16500	72
+Note	17000	18000	76
+Note	17500	18250	75
+Note	17875	18125	76
+Note	18000	18500	78
+Note	18250	18750	76
+Note	18500	19500	74
+Note	19000	20000	69
+Note	19500	20500	74
+Note	20000	20500	74
+Note	20250	20750	72
+Note	20500	22000	71
+Note	21250	21750	72
+Note	21500	23500	74
+Note	23000	24000	74
+Note	23500	24500	79
+Note	24000	25000	74
+Note	24500	25500	71
+Note	25000	26000	74
+Note	25500	26000	73
+Note	25750	26250	74
+Note	26000	26500	76
+Note	26250	26750	74
+Note	26500	27500	72
+Note	27000	27500	71
+Note	27250	27750	74
+Note	27500	28500	72
+Note	29000	30000	76
+Note	29500	30250	75
+Note	29875	30125	76
+Note	30000	30500	78
+Note	30250	30750	76
+Note	30500	31500	74
+Note	31000	32000	69
+Note	31500	32500	74
+Note	32000	32750	74
+Note	32375	32625	72
+Note	32500	34000	71
+Note	33250	33750	69
+Note	33500	35500	67
+Reference AGN: Ballade, Braut - Werbung, Minderjaehrige, Tod
+Comment	Niederlaendische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

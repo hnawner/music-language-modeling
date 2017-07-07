@@ -1,0 +1,57 @@
+Reference OTL: Springtanz der Ditmarsen
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0292
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	2000	62
+Note	1000	4000	62
+Note	2500	3500	61
+Note	3000	4000	62
+Note	3500	4500	61
+Note	4000	5000	62
+Note	4500	5500	64
+Note	5000	9000	65
+Note	7000	9000	64
+Note	8000	10000	64
+Note	9000	11000	62
+Note	10000	12000	64
+Note	11000	13000	62
+Note	12000	14000	60
+Note	13000	17000	59
+Note	16000	17000	62
+Note	16500	17500	62
+Note	17000	19000	57
+Note	18000	20000	59
+Note	19000	21000	60
+Note	20000	22000	62
+Note	21000	23000	64
+Note	22000	23000	62
+Note	22500	23500	60
+Note	23000	25000	59
+Note	24000	26000	64
+Note	25000	26000	64
+Note	25500	26500	62
+Note	26000	27000	64
+Note	26500	27500	65
+Note	27000	29000	69
+Note	28000	30000	67
+Note	29000	31000	65
+Note	30000	31000	64
+Note	30500	31500	62
+Note	31000	33000	60
+Note	32000	34000	62
+Note	33000	35000	64
+Note	34000	36000	62
+Note	35000	36000	61
+Note	35500	36500	59
+Note	36000	37000	62
+Note	36500	37500	61
+Note	37000	43000	62
+Reference AGN: Romanze, Ballade, Lied
+Comment	Souterliedekens ad Ps. 60.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

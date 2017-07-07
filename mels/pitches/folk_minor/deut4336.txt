@@ -1,0 +1,68 @@
+Reference OTL: St. Georg
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0612
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	1000	70
+Note	500	1500	69
+Note	1000	3000	67
+Note	2000	4000	74
+Note	3000	4500	72
+Note	3750	4250	74
+Note	4000	6000	75
+Note	5000	9000	74
+Note	8000	9000	70
+Note	8500	9500	69
+Note	9000	11000	67
+Note	10000	12000	74
+Note	11000	12500	72
+Note	11750	12250	74
+Note	12000	14000	75
+Note	13000	17000	74
+Note	15000	17000	74
+Note	16000	17000	76
+Note	16500	17500	77
+Note	17000	19000	79
+Note	18000	19000	74
+Note	18500	19500	74
+Note	19000	20500	72
+Note	19750	20250	70
+Note	20000	21000	72
+Note	20500	21500	74
+Note	21000	25000	70
+Note	24000	25000	77
+Note	24500	25500	77
+Note	25000	27000	79
+Note	26000	27500	74
+Note	26750	27250	72
+Note	27000	28000	70
+Note	27500	28500	70
+Note	28000	29000	72
+Note	28500	29500	72
+Note	29000	33000	74
+Note	32000	33000	70
+Note	32500	33500	69
+Note	33000	34000	67
+Note	33500	34500	69
+Note	34000	36000	70
+Note	35000	36000	72
+Note	35500	36500	69
+Note	36000	38000	67
+Note	37000	38000	74
+Note	37500	38500	74
+Note	38000	40000	72
+Note	39000	39500	67
+Note	39250	39750	69
+Note	39500	40000	70
+Note	39750	40250	72
+Note	40000	41000	69
+Note	40500	41500	69
+Note	41000	45000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	WK II No. 1235 (nach Altkoelnischer Volksgesang Gsgb 1625)
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

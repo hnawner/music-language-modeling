@@ -1,0 +1,47 @@
+Reference OTL: AM STILLEN HAIN IM MONDENSCHEIN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0934
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 4 sharps
+Info key A-flat Major
+Note	0	1000	63
+Note	1000	1750	72
+Note	1750	2000	72
+Note	2000	3500	72
+Note	3500	4000	63
+Note	4000	4750	73
+Note	4750	5000	73
+Note	5000	6500	73
+Note	6500	6750	72
+Note	6750	7000	72
+Note	7000	8333	70
+Note	8333	8667	69
+Note	8667	9000	70
+Note	9000	9333	70
+Note	9333	9667	72
+Note	9667	10000	73
+Note	10000	11333	75
+Note	11333	11667	74
+Note	11667	12000	75
+Note	12000	12333	75
+Note	12333	12667	72
+Note	12667	13000	68
+Note	13000	15000	80
+Note	15000	15500	78
+Note	15500	16000	76
+Note	16000	17500	75
+Note	17500	18000	72
+Note	18000	18500	75
+Note	18500	19000	80
+Note	19000	20000	80
+Note	20000	20500	79
+Note	20500	21000	73
+Note	21000	21500	77
+Note	21500	22000	75
+Note	22000	26000	75
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,61 @@
+Reference OTL: Herr von Braunschweig Dien edele heer van brunsesvick
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference YOR: 1, S. 241
+Comment	   14?? Handschrift  (ausgehendes 15. Jh.)
+Reference SCT: Q0023
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	2000	62
+Note	2000	3000	65
+Note	3000	4000	67
+Note	4000	6000	69
+Note	6000	8000	65
+Note	8000	9000	67
+Note	9000	10000	67
+Note	10000	12000	69
+Note	12000	14000	74
+Note	14000	15000	72
+Note	15000	16000	74
+Note	16000	18000	72
+Note	18000	20000	71
+Note	20000	22000	69
+Note	22000	24000	65
+Note	24000	25000	65
+Note	25000	27000	65
+Note	27000	28000	65
+Note	28000	30000	69
+Note	30000	32000	65
+Note	32000	33000	64
+Note	33000	34000	64
+Note	34000	36000	62
+Note	36000	37000	62
+Note	37000	38000	65
+Note	38000	39000	67
+Note	39000	41000	69
+Note	41000	43000	65
+Note	43000	45000	64
+Note	45000	47000	62
+Note	47000	48000	65
+Note	48000	50000	65
+Note	50000	51000	65
+Note	51000	53000	69
+Note	53000	55000	65
+Note	55000	56000	64
+Note	56000	57000	64
+Note	57000	59000	62
+Note	59000	60000	62
+Note	60000	61000	65
+Note	61000	62000	67
+Note	62000	64000	69
+Note	64000	66000	65
+Note	66000	68000	64
+Note	68000	70000	62
+Reference AGN: Ballade, Hinrichtung, Tod, Vergeltung; geistlich
+Comment	Melodie = geistliche Kontrafaktur in Choralnotation.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

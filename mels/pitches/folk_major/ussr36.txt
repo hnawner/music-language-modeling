@@ -1,0 +1,43 @@
+Reference OTL: Graf und Nonne (Die Nonne) Stand ich auf hohen Felsen
+Reference ARE: Europa, Osteuropa, UdSSR, Bessarabien, Karolinengrund, Eigenheim
+Reference YOR: 8, S. 97
+Comment	   1941 aufgezeichnet
+Reference SCT: Q0155k
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key E-flat Major
+Note	0	500	58
+Note	1000	2000	63
+Note	3000	3500	67
+Note	4000	5000	70
+Note	6000	6500	63
+Note	7000	7500	63
+Note	8000	9000	62
+Note	12000	12500	58
+Note	13000	14000	62
+Note	15000	15500	65
+Note	16000	17000	70
+Note	18000	18500	68
+Note	19000	20500	67
+Note	24000	24250	63
+Note	24500	24750	65
+Note	25000	26000	67
+Note	27000	27500	67
+Note	28000	29000	68
+Note	30000	30500	70
+Note	31000	32000	72
+Note	33000	33500	75
+Note	34000	35000	74
+Note	36000	36500	72
+Note	37000	37500	70
+Note	38000	38500	70
+Note	39000	39500	70
+Note	40000	41000	70
+Note	42000	42500	68
+Note	43000	44500	67
+Reference AGN: Ballade, Standesunterschied, Werbung, Liebe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

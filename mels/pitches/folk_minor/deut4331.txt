@@ -1,0 +1,55 @@
+Reference OTL: Jacobslied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0610B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	4000	70
+Note	1000	5000	70
+Note	2000	6000	72
+Note	3000	7000	72
+Note	4000	10000	74
+Note	5500	7500	74
+Note	6000	10000	74
+Note	7500	9500	74
+Note	8000	12000	74
+Note	9000	13000	74
+Note	10000	14000	74
+Note	11000	15000	74
+Note	12000	16000	72
+Note	13000	17000	70
+Note	14000	18000	72
+Note	15500	17500	72
+Note	16000	20000	74
+Note	17000	21000	74
+Note	18000	22000	70
+Note	19000	23000	70
+Note	20000	28000	67
+Note	22000	30000	65
+Note	24000	28000	74
+Note	25000	29000	74
+Note	26000	32000	70
+Note	27500	29500	72
+Note	28000	32000	74
+Note	29000	33000	70
+Note	30000	34000	72
+Note	31000	35000	72
+Note	32000	38000	69
+Note	33500	35500	70
+Note	34000	38000	72
+Note	35500	37500	72
+Note	36000	40000	70
+Note	37000	41000	69
+Note	38000	42000	67
+Note	39000	43000	70
+Note	40000	42000	69
+Note	40500	42500	67
+Note	41000	45000	69
+Note	42000	50000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Muenchner Hs. Ende des 15. Jh.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,43 @@
+Reference OTL: DER LIPP UND DER LENZ
+Reference ARE: Europa, Mitteleuropa, Deutschland, Sueddeutschland
+Reference SCT: E1044
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	65
+Note	1000	1500	69
+Note	2000	2250	65
+Note	2500	2750	69
+Note	3000	3250	72
+Note	3500	3750	69
+Note	4000	4500	67
+Note	5000	5500	64
+Note	6000	6500	67
+Note	7000	7500	70
+Note	8000	8250	67
+Note	8500	8750	70
+Note	9000	9250	74
+Note	9500	9750	70
+Note	10000	10500	69
+Note	11000	11500	65
+Note	12000	12500	65
+Note	13000	13500	69
+Note	14000	14250	65
+Note	14500	14750	69
+Note	15000	15250	72
+Note	15500	15750	69
+Note	16000	16500	67
+Note	17000	17500	64
+Note	18000	18500	64
+Note	19000	19500	67
+Note	20000	20250	64
+Note	20500	20750	67
+Note	21000	21250	70
+Note	21500	21750	67
+Note	22000	22500	65
+Reference AGN: Tanz - Lied, Dreher
+Reference ONB: ESAC (Essen Associative Code) Database: ERK3
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,50 @@
+Reference OTL: Der geistliche Buchsbaum
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0654D
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	1000	69
+Note	1000	2000	69
+Note	2000	3000	69
+Note	3000	4000	71
+Note	4000	5000	73
+Note	5000	6000	74
+Note	6000	7000	73
+Note	7000	9000	71
+Note	10000	11000	73
+Note	11000	12000	74
+Note	12000	13000	74
+Note	13000	14000	73
+Note	14000	15000	69
+Note	15000	16000	71
+Note	16000	17000	73
+Note	17000	19000	71
+Note	20000	21000	71
+Note	21000	22000	69
+Note	22000	23000	69
+Note	23000	24000	69
+Note	24000	25000	66
+Note	25000	27000	68
+Note	27000	29000	69
+Note	30000	31000	71
+Note	31000	32000	73
+Note	32000	33000	74
+Note	33000	34000	74
+Note	34000	35000	73
+Note	35000	37000	69
+Note	37000	39000	71
+Note	40000	41000	69
+Note	41000	42000	73
+Note	42000	43000	74
+Note	43000	44000	74
+Note	44000	45000	73
+Note	45000	47000	71
+Note	47000	51000	69
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Koenigs harmon. Liederschatz 1738 S. 277
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

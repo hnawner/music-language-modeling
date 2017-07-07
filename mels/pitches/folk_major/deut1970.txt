@@ -1,0 +1,50 @@
+Reference OTL: ES HATTEN SICH SIEBN UND SIEBZIG SCHNEIDER
+Reference ARE: Europa, Mitteleuropa, Deutschland, Hessen, Darmstadt
+Reference SCT: E1636
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	1500	62
+Note	2000	2500	67
+Note	3000	3500	67
+Note	4000	4500	67
+Note	5000	5500	67
+Note	6000	6500	69
+Note	7000	7500	67
+Note	8000	8500	66
+Note	9000	9500	64
+Note	10000	11000	62
+Note	12000	12500	67
+Note	13000	13500	64
+Note	14000	14500	64
+Note	15000	15500	64
+Note	16000	16500	64
+Note	17000	17500	64
+Note	18000	18500	67
+Note	19000	19500	62
+Note	20000	20500	62
+Note	21000	21500	62
+Note	22000	23000	59
+Note	24000	24500	62
+Note	25000	25750	67
+Note	26500	26750	67
+Note	27000	27500	67
+Note	28000	28500	69
+Note	29000	29500	67
+Note	30000	30500	69
+Note	31000	32500	71
+Note	34000	35500	74
+Note	37000	37750	71
+Note	38500	38750	72
+Note	39000	39500	71
+Note	40000	40500	69
+Note	41000	41500	67
+Note	42000	42500	69
+Note	43000	44500	67
+Reference AGN: Staende -, Handwerker - Lied, Schneider
+Reference ONB: ESAC (Essen Associative Code) Database: ERK3
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

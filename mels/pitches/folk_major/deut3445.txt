@@ -1,0 +1,33 @@
+Reference OTL: Die Rabenmutter Es trieb ein Schaefer oben ein,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Nord - Bayern, Mittel - Franken
+Reference YOR: 5, S. 269
+Comment	   ????
+Reference SCT: Q0114O
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	500	1000	67
+Note	1000	1500	62
+Note	1500	2500	67
+Note	2500	3500	71
+Note	3500	4500	74
+Note	4500	5000	72
+Note	5000	5500	71
+Note	5500	6500	69
+Note	7000	7500	74
+Note	7500	8000	79
+Note	8000	8500	74
+Note	8500	9500	71
+Note	9500	10500	76
+Note	10500	11500	74
+Note	11500	12000	69
+Note	12000	12500	72
+Note	12500	14000	71
+Reference AGN: Ballade, Kinds - Mord, Strafe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,49 @@
+Reference OTL: Verschlafener Jaeger Es begab sich ein Jaeger auf's Jagen
+Reference ARE: Europa, Mitteleuropa, Oesterreich / Italia, Sued - Tirol, Feldthurns
+Reference YOR: 7, S. 215
+Comment	   1907 aufgezeichnet
+Reference SCT: Q0152H
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	250	71
+Note	500	750	71
+Note	1000	1500	71
+Note	2000	2500	69
+Note	3000	3500	67
+Note	4000	4500	67
+Note	5000	5500	66
+Note	6000	6500	67
+Note	7000	7500	69
+Note	8000	8500	66
+Note	9000	9500	72
+Note	10000	10500	72
+Note	11000	11500	71
+Note	12000	12500	69
+Note	13000	13500	69
+Note	14000	14500	67
+Note	15000	15500	69
+Note	16000	16500	71
+Note	17000	17500	67
+Note	18000	18500	74
+Note	19000	19500	71
+Note	20000	20500	71
+Note	21000	21500	71
+Note	22000	22500	71
+Note	23000	23500	69
+Note	24000	24500	67
+Note	25000	26000	74
+Note	27000	27500	72
+Note	28000	28500	71
+Note	29000	29500	71
+Note	30000	30500	71
+Note	31000	31500	69
+Note	32000	32500	69
+Note	33000	33500	69
+Note	34000	35000	67
+Reference AGN: Ballade, Verfuehrung, Versagen, Spott
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,46 @@
+Reference OTL: VOEGLEIN EINSAM IN DEM BAUER
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0267
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	1000	62
+Note	2000	2500	67
+Note	3000	4000	70
+Note	5000	5500	70
+Note	6000	7000	70
+Note	8000	8500	69
+Note	9000	10000	67
+Note	11000	11500	62
+Note	12000	13000	67
+Note	14000	14500	69
+Note	15000	16000	70
+Note	17000	17250	67
+Note	17500	17750	69
+Note	18000	19000	70
+Note	20000	20500	72
+Note	21000	22500	74
+Note	24000	24500	72
+Note	25000	25500	74
+Note	26000	26500	72
+Note	27000	28000	70
+Note	29000	29500	70
+Note	30000	30500	69
+Note	31000	31500	70
+Note	32000	32500	69
+Note	33000	34000	67
+Note	35000	35500	62
+Note	36000	37000	63
+Note	38000	38500	60
+Note	39000	39500	62
+Note	40000	40500	67
+Note	41000	41500	70
+Note	42000	43000	70
+Note	44000	44500	69
+Note	45000	46500	67
+Reference AGN: Stimmungs - Lied, Trauer
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

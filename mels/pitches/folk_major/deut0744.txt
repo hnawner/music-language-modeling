@@ -1,0 +1,55 @@
+Reference OTL: ES WAR EINMAL EINE JUEDIN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Uckermark, Granzow
+Reference SCT: E0098B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	60
+Note	1000	2000	65
+Note	3000	3500	65
+Note	4000	4750	67
+Note	5500	5750	70
+Note	6000	6250	69
+Note	6500	6750	67
+Note	7000	7500	69
+Note	8000	8500	65
+Note	9000	9500	77
+Note	10000	10750	76
+Note	11500	11750	74
+Note	12000	12500	72
+Note	13000	14000	74
+Note	15000	15500	71
+Note	16000	17000	72
+Note	18000	18500	72
+Note	19000	19500	77
+Note	20000	20500	77
+Note	21000	21500	72
+Note	22000	22750	74
+Note	23500	23750	76
+Note	24000	24250	77
+Note	24500	24750	74
+Note	25000	25500	72
+Note	26000	26500	69
+Note	27000	27500	72
+Note	28000	29000	77
+Note	30000	30250	72
+Note	30500	30750	74
+Note	31000	31750	72
+Note	32500	32750	70
+Note	33000	33250	67
+Note	33500	33750	70
+Note	34000	34500	69
+Note	35000	35500	65
+Note	37000	37500	69
+Note	38000	38500	69
+Note	39000	39500	74
+Note	40000	40500	72
+Note	41000	41500	70
+Note	42000	42500	67
+Note	43000	44000	65
+Reference AGN: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Ballade ?
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,50 @@
+Reference OTL: ES WAREN ZWEI KOENIGSKINDER
+Reference ARE: Europa, Mitteleuropa, Deutschland, Niederrhein; Bergisches Land
+Reference SCT: E0084B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	500	70
+Note	1000	1500	67
+Note	2000	2500	67
+Note	3000	3500	69
+Note	4000	4500	70
+Note	5000	5500	69
+Note	6000	6500	70
+Note	7000	8000	67
+Note	9000	9500	70
+Note	10000	11000	69
+Note	12000	12500	70
+Note	13000	13500	67
+Note	14000	14500	67
+Note	15000	15500	69
+Note	16000	16500	72
+Note	17000	17500	70
+Note	18000	18500	69
+Note	19000	20000	67
+Note	21000	21500	66
+Note	22000	23000	67
+Note	24000	24250	67
+Note	24500	24750	69
+Note	25000	25500	70
+Note	26000	26500	70
+Note	27000	27500	70
+Note	28000	28500	72
+Note	29000	29500	72
+Note	30000	30500	72
+Note	31000	32500	74
+Note	34000	35000	72
+Note	36000	36500	74
+Note	37000	37500	70
+Note	38000	38500	69
+Note	39000	39500	67
+Note	40000	40500	66
+Note	41000	41500	67
+Note	42000	42500	69
+Note	43000	45000	67
+Reference AGN: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod, Ballade ?
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

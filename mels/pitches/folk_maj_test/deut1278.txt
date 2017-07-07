@@ -1,0 +1,40 @@
+Reference OTL: ICH MUSS MICH UMSCHAUEN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Brandenburg
+Reference SCT: E0685C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	250	67
+Note	500	750	69
+Note	1000	1750	71
+Note	2500	2750	72
+Note	3000	3250	71
+Note	3500	3750	69
+Note	4000	4250	69
+Note	4500	4750	67
+Note	5000	5500	67
+Note	6000	6500	69
+Note	7000	7500	72
+Note	8000	8500	72
+Note	9000	9500	71
+Note	10000	11000	69
+Note	12000	12250	69
+Note	12500	12750	71
+Note	13000	13500	72
+Note	14000	14500	72
+Note	15000	15250	74
+Note	15500	15750	72
+Note	16000	16500	71
+Note	17000	17500	74
+Note	18000	18250	69
+Note	18500	18750	69
+Note	19000	19500	67
+Note	20000	20500	71
+Note	21000	21500	69
+Note	22000	23000	67
+Reference AGN: Liebes - Lied, Leid, Klage, Trennung
+Reference ONB: ESAC (Essen Associative Code) Database: ERK2
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

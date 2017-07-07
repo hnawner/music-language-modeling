@@ -1,0 +1,68 @@
+Reference OTL: Die Brombeerpflueckerin Es soll ein Maedel fruh aufstehn
+Reference ARE: Europa, Osteuropa, Tschechoslowakei, Slowakei, Dt. Proben, Kremnitz,
+Comment	   Glaserhaeu
+Reference ARD1: Europa%Osteuropa%Tschechoslowakei@Dt. Proben:Kremnitz!Glaserhaeu!?
+Reference ARL1: ? / ?
+Reference ARD2: Europa%Osteuropa%Slovensko@Dt. Proben:Kremnitz!
+Reference ARL2: 48.70/18.91!
+Reference YOR: 7, S. 77
+Comment	   1930 aufgezeichnet
+Reference SCT: Q0147D
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	66
+Note	1000	2000	69
+Note	3000	3500	69
+Note	4000	5000	69
+Note	6000	6500	71
+Note	7000	8000	69
+Note	9000	9500	67
+Note	10000	11000	66
+Note	12000	12500	69
+Note	13000	14000	74
+Note	15000	15500	74
+Note	16000	17000	73
+Note	18000	18500	71
+Note	19000	20000	67
+Note	24000	24500	73
+Note	25000	25500	76
+Note	26000	26500	74
+Note	27000	27500	71
+Note	28000	28500	76
+Note	29000	29500	74
+Note	30000	30500	71
+Note	31000	32000	69
+Note	33000	33500	74
+Note	34000	35000	69
+Note	36000	36500	74
+Note	37000	38000	73
+Note	39000	39500	71
+Note	40000	40500	69
+Note	41000	41500	67
+Note	42000	42500	69
+Note	43000	44000	66
+Note	48000	48500	69
+Note	49000	49500	76
+Note	50000	50500	74
+Note	51000	51500	71
+Note	52000	52500	76
+Note	53000	53500	74
+Note	54000	54500	71
+Note	55000	56000	69
+Note	57000	57500	74
+Note	58000	59000	69
+Note	60000	60500	74
+Note	61000	62000	73
+Note	63000	63500	71
+Note	64000	64500	69
+Note	65000	65500	67
+Note	66000	66500	69
+Note	67000	68000	66
+Reference AGN: Ballade, Verfuehrung, Schwangerschaft
+Comment	Vierte und siebte Zeile refrainartig.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

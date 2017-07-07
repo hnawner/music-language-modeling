@@ -1,0 +1,27 @@
+Reference OTL: Der ausgeweidete Jaeger Bie vrie ischt auf khluains Jagerle.
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee, Oberwetzenbach
+Reference YOR: 4, S. 230
+Comment	   1909 aufgezeichnet
+Reference SCT: Q0082
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	60
+Note	1000	2000	65
+Note	2000	3000	62
+Note	3000	4000	65
+Note	4000	5000	64
+Note	5000	6000	60
+Note	6000	7000	60
+Note	7000	8000	59
+Note	8000	9000	62
+Note	9000	10000	62
+Note	10000	12000	60
+Reference AGN: Ballade, Magie
+Comment	Grundton in der zweigestrichenen Oktave. Melodie wird durch
+Comment	   Wiederholung (Text + Musik) zum Zweizeiler.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

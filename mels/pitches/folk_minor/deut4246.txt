@@ -1,0 +1,67 @@
+Reference OTL: Neujahrslied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0529B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	4000	67
+Note	2000	6000	74
+Note	4000	6000	69
+Note	5000	7000	70
+Note	6000	8000	72
+Note	7000	9000	74
+Note	8000	12000	70
+Note	10000	14000	69
+Note	12000	16000	67
+Note	15000	17000	67
+Note	16000	18000	74
+Note	17000	19000	74
+Note	18000	22000	76
+Note	20000	24000	77
+Note	22000	26000	76
+Note	24000	28000	74
+Note	26000	30000	73
+Note	28000	32000	74
+Note	31000	33000	74
+Note	32000	36000	79
+Note	34000	38000	76
+Note	36000	40000	77
+Note	38000	42000	74
+Note	40000	44000	72
+Note	42000	46000	70
+Note	44000	48000	69
+Note	47000	49000	69
+Note	48000	52000	67
+Note	50000	52000	74
+Note	51000	53000	74
+Note	52000	54000	69
+Note	53000	55000	70
+Note	54000	56000	72
+Note	55000	57000	74
+Note	56000	60000	70
+Note	58000	62000	69
+Note	60000	64000	67
+Note	63000	65000	67
+Note	64000	68000	66
+Note	66000	68000	67
+Note	67000	69000	67
+Note	68000	70000	69
+Note	69000	71000	74
+Note	70000	72000	72
+Note	71000	72000	70
+Note	71500	72500	69
+Note	72000	76000	67
+Note	75000	77000	74
+Note	76000	80000	74
+Note	78000	80000	72
+Note	79000	81000	74
+Note	80000	84000	70
+Note	82000	86000	69
+Note	84000	92000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Muenchner Gsgb. 1586 fol 8b.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

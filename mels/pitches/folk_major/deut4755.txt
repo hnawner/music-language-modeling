@@ -1,0 +1,36 @@
+Reference OTL: UND E BISSERLE LIEB UND E BISSERLE TREU
+Reference ARE: Europa, Mitteleuropa, Deutschland, bayrisches Gebirge
+Reference SCT: Z0255A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	250	65
+Note	500	750	69
+Note	1000	1500	72
+Note	2000	2750	72
+Note	3500	3750	72
+Note	4000	4500	74
+Note	5000	5750	72
+Note	6500	6750	69
+Note	7000	7500	72
+Note	8000	8750	70
+Note	9500	9750	67
+Note	10000	11000	69
+Note	12000	12250	65
+Note	12500	12750	69
+Note	13000	13500	69
+Note	14000	14750	67
+Note	15500	15750	67
+Note	16000	16500	67
+Note	17000	17750	65
+Note	18500	18750	65
+Note	19000	19500	67
+Note	20000	20750	72
+Note	21500	21750	64
+Note	22000	23000	65
+Reference AGN: lyrisches Lied, Romanze
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

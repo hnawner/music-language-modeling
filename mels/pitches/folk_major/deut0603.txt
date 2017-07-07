@@ -1,0 +1,53 @@
+Reference OTL: ICH WEISS EIN JAEGER
+Reference ARE: Europa, Mitteleuropa, Deutschland, Regensburg
+Reference SCT: E0019E
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	500	65
+Note	1000	2000	70
+Note	3000	3500	74
+Note	4000	4750	74
+Note	5500	5750	72
+Note	6000	6500	70
+Note	7000	8000	69
+Note	9000	9500	72
+Note	10000	11500	72
+Note	13000	13750	70
+Note	14500	14750	72
+Note	15000	15500	74
+Note	16000	16500	74
+Note	17000	17500	72
+Note	18000	18500	70
+Note	19000	21000	72
+Note	24000	24500	70
+Note	25000	26000	74
+Note	27000	27500	77
+Note	28000	28750	77
+Note	29500	29750	75
+Note	30000	30500	74
+Note	31000	32000	72
+Note	33000	33500	75
+Note	34000	35500	75
+Note	37000	37750	74
+Note	38500	38750	74
+Note	39000	39500	74
+Note	40000	40500	74
+Note	41000	41500	72
+Note	42000	42500	70
+Note	43000	44000	69
+Note	45000	45500	72
+Note	46000	47500	72
+Note	49000	49750	70
+Note	50500	50750	72
+Note	51000	51500	74
+Note	52000	52500	74
+Note	53000	53500	72
+Note	54000	54500	72
+Note	55000	57000	70
+Reference AGN: Sage, Maerchen -, Zauber - Lied, Ballade ?
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

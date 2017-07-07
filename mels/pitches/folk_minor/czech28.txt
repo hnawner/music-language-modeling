@@ -1,0 +1,62 @@
+Reference OTL: Die Hauptmannstochter Jesli te, ma mila, hlava boli
+Reference ARE: Europa, Osteuropa, Tschechoslowakei, Maehren
+Reference ARD1: Europa%Osteuropa%Deutschland@Maehren:?
+Reference ARL1: 50.53/7.91:?
+Reference ARD2: Europa%Osteuropa%Tschechoslowakei@
+Reference ARL2: 49.75/15@
+Reference YOR: 5, S. 138
+Comment	   1895 gedruckt in Prag (vor)
+Reference SCT: Q3101E
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	750	67
+Note	1500	1750	67
+Note	2000	2500	69
+Note	3000	3750	70
+Note	4500	4750	69
+Note	5000	5500	72
+Note	6000	6250	70
+Note	6500	6750	69
+Note	7000	8000	67
+Note	9000	10000	65
+Note	12000	12750	70
+Note	13500	13750	70
+Note	14000	14500	72
+Note	15000	15750	74
+Note	16500	16750	74
+Note	17000	17500	70
+Note	18000	18250	76
+Note	18500	18750	74
+Note	19000	20000	72
+Note	21000	22000	70
+Note	24000	24750	74
+Note	25500	25750	72
+Note	26000	26500	69
+Note	27000	27500	72
+Note	28000	28250	70
+Note	28500	28750	69
+Note	29000	29500	67
+Note	30000	30250	70
+Note	30500	30750	69
+Note	31000	32000	67
+Note	33000	33750	69
+Note	34500	34750	69
+Note	35000	35500	62
+Note	36000	36750	67
+Note	37500	37750	67
+Note	38000	38500	69
+Note	39000	39500	70
+Note	40000	40500	69
+Note	41000	41500	70
+Note	42000	42250	72
+Note	42500	42750	70
+Note	43000	44000	69
+Note	45000	46000	67
+Reference AGN: ???
+Comment	Melodievergleich zu Q0101D, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,38 @@
+Reference OTL: AUF AUF SCHAETZLE STEH AUF
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: E0820
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	67
+Note	3000	4000	69
+Note	6000	6500	71
+Note	7000	7500	72
+Note	8000	8500	69
+Note	9000	10000	67
+Note	12000	12500	71
+Note	13000	13500	74
+Note	14000	14500	74
+Note	15000	15500	74
+Note	16000	16250	72
+Note	16500	16750	71
+Note	17000	17500	72
+Note	18000	18500	69
+Note	19000	19500	72
+Note	20000	20500	72
+Note	21000	21500	72
+Note	22000	22250	71
+Note	22500	22750	69
+Note	23000	23500	71
+Note	24000	25000	67
+Note	27000	28000	69
+Note	30000	30500	71
+Note	31000	31500	72
+Note	32000	32500	69
+Note	33000	34000	67
+Reference AGN: Kilt - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK2
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

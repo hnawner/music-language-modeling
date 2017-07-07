@@ -1,0 +1,54 @@
+Reference OTL: Venus, du und dein Kind
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0219B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	2000	62
+Note	1000	3000	62
+Note	2000	4000	69
+Note	3000	5000	69
+Note	4000	6000	68
+Note	5000	9000	69
+Note	8000	10000	69
+Note	9000	11000	69
+Note	10000	12000	67
+Note	11000	13000	65
+Note	12000	14000	67
+Note	13000	17000	64
+Note	16000	18000	64
+Note	17000	19000	65
+Note	18000	20000	67
+Note	19000	21000	69
+Note	20000	22000	69
+Note	21000	23000	69
+Note	22000	24000	68
+Note	23000	25000	69
+Note	24000	26000	64
+Note	25000	27000	65
+Note	26000	28000	67
+Note	27000	29000	69
+Note	28000	30000	69
+Note	29000	33000	67
+Note	31000	35000	69
+Note	34000	36000	69
+Note	35000	37000	69
+Note	36000	38000	70
+Note	37000	39000	72
+Note	38000	40000	69
+Note	39000	43000	67
+Note	41000	43000	67
+Note	42000	44000	67
+Note	43000	45000	69
+Note	44000	46000	67
+Note	45000	47000	65
+Note	46000	48000	67
+Note	47000	51000	64
+Note	49000	55000	62
+Reference AGN: Romanze, Ballade, Lied
+Comment	Als geistliches Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

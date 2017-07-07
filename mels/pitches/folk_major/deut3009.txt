@@ -1,0 +1,43 @@
+Reference OTL: Grausiges Mahl 'Gott gruess' Euch, edle Fraue,
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien, Haynau, Konradsdorf
+Reference YOR: 1, S. 171
+Comment	   1840 aufgezeichnet
+Reference SCT: Q0017
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	69
+Note	500	1000	72
+Note	1000	1500	69
+Note	1500	2000	72
+Note	2000	2500	69
+Note	2500	3500	72
+Note	3500	4000	74
+Note	4000	4500	72
+Note	4500	5000	70
+Note	5000	5500	67
+Note	5500	6000	70
+Note	6000	6500	67
+Note	6500	7500	70
+Note	7500	8000	72
+Note	8000	8500	70
+Note	8500	9000	69
+Note	9000	9500	69
+Note	9500	10000	72
+Note	10000	10500	72
+Note	10500	11000	69
+Note	11000	11500	70
+Note	11500	12000	72
+Note	12000	12500	72
+Note	12500	13000	72
+Note	13000	13500	72
+Note	13500	14000	69
+Note	14000	14500	72
+Note	14500	15500	69
+Reference AGN: Ballade, Eifersucht, Ehe, Mord
+Comment	Kleinere Melodievariante aus anderer Quelle abgedruckt.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

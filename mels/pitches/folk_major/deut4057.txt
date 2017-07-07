@@ -1,0 +1,72 @@
+Reference OTL: Abendlust
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0334A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	2000	64
+Note	1000	3000	69
+Note	2000	4000	69
+Note	3000	5000	71
+Note	4000	5000	69
+Note	4500	5500	71
+Note	5000	7000	73
+Note	6000	7000	71
+Note	6500	7500	69
+Note	7000	9000	71
+Note	8000	10000	74
+Note	9000	11000	73
+Note	10000	12000	69
+Note	11000	13000	68
+Note	12000	13000	66
+Note	12500	13500	68
+Note	13000	17000	69
+Note	16000	18000	64
+Note	17000	19000	69
+Note	18000	20000	69
+Note	19000	21000	71
+Note	20000	21000	69
+Note	20500	21500	71
+Note	21000	23000	73
+Note	22000	23000	71
+Note	22500	23500	69
+Note	23000	25000	71
+Note	24000	26000	74
+Note	25000	27000	73
+Note	26000	28000	69
+Note	27000	29000	68
+Note	28000	29000	66
+Note	28500	29500	68
+Note	29000	33000	69
+Note	32000	34000	69
+Note	33000	35000	74
+Note	34000	36000	73
+Note	35000	37000	71
+Note	36000	37000	69
+Note	36500	37500	71
+Note	37000	39000	73
+Note	38000	39000	71
+Note	38500	39500	69
+Note	39000	41000	71
+Note	40000	42000	73
+Note	41000	43000	74
+Note	42000	44000	73
+Note	43000	45000	71
+Note	44000	45000	69
+Note	44500	45500	71
+Note	45000	47000	73
+Note	46000	47000	71
+Note	46500	47500	69
+Note	47000	49000	71
+Note	49000	51000	73
+Note	50000	52000	69
+Note	51000	53000	69
+Note	52000	54000	68
+Note	53000	57000	69
+Reference AGN: Romanze, Ballade, Lied, Trinklied
+Comment	Hainhofer Lautenbuch II S. 32b. (1603)
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

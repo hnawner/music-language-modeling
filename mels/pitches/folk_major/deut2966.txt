@@ -1,0 +1,40 @@
+Reference OTL: LASS DICH SCHNEIDEN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Westfalen, Waldbroel
+Reference SCT: B0773
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	69
+Note	2000	2500	67
+Note	3000	4000	65
+Note	5000	5500	60
+Note	6000	7000	72
+Note	8000	8500	70
+Note	9000	10000	69
+Note	11000	11500	65
+Note	12000	13000	67
+Note	14000	14500	67
+Note	15000	15500	67
+Note	16000	16500	72
+Note	17000	17500	69
+Note	18000	19500	67
+Note	24000	25000	69
+Note	26000	26500	71
+Note	27000	28000	72
+Note	29000	29500	72
+Note	30000	31000	69
+Note	32000	32500	71
+Note	33000	34000	72
+Note	35000	35500	72
+Note	36000	37000	77
+Note	38000	38500	69
+Note	39000	39500	70
+Note	40000	40500	69
+Note	41000	41500	67
+Note	42000	43500	65
+Reference AGN: Stande - Lied, Bauern, religioes
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,58 @@
+Reference OTL: Pfingstlied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0567B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	8000	65
+Note	2000	6000	67
+Note	3000	7000	67
+Note	4000	8000	65
+Note	5000	9000	65
+Note	6000	10000	62
+Note	7000	11000	60
+Note	8000	12000	62
+Note	9000	13000	65
+Note	10000	14000	65
+Note	12000	16000	69
+Note	13000	17000	72
+Note	14000	18000	74
+Note	15000	19000	72
+Note	16000	20000	69
+Note	17000	21000	65
+Note	18000	22000	62
+Note	19000	23000	65
+Note	20000	24000	65
+Note	22000	28000	69
+Note	23500	25500	69
+Note	24000	28000	69
+Note	25000	29000	67
+Note	26000	34000	69
+Note	28000	32000	65
+Note	29000	33000	65
+Note	30000	34000	67
+Note	31000	35000	67
+Note	32000	40000	69
+Note	34000	42000	65
+Note	36000	40000	67
+Note	37000	41000	67
+Note	38000	46000	69
+Note	40000	48000	65
+Note	42000	50000	62
+Note	44000	48000	65
+Note	45000	49000	65
+Note	46000	50000	67
+Note	47000	51000	65
+Note	48000	52000	64
+Note	49000	53000	62
+Note	50000	56000	62
+Note	51500	53500	64
+Note	52000	60000	65
+Note	54000	62000	65
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Leisentrit 1567 I. fol. 183
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

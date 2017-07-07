@@ -1,0 +1,44 @@
+Reference OTL: Der Hammerschmiedssohn Susannchen sprang zum Thor hinaus,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Hessen - Darmstadt, Schlierbach
+Reference YOR: 4, S. 358
+Comment	   1894 gedruckt in Leipzig
+Reference SCT: Q0088E
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	67
+Note	1000	2500	72
+Note	2500	3000	72
+Note	3000	4000	72
+Note	4000	5000	72
+Note	5000	6500	76
+Note	6500	7000	74
+Note	7000	8000	72
+Note	11000	13000	76
+Note	13000	15000	74
+Note	15000	17000	72
+Note	17000	19000	71
+Note	19000	21000	69
+Note	21000	22500	67
+Note	22500	23000	69
+Note	23000	24000	67
+Note	24000	25000	65
+Note	25000	26000	64
+Note	26000	27000	67
+Note	27000	28000	64
+Note	28000	29000	67
+Note	29000	30500	76
+Note	30500	31000	74
+Note	31000	32000	72
+Note	32000	33000	72
+Note	33000	35000	74
+Note	35000	37000	71
+Note	37000	39000	72
+Reference AGN: Ballade, Verfuehrung, Schwangerschaft, Mord
+Comment	Pause am Ende der 2. Zeile ergaenzt (siehe auch zweiten Druck der
+Comment	   Melodie auf S. 360) .
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

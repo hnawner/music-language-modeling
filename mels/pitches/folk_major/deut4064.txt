@@ -1,0 +1,53 @@
+Reference OTL: Trinklied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0340
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/2; 3/1
+Info keysig no accidentals
+Info key C Major
+Note	0	2000	55
+Note	500	2500	60
+Note	1000	3000	60
+Note	1500	3500	62
+Note	2000	4000	62
+Note	2500	6500	64
+Note	3500	7500	60
+Note	4500	8500	67
+Note	5500	7500	69
+Note	6000	10000	67
+Note	7000	9000	67
+Note	7500	9500	67
+Note	8000	10000	67
+Note	8500	12500	67
+Note	10500	14500	64
+Note	12500	16500	69
+Note	14500	18500	67
+Note	15500	17500	65
+Note	16000	18000	64
+Note	16500	20500	62
+Note	17500	25500	60
+Note	21500	25500	67
+Note	22500	26500	64
+Note	23500	27500	69
+Note	24500	26500	67
+Note	25000	27000	65
+Note	25500	27500	67
+Note	26000	28000	64
+Note	26500	30500	62
+Note	27500	35500	60
+Note	31500	35500	67
+Note	32500	36500	64
+Note	33500	37500	69
+Note	34500	36500	67
+Note	35000	37000	65
+Note	35500	37500	67
+Note	36000	38000	64
+Note	36500	40500	62
+Note	37500	43500	60
+Reference AGN: Romanze, Ballade, Lied, Trinklied
+Comment	Scandello 1567 No. 20.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

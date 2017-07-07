@@ -1,0 +1,60 @@
+Reference OTL: Uralter Marienruf
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0591
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	4000	67
+Note	1000	5000	70
+Note	2000	6000	70
+Note	3000	7000	72
+Note	4000	8000	72
+Note	5000	9000	74
+Note	6000	10000	74
+Note	7000	15000	74
+Note	9000	15000	72
+Note	10500	12500	74
+Note	11000	15000	76
+Note	12000	16000	77
+Note	13000	15000	76
+Note	13500	15500	74
+Note	14000	18000	76
+Note	15000	19000	74
+Note	16500	18500	74
+Note	17000	21000	79
+Note	18000	22000	76
+Note	19000	23000	77
+Note	20000	24000	74
+Note	21000	25000	72
+Note	22000	26000	70
+Note	23000	31000	69
+Note	25000	29000	72
+Note	26000	28000	72
+Note	26500	28500	72
+Note	27000	31000	72
+Note	28000	32000	72
+Note	29000	33000	74
+Note	30000	34000	76
+Note	31000	39000	74
+Note	33000	37000	72
+Note	34000	36000	72
+Note	34500	36500	72
+Note	35000	39000	72
+Note	36000	40000	72
+Note	37000	41000	74
+Note	38000	42000	76
+Note	39000	47000	74
+Note	41000	45000	72
+Note	42000	46000	70
+Note	43000	47000	72
+Note	44000	48000	69
+Note	45000	53000	67
+Note	47000	55000	69
+Note	49000	61000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Oeglin 1512 No. 1.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

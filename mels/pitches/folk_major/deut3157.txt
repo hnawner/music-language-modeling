@@ -1,0 +1,60 @@
+Reference OTL: Ritter und Magd Es spielt'sich ein Ritter mit seiner Dam',
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Westfalen
+Reference YOR: 3, S. 60
+Comment	   ????
+Reference SCT: Q0055X
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	66
+Note	500	1000	67
+Note	1000	2000	69
+Note	2000	2500	69
+Note	2500	3000	69
+Note	3000	4000	69
+Note	4000	4500	71
+Note	4500	5000	73
+Note	5000	6000	74
+Note	6000	6500	73
+Note	6500	7000	71
+Note	7000	8000	69
+Note	8000	8500	71
+Note	8500	9000	73
+Note	9000	10500	74
+Note	10500	11000	71
+Note	11000	11500	69
+Note	11500	12000	67
+Note	12000	12500	66
+Note	12500	13000	67
+Note	13000	14500	69
+Note	14500	15000	66
+Note	15000	16000	62
+Note	17000	17500	67
+Note	17500	18000	69
+Note	18000	18500	71
+Note	18500	19000	69
+Note	19000	19500	67
+Note	19500	20000	71
+Note	20000	20500	74
+Note	20500	21000	71
+Note	21000	21500	71
+Note	21500	22000	69
+Note	22000	22500	69
+Note	22500	23000	69
+Note	23000	24000	69
+Note	24000	25000	69
+Note	25000	26000	71
+Note	26000	27000	69
+Note	27000	28000	79
+Note	28000	28500	78
+Note	28500	29000	76
+Note	29000	30000	74
+Note	30000	31000	73
+Note	31000	32000	74
+Reference AGN: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+Comment	Dritte Zeile = Refrain auf sinnfreie Silben.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

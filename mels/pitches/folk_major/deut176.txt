@@ -1,0 +1,40 @@
+Reference OTL: UNTER DEN ROTEN BLUMEN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0315
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	750	60
+Note	1500	1750	60
+Note	2000	2500	60
+Note	3000	4000	64
+Note	5000	5500	62
+Note	6000	7500	60
+Note	9000	10000	55
+Note	12000	12750	57
+Note	13500	13750	55
+Note	14000	14500	60
+Note	15000	16000	62
+Note	17000	17500	55
+Note	18000	20000	64
+Note	24000	24750	59
+Note	25500	25750	60
+Note	26000	26500	62
+Note	27000	28000	60
+Note	29000	29500	57
+Note	30000	31500	59
+Note	33000	34000	55
+Note	36000	36750	60
+Note	37500	37750	59
+Note	38000	38500	57
+Note	39000	39750	59
+Note	40500	40750	55
+Note	41000	41500	54
+Note	42000	44500	52
+Reference AGN: Jugend - Lied, Trauer
+Comment	Modulation
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

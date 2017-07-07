@@ -1,0 +1,39 @@
+Reference OTL: Der arme Reutersknab
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0428
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	4000	74
+Note	1000	5000	74
+Note	2000	6000	74
+Note	3000	7000	77
+Note	4000	8000	76
+Note	5000	9000	76
+Note	6000	10000	74
+Note	7000	15000	72
+Note	9000	13000	69
+Note	10000	18000	65
+Note	12000	16000	65
+Note	13000	21000	69
+Note	15000	19000	69
+Note	16000	24000	72
+Note	18000	22000	72
+Note	19000	25000	74
+Note	20500	22500	76
+Note	21000	25000	77
+Note	22000	30000	76
+Note	24000	28000	74
+Note	25000	33000	72
+Note	27000	31000	65
+Note	28000	36000	69
+Note	30000	34000	62
+Note	31000	43000	64
+Note	34000	42000	62
+Reference AGN: Romanze, Ballade, Lied, Kriegslied
+Comment	Ott 1534 No. 93.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

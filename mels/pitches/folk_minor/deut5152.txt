@@ -1,0 +1,44 @@
+Comment	00000
+Reference OTL: Ich hab die Nacht getr„umet wohl einen schweren Traum
+Reference SCT: T0003A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key E Minor
+Note	0	500	59
+Note	1000	2000	64
+Note	3000	3500	66
+Note	4000	4750	67
+Note	5500	5750	66
+Note	6000	6500	64
+Note	7000	8500	71
+Note	10000	11000	66
+Note	12000	12500	69
+Note	13000	13750	67
+Note	14500	14750	66
+Note	15000	15500	64
+Note	16000	17000	63
+Note	18000	18500	64
+Note	19000	20500	66
+Note	24000	24500	59
+Note	25000	26000	71
+Note	27000	27500	71
+Note	28000	28750	67
+Note	29500	29750	66
+Note	30000	30500	64
+Note	31000	32500	76
+Note	34000	35000	72
+Note	36000	36500	69
+Note	37000	37750	67
+Note	38500	38750	66
+Note	39000	39500	64
+Note	40000	40750	66
+Note	41500	41750	64
+Note	42000	42500	63
+Note	43000	44500	64
+Reference AGN: Barbara
+Comment	bekannt
+Reference ONB: ESAC (Essen Associative Code) Database: TEST
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

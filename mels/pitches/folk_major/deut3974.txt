@@ -1,0 +1,49 @@
+Reference OTL: Vogelhochzeit
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0251
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	2000	67
+Note	1000	5000	74
+Note	3000	5000	74
+Note	4000	8000	74
+Note	6000	8000	67
+Note	7000	13000	74
+Note	10000	14000	74
+Note	12000	14000	67
+Note	13000	17000	69
+Note	15000	17000	71
+Note	16000	20000	72
+Note	18000	20000	69
+Note	19000	22000	67
+Note	20500	21500	66
+Note	21000	22000	67
+Note	21500	22500	69
+Note	22000	26000	67
+Note	24000	25000	69
+Note	24500	25500	71
+Note	25000	29000	72
+Note	27000	29000	72
+Note	28000	32000	72
+Note	30000	32000	71
+Note	31000	35000	72
+Note	33000	35000	72
+Note	34000	38000	72
+Note	36000	38000	71
+Note	37000	41000	69
+Note	39000	41000	72
+Note	40000	44000	71
+Note	42000	44000	69
+Note	43000	46000	62
+Note	44500	45500	61
+Note	45000	46000	62
+Note	45500	46500	64
+Note	46000	50000	62
+Reference AGN: Romanze, Ballade, Lied
+Comment	Hainhofer Lautenbuch II Bl 131 (Hs. in fol 1604)
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

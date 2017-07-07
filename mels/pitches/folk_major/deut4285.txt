@@ -1,0 +1,48 @@
+Reference OTL: Osterlied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0556
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	2000	77
+Note	1000	5000	77
+Note	3000	5000	77
+Note	4000	8000	76
+Note	6000	8000	76
+Note	7000	11000	77
+Note	9000	11000	74
+Note	10000	14000	72
+Note	12000	14000	72
+Note	13000	15000	74
+Note	14000	16000	76
+Note	15000	17000	77
+Note	16000	20000	76
+Note	18000	20000	74
+Note	19000	23000	72
+Note	21000	23000	70
+Note	22000	26000	69
+Note	24000	26000	69
+Note	25000	29000	69
+Note	27000	29000	69
+Note	28000	32000	72
+Note	30000	32000	72
+Note	31000	33000	70
+Note	32000	34000	69
+Note	33000	35000	67
+Note	34000	38000	65
+Note	36000	38000	72
+Note	37000	41000	72
+Note	39000	41000	72
+Note	40000	44000	72
+Note	42000	44000	72
+Note	43000	45000	70
+Note	44000	46000	69
+Note	45000	47000	67
+Note	46000	50000	65
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	N Herman Die Sontags - Evangelia uber das gantze Jahr... 1560
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0
