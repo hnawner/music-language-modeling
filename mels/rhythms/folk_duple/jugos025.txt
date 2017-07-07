@@ -1,0 +1,35 @@
+Reference OTL: Der Elsberger 'Vrisch auf, vrisch auf, Mogreatizo!
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee, Buehel
+Reference YOR: 3, S. 127
+Comment	   1906 aufgezeichnet
+Reference SCT: Q0059
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	55
+Note	1000	2000	60
+Note	2000	3000	67
+Note	3000	4000	65
+Note	4000	4500	67
+Note	4500	5000	65
+Note	5000	5333	64
+Note	5333	5667	62
+Note	5667	6000	60
+Note	6000	8000	64
+Note	8000	8500	64
+Note	8500	9000	62
+Note	9000	10000	60
+Note	10000	10500	64
+Note	10500	11000	62
+Note	11000	12000	60
+Note	12000	13000	62
+Note	13000	13500	60
+Note	13500	14000	59
+Note	14000	15000	60
+Reference AGN: Ballade, Betrug, Entfuehrung
+Comment	Grundton in der zweigestrichenen Oktave; Schlusspause ergaenzt.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

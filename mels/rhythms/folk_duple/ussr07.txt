@@ -1,0 +1,72 @@
+Reference OTL: Jungfer Doertchen Es war ein Reiter hochgemut,
+Reference ARE: Europa, Osteuropa, UdSSR, Rossiya, Wolgakolonie
+Reference YOR: 3, S. 100
+Comment	   1923 gedruckt in Muenchen
+Reference SCT: Q0057O
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	500	1500	67
+Note	1500	2500	66
+Note	2500	3500	69
+Note	3500	4000	67
+Note	4000	4500	69
+Note	4500	5500	71
+Note	5500	5750	72
+Note	5750	5875	74
+Note	5875	6000	72
+Note	6000	6250	71
+Note	6250	6500	72
+Note	6500	7500	69
+Note	8000	8500	62
+Note	8500	9500	72
+Note	9500	10250	71
+Note	10250	10375	72
+Note	10375	10500	69
+Note	10500	11500	74
+Note	11500	11750	72
+Note	11750	12000	71
+Note	12000	12500	72
+Note	12500	13500	71
+Note	13500	13625	67
+Note	13625	13750	69
+Note	13750	14500	66
+Note	14500	15500	67
+Note	16000	16500	62
+Note	16500	17000	67
+Note	17000	17500	69
+Note	17500	18000	67
+Note	18000	18500	69
+Note	18500	20000	69
+Note	20000	20500	67
+Note	20500	21500	71
+Note	21500	21750	72
+Note	21750	21875	74
+Note	21875	22000	72
+Note	22000	22250	71
+Note	22250	22500	72
+Note	22500	23500	69
+Note	24000	24500	67
+Note	24500	24750	66
+Note	24750	25000	67
+Note	25000	25500	69
+Note	25500	25750	72
+Note	25750	26000	71
+Note	26000	26500	72
+Note	26500	27000	69
+Note	27000	27500	71
+Note	27500	28500	67
+Note	28500	29500	71
+Note	29500	29625	67
+Note	29625	29750	69
+Note	29750	30500	66
+Note	30500	31500	67
+Reference AGN: Ballade, Todesahnung, Tod, Selbstmord
+Comment	Zweistimmig notiert, Oberstimme kodiert. Verzierungen (Vorschlaege)
+Comment	   in der ersten und letzten Zeile.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

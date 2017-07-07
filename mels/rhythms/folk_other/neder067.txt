@@ -1,0 +1,75 @@
+Reference OTL: Schoen Adelheid Daar zouder een heer uit schachelen gaan,
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference YOR: 4, S. 57
+Comment	   1900 gedruckt in Gent
+Reference SCT: Q2074A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  9/8; 6/8
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	500	74
+Note	1000	1500	72
+Note	2000	2500	74
+Note	3000	3500	72
+Note	4000	5000	70
+Note	6000	6500	72
+Note	7000	7500	69
+Note	8000	8500	70
+Note	9000	9500	72
+Note	10000	11500	74
+Note	13000	14000	75
+Note	15000	15500	74
+Note	16000	16500	72
+Note	17000	17500	74
+Note	18000	18500	75
+Note	19000	20000	77
+Note	21000	21500	75
+Note	22000	23500	74
+Note	25000	26500	72
+Note	30000	30500	72
+Note	31000	31500	69
+Note	32000	32500	70
+Note	33000	33500	72
+Note	34000	35500	75
+Note	37000	38000	74
+Note	39000	39500	72
+Note	40000	40500	74
+Note	41000	41500	72
+Note	42000	42500	74
+Note	43000	44500	70
+Note	48000	48500	74
+Note	49000	50000	74
+Note	51000	51500	70
+Note	52000	53000	72
+Note	54000	54500	74
+Note	55000	56000	70
+Note	57000	57500	74
+Note	58000	59500	72
+Note	61000	62500	70
+Note	66000	66500	72
+Note	67000	67500	69
+Note	68000	68500	70
+Note	69000	69500	72
+Note	70000	71500	75
+Note	73000	74000	74
+Note	75000	75500	72
+Note	76000	76500	74
+Note	77000	77500	72
+Note	78000	78500	74
+Note	79000	80500	70
+Note	84000	84500	74
+Note	85000	86000	74
+Note	87000	87500	70
+Note	88000	89000	72
+Note	90000	90500	74
+Note	91000	92000	70
+Note	93000	93500	74
+Note	94000	95500	72
+Note	97000	98500	70
+Reference AGN: Ballade, Entfuehrung, Adelige als Dienstmagd, Wiederfinden
+Comment	Niederlaendische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,63 @@
+Reference OTL: Verschlafener Jaeger Es ging sen ein Jaeger jagen
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien, Hainau, Conradsdorf
+Reference YOR: 7, S. 183
+Comment	   1829 aufgezeichnet
+Reference SCT: Q0152
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	250	71
+Note	500	750	72
+Note	1000	1750	74
+Note	2500	2750	76
+Note	3000	3250	74
+Note	3500	3750	72
+Note	4000	4500	71
+Note	5000	5500	69
+Note	6000	6500	71
+Note	7000	7750	72
+Note	8500	8750	71
+Note	9000	9250	74
+Note	9500	9750	71
+Note	10000	11000	69
+Note	12000	12250	71
+Note	12500	12750	72
+Note	13000	13750	74
+Note	14500	14750	76
+Note	15000	15250	74
+Note	15500	15750	72
+Note	16000	16500	71
+Note	17000	17500	69
+Note	18000	18500	71
+Note	19000	19750	72
+Note	20500	20750	71
+Note	21000	21250	74
+Note	21500	21750	71
+Note	22000	23000	69
+Note	24000	24500	72
+Note	25000	25750	71
+Note	26500	26750	74
+Note	27000	27500	71
+Note	28000	28750	69
+Note	29500	29750	67
+Note	30000	30500	69
+Note	31000	31750	67
+Note	32500	32750	69
+Note	33000	33250	71
+Note	33500	33750	72
+Note	34000	35000	74
+Note	36000	36250	74
+Note	36500	36750	72
+Note	37000	37750	71
+Note	38500	38750	74
+Note	39000	39500	71
+Note	40000	40750	69
+Note	41500	41750	67
+Note	42000	42500	69
+Note	43000	44000	67
+Reference AGN: Ballade, Verfuehrung, Versagen, Spott
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

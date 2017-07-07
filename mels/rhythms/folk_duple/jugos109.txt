@@ -1,0 +1,30 @@
+Reference OTL: Die Rabenmutter Es rait' ein Knab' paim Tor hinaus,
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee
+Reference YOR: 5, S. 268
+Comment	   ????
+Reference SCT: Q0114K
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	67
+Note	1000	2000	71
+Note	2000	3000	69
+Note	3000	4000	71
+Note	4000	5000	74
+Note	5000	6000	72
+Note	6000	7000	71
+Note	7000	8500	69
+Note	8500	9000	71
+Note	9000	10000	71
+Note	10000	11000	69
+Note	11000	12000	67
+Note	12000	13000	69
+Note	13000	14000	67
+Note	14000	15000	66
+Note	15000	16000	67
+Reference AGN: Ballade, Kinds - Mord, Strafe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

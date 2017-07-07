@@ -1,0 +1,73 @@
+Reference OTL: Hoert allesamt was ich ereklaer' Wo kommet denn der Ehstand her
+Reference ARE: Europa, Mitteleuropa, Lothringen, Metz ( St. Vinzent )
+Reference SCT: D0020
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	2000	62
+Note	2000	3000	67
+Note	3000	4000	67
+Note	4000	5000	71
+Note	5000	5500	69
+Note	5500	6000	67
+Note	6000	6500	66
+Note	6500	7000	64
+Note	7000	8500	62
+Note	8500	9000	62
+Note	9000	10500	72
+Note	10500	11000	69
+Note	11000	12500	71
+Note	12500	13000	71
+Note	13000	13500	69
+Note	13500	14000	67
+Note	14000	14500	66
+Note	14500	15000	64
+Note	15000	16000	62
+Note	16000	17000	62
+Note	17000	19000	72
+Note	19000	21000	71
+Note	21000	22000	69
+Note	23000	23500	67
+Note	23500	24000	69
+Note	24000	25000	71
+Note	25000	26000	72
+Note	26000	26500	74
+Note	26500	27000	72
+Note	27000	28000	71
+Note	28000	28500	69
+Note	28500	29000	67
+Note	29000	29500	69
+Note	29500	30000	71
+Note	30000	31000	72
+Note	31000	32000	69
+Note	32000	33000	71
+Note	33000	34000	72
+Note	34000	34500	74
+Note	34500	35000	67
+Note	35000	36000	69
+Note	36000	36500	67
+Note	36500	37000	66
+Note	37000	38000	64
+Note	38000	39000	62
+Note	39500	40000	62
+Note	40000	41500	67
+Note	41500	42000	71
+Note	42000	43500	69
+Note	43500	44000	71
+Note	44000	45000	67
+Note	45000	46000	71
+Note	46000	47000	74
+Note	47000	47500	72
+Note	47500	48000	69
+Note	48000	50000	71
+Note	50000	52000	69
+Note	52000	54000	67
+Reference AGN: Hochzeits - Lied
+Comment	Caesuren nachtraeglich zugefuegt; Inzipit = Variante zum Lied
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

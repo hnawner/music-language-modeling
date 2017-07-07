@@ -1,0 +1,197 @@
+*** Unigram Test ***
+__Major__
+-Train:-
+Negative log probability:  2.33578359093
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  260419
+Total correct predictions:  47248
+Accuracy:  0.181430694381 
+
+
+
+-Test:-
+Negative log probability:  2.33825026843
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  25797
+Total correct predictions:  4734
+Accuracy:  0.183509710431 
+
+
+
+__Minor__
+-Train:-
+Negative log probability:  2.2299201607
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  33045
+Total correct predictions:  5922
+Accuracy:  0.179210167953 
+
+
+
+-Test:-
+Negative log probability:  2.1861574699
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  3205
+Total correct predictions:  579
+Accuracy:  0.180655226209 
+
+
+
+*** Bigram Test ***
+__Major__
+-Train:-
+Negative log probability:  1.78461744925
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+(ignored)  0
+Total predictions:  260419
+Total correct predictions:  89847
+Accuracy:  0.345009388716 
+
+
+
+-Test:-
+Negative log probability:  1.78303797923
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+(ignored)  0
+Total predictions:  25797
+Total correct predictions:  8874
+Accuracy:  0.343993487615 
+
+
+
+__Minor__
+-Train:-
+Negative log probability:  1.68506005034
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+(ignored)  0
+Total predictions:  33045
+Total correct predictions:  12499
+Accuracy:  0.378241791496 
+
+
+
+-Test:-
+Negative log probability:  1.70792407463
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+(ignored)  0
+Total predictions:  3205
+Total correct predictions:  1199
+Accuracy:  0.374102964119 
+
+
+
+*** Interval Unigram Test ***
+__Major__
+-Train:-
+Negative log probability:  2.33958495081
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  260419
+Total correct predictions:  57235
+Accuracy:  0.219780430767 
+
+
+
+-Test:-
+Negative log probability:  2.33400957583
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  25797
+Total correct predictions:  5681
+Accuracy:  0.220219405357 
+
+
+
+__Minor__
+-Train:-
+Negative log probability:  2.23077229418
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  33045
+Total correct predictions:  7128
+Accuracy:  0.215705855651 
+
+
+
+-Test:-
+Negative log probability:  2.2569665113
+Total notes ignored:  0
+Avg notes ignored:  0.0 
+
+Total predictions:  3205
+Total correct predictions:  683
+Accuracy:  0.213104524181 
+
+
+
+*** Interval Bigram Test ***
+__Major__
+-Train:-
+Negative log probability:  2.3510270982
+Total notes ignored:  819
+Avg notes ignored:  0.00308052237234 
+
+(ignored)  0
+Total predictions:  254974
+Total correct predictions:  74710
+Accuracy:  0.293010267714 
+
+
+
+-Test:-
+Negative log probability:  2.34514239776
+Total notes ignored:  4
+Avg notes ignored:  0.000151854523367 
+
+(ignored)  0
+Total predictions:  25253
+Total correct predictions:  7432
+Accuracy:  0.294301667129 
+
+
+
+__Minor__
+-Train:-
+Negative log probability:  2.24980778327
+Total notes ignored:  597
+Avg notes ignored:  0.0176585423568 
+
+(ignored)  0
+Total predictions:  32282
+Total correct predictions:  9990
+Accuracy:  0.309460380398 
+
+
+
+-Test:-
+Negative log probability:  2.25939020166
+Total notes ignored:  25
+Avg notes ignored:  0.00761962816215 
+
+(ignored)  0
+Total predictions:  3129
+Total correct predictions:  954
+Accuracy:  0.304889741131 
+
+
+
+Done.

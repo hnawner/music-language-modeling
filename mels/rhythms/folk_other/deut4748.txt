@@ -1,0 +1,58 @@
+Reference OTL: WER BEKUEMMERT SICH WENN ICH WANDRE, KEINER AUS DER COMPAGNIE
+Reference ARE: Europa, Mitteleuropa, Deutschland, Baden
+Reference SCT: Z0249
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	500	64
+Note	500	1000	68
+Note	1000	2000	69
+Note	2000	2500	73
+Note	2500	3000	73
+Note	3000	3500	71
+Note	3500	4000	71
+Note	4000	4500	69
+Note	4500	5000	73
+Note	5000	6000	73
+Note	6000	6500	71
+Note	6500	7000	73
+Note	7000	8500	74
+Note	8500	9000	71
+Note	9000	9500	73
+Note	9500	10000	69
+Note	10000	11000	71
+Note	12000	12500	69
+Note	12500	13000	73
+Note	13000	13500	76
+Note	13500	14000	76
+Note	14000	14500	76
+Note	14500	15000	76
+Note	15000	15500	78
+Note	15500	16000	76
+Note	16000	16500	76
+Note	16500	17000	74
+Note	17000	17500	74
+Note	17500	18000	78
+Note	18000	18500	76
+Note	18500	19000	74
+Note	19000	20000	73
+Note	20000	20500	73
+Note	20500	21000	73
+Note	21000	21500	76
+Note	21500	22000	73
+Note	22000	22500	71
+Note	22500	23000	69
+Note	23000	24000	71
+Note	24000	24500	69
+Note	24500	25000	73
+Note	25000	26000	76
+Note	26000	27000	73
+Note	27000	27500	71
+Note	27500	28000	71
+Note	28000	29000	69
+Reference AGN: Soldaten -, Abschieds - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

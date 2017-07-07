@@ -1,0 +1,69 @@
+Reference OTL: St. Christoph
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0614
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	2000	62
+Note	1000	5000	62
+Note	3000	5000	62
+Note	4000	8000	69
+Note	6000	8000	71
+Note	7000	11000	72
+Note	9000	11000	71
+Note	10000	14000	69
+Note	12000	14000	71
+Note	13000	17000	72
+Note	15000	17000	71
+Note	16000	20000	69
+Note	18000	20000	67
+Note	19000	21000	65
+Note	20000	21000	64
+Note	20500	21500	62
+Note	21000	23000	64
+Note	22000	26000	62
+Note	24000	26000	67
+Note	25000	29000	64
+Note	27000	29000	65
+Note	28000	32000	67
+Note	30000	32000	69
+Note	31000	33000	65
+Note	32000	36000	64
+Note	34000	38000	62
+Note	36000	38000	62
+Note	37000	41000	69
+Note	39000	41000	71
+Note	40000	44000	72
+Note	42000	44000	74
+Note	43000	45000	72
+Note	44000	45000	71
+Note	44500	45500	69
+Note	45000	47000	71
+Note	46000	50000	69
+Note	48000	50000	74
+Note	49000	53000	71
+Note	51000	53000	72
+Note	52000	56000	69
+Note	54000	56000	67
+Note	55000	57000	69
+Note	56000	58000	65
+Note	57000	59000	67
+Note	58000	62000	65
+Note	60000	62000	69
+Note	61000	65000	72
+Note	63000	65000	71
+Note	64000	68000	69
+Note	66000	68000	67
+Note	67000	69000	65
+Note	68000	69000	64
+Note	68500	69500	62
+Note	69000	71000	64
+Note	70000	74000	62
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Notenbuchers Bergkreien 1551 No. 26 und Praetorius, Mus. Sion.
+Comment	   VII. 1609 No. 182 von Boehme unterlegt.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

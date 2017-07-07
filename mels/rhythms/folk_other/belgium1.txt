@@ -1,0 +1,68 @@
+Reference OTL: Rache im Zweikampf Als jei will horen in dat lied,
+Reference ARE: Europa, Mitteleuropa, Belgien, Bruessel, flaemisch
+Reference YOR: 5, S. 98
+Comment	   1795 aufgezeichnet (ca.) in Berlin
+Reference SCT: Q2097
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	57
+Note	1000	1500	62
+Note	2000	2500	66
+Note	3000	3500	69
+Note	4000	5000	69
+Note	6000	6500	69
+Note	7000	7500	71
+Note	8000	8500	69
+Note	9000	9500	68
+Note	10000	11500	69
+Note	13000	13500	69
+Note	14000	14500	66
+Note	15000	15500	67
+Note	16000	16500	69
+Note	17000	17500	66
+Note	18000	18500	69
+Note	19000	19500	71
+Note	20000	20500	69
+Note	21000	21500	68
+Note	22000	23000	69
+Note	24000	24500	62
+Note	25000	26000	64
+Note	27000	27500	66
+Note	28000	28500	67
+Note	29000	29500	64
+Note	30000	30500	64
+Note	31000	32000	66
+Note	33000	33500	69
+Note	34000	34500	69
+Note	35000	35500	71
+Note	36000	36500	69
+Note	37000	37500	69
+Note	38000	38500	67
+Note	39000	39500	66
+Note	40000	41500	66
+Note	43000	44000	64
+Note	45000	45500	62
+Note	46000	47000	64
+Note	48000	48500	66
+Note	49000	49500	67
+Note	50000	50500	64
+Note	51000	51500	67
+Note	52000	52500	66
+Note	53000	53500	69
+Note	54000	54500	66
+Note	55000	55500	62
+Note	56000	56500	64
+Note	57000	57500	66
+Note	58000	58500	67
+Note	59000	59500	64
+Note	60000	60500	61
+Note	61000	62000	62
+Reference AGN: Ballade, Frau in Maennerkleidung, Soldat, Betrug, Rache
+Comment	Flaemische Fassung der Ballade.
+Comment	   Vierte und sechste Zeile = Refrain auf sinnfreie Silben.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

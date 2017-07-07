@@ -1,0 +1,42 @@
+Reference OTL: Schenkenbachs Reuterlied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0426B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/2; 6/2
+Info keysig 1 sharp
+Info key F Major
+Note	0	2000	65
+Note	1000	3000	65
+Note	2000	4000	65
+Note	3000	5000	72
+Note	4000	6000	72
+Note	5000	9000	74
+Note	7000	11000	72
+Note	9000	13000	77
+Note	11000	13000	72
+Note	12000	14000	72
+Note	13000	15000	70
+Note	14000	16000	69
+Note	15000	19000	67
+Note	17000	21000	65
+Note	20000	22000	77
+Note	21000	25000	77
+Note	23000	25000	77
+Note	24000	26000	77
+Note	25000	27000	77
+Note	26000	28000	77
+Note	27000	31000	76
+Note	29000	33000	72
+Note	32000	34000	72
+Note	33000	37000	69
+Note	35000	37000	69
+Note	36000	40000	70
+Note	38000	40000	70
+Note	39000	43000	72
+Reference AGN: Romanze, Ballade, Lied, Kriegslied
+Comment	Schmeltzel 1544 Quodl. 20.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

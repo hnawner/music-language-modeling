@@ -1,0 +1,48 @@
+Reference OTL: GUGUK IM HAEFELE
+Reference ARE: Europa, Mitteleuropa, Deutschland; France, Elsass
+Reference SCT: E1020
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	77
+Note	1000	1500	72
+Note	2000	2500	72
+Note	3000	3750	72
+Note	4500	4750	70
+Note	5000	5500	69
+Note	6000	6500	70
+Note	7000	7500	69
+Note	8000	8500	67
+Note	9000	10000	69
+Note	12000	12500	77
+Note	13000	13500	72
+Note	14000	14500	72
+Note	15000	15750	72
+Note	16500	16750	70
+Note	17000	17500	69
+Note	18000	18500	70
+Note	19000	19500	69
+Note	20000	20500	67
+Note	21000	22000	69
+Note	24000	24500	72
+Note	25000	25500	72
+Note	26000	26500	72
+Note	27000	27750	72
+Note	28500	28750	70
+Note	29000	29500	69
+Note	30000	30500	72
+Note	31000	31500	72
+Note	32000	32500	72
+Note	33000	33750	72
+Note	34500	34750	70
+Note	35000	35500	69
+Note	36000	36500	70
+Note	37000	37500	69
+Note	38000	38500	67
+Note	39000	40000	65
+Reference AGN: Tanz - Lied, Staende - Lied, Musiker - Zunft
+Reference ONB: ESAC (Essen Associative Code) Database: ERK3
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,64 @@
+Reference OTL: Wiegenlied am Christkripplein
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0525
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	4000	69
+Note	1000	9000	69
+Note	3000	7000	65
+Note	4000	8000	72
+Note	5000	9000	70
+Note	6000	10000	67
+Note	7000	11000	65
+Note	8000	12000	67
+Note	9000	13000	69
+Note	10000	22000	65
+Note	13000	25000	72
+Note	16000	28000	69
+Note	19000	31000	72
+Note	22000	34000	69
+Note	25000	29000	65
+Note	26000	30000	67
+Note	27000	31000	69
+Note	28000	32000	72
+Note	29000	33000	70
+Note	30000	34000	69
+Note	31000	39000	65
+Note	33000	37000	64
+Note	34000	42000	65
+Note	36000	40000	72
+Note	37000	45000	72
+Note	39000	43000	70
+Note	40000	48000	69
+Note	42000	46000	74
+Note	43000	47000	72
+Note	44000	48000	70
+Note	45000	49000	69
+Note	46000	54000	67
+Note	48000	52000	72
+Note	49000	53000	67
+Note	50000	54000	69
+Note	51000	55000	70
+Note	52000	60000	72
+Note	54000	58000	65
+Note	55000	63000	65
+Note	57000	61000	64
+Note	58000	66000	65
+Note	60000	64000	70
+Note	61000	65000	70
+Note	62000	66000	69
+Note	63000	67000	67
+Note	64000	68000	69
+Note	65000	69000	70
+Note	66000	70000	72
+Note	67000	75000	67
+Note	69000	73000	69
+Note	70000	78000	65
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Paderborner Gsgb 1609 S. 33
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

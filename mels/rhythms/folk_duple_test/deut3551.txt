@@ -1,0 +1,63 @@
+Reference OTL: Der schwatzhafte Junggeselle Sankt Katharina eine Heidin war,
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien, Grafschaft Glatz,
+Comment	   Kamnitz
+Reference YOR: 6, S. 312
+Comment	   1908 aufgezeichnet
+Reference SCT: Q1139Q
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	2500	67
+Note	2500	3000	69
+Note	3000	4000	71
+Note	4000	5000	72
+Note	5000	6000	74
+Note	6000	6500	74
+Note	6500	7000	72
+Note	7000	8000	71
+Note	8000	9000	69
+Note	9000	11000	67
+Note	12000	13000	62
+Note	13000	14500	67
+Note	14500	15000	69
+Note	15000	16000	71
+Note	16000	17000	72
+Note	17000	19000	69
+Note	19000	20000	74
+Note	20000	20500	74
+Note	20500	21000	72
+Note	21000	23000	71
+Note	23000	25000	69
+Note	25000	27000	67
+Note	28000	29000	71
+Note	29000	30000	71
+Note	30000	31000	71
+Note	31000	32000	74
+Note	32000	33000	71
+Note	33000	35000	72
+Note	36000	37000	71
+Note	37000	38000	69
+Note	38000	39000	71
+Note	39000	40000	72
+Note	40000	41000	69
+Note	41000	43000	71
+Note	44000	45000	69
+Note	45000	46500	67
+Note	46500	47000	69
+Note	47000	48000	71
+Note	48000	49000	72
+Note	49000	51000	69
+Note	51000	52000	74
+Note	52000	52500	74
+Note	52500	53000	72
+Note	53000	55000	71
+Note	55000	57000	69
+Note	57000	59000	67
+Reference AGN: Legenden - Lied, geistlich
+Comment	Melodievergleich zu Q0139M, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

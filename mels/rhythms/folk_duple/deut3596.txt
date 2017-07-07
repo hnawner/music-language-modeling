@@ -1,0 +1,79 @@
+Reference OTL: Der Jaeger im Tannenholz Ein Jaeger wollte jagen,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Rheinland - Pfalz, Unterwesterwald,
+Comment	   Eitelborn
+Reference YOR: 7, S. 181
+Comment	   1927 aufgezeichnet
+Reference SCT: Q0151D
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	2500	67
+Note	2500	3000	62
+Note	3000	4000	62
+Note	4000	5000	67
+Note	5000	6000	64
+Note	6000	7000	62
+Note	8000	9000	67
+Note	9000	10500	69
+Note	10500	11000	67
+Note	11000	12000	66
+Note	12000	13000	64
+Note	13000	14000	62
+Note	14000	15000	71
+Note	15000	16000	67
+Note	16000	17000	62
+Note	17000	18500	67
+Note	18500	19000	62
+Note	19000	20000	62
+Note	20000	21000	67
+Note	21000	22000	64
+Note	22000	23000	62
+Note	24000	25000	67
+Note	25000	26500	69
+Note	26500	27000	67
+Note	27000	28000	66
+Note	28000	29000	64
+Note	29000	30000	62
+Note	30000	31000	71
+Note	31000	32000	67
+Note	32000	32500	67
+Note	32500	33000	69
+Note	33000	34000	71
+Note	34000	34500	71
+Note	34500	35000	71
+Note	35000	36000	71
+Note	36000	37000	71
+Note	37000	38000	71
+Note	38000	39000	74
+Note	39000	40000	71
+Note	40000	40500	71
+Note	40500	41000	74
+Note	41000	42000	72
+Note	42000	43000	72
+Note	43000	44000	69
+Note	44000	45000	74
+Note	45000	48000	71
+Note	48000	48500	67
+Note	48500	49000	69
+Note	49000	50000	71
+Note	50000	50500	71
+Note	50500	51000	71
+Note	51000	52000	71
+Note	52000	53000	71
+Note	53000	54000	71
+Note	54000	55000	74
+Note	55000	56000	71
+Note	56000	56500	71
+Note	56500	57000	74
+Note	57000	58000	72
+Note	58000	59000	72
+Note	59000	60000	69
+Note	60000	61000	74
+Note	61000	64000	71
+Reference AGN: Ballade, abgewiesener Freier, Abschied
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,49 @@
+Reference OTL: ACH WENN DOCH MEIN SCHAETZCHEN EIN ROSENSTOCK WAER
+Reference ARE: Europa, Mitteleuropa, Deutschland, Hessen, Odenwald
+Reference SCT: E0593
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	500	64
+Note	1000	1750	69
+Note	2500	2750	71
+Note	3000	3500	73
+Note	4000	4750	71
+Note	5500	5750	73
+Note	6000	6500	74
+Note	7000	7500	76
+Note	8000	8500	76
+Note	9000	9500	74
+Note	10000	11000	73
+Note	12000	12250	76
+Note	12500	12750	78
+Note	13000	13500	76
+Note	14000	14500	73
+Note	15000	15250	76
+Note	15500	15750	78
+Note	16000	16250	73
+Note	16500	16750	74
+Note	17000	17500	71
+Note	18000	18500	64
+Note	19000	19750	69
+Note	20500	20750	71
+Note	21000	21500	73
+Note	22000	22750	71
+Note	23500	23750	73
+Note	24000	24500	74
+Note	25000	25500	76
+Note	26000	26500	76
+Note	27000	27500	74
+Note	28000	29000	73
+Note	30000	30250	74
+Note	30500	30750	74
+Note	31000	31500	76
+Note	32000	32500	73
+Note	33000	33500	71
+Note	34000	35000	69
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

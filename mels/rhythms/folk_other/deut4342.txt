@@ -1,0 +1,39 @@
+Reference OTL: St. Katharina
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0617
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	2000	67
+Note	1000	5000	67
+Note	3000	5000	65
+Note	4000	8000	70
+Note	6000	8000	70
+Note	7000	9000	72
+Note	8000	10000	74
+Note	9000	11000	72
+Note	10000	14000	70
+Note	12000	14000	67
+Note	13000	17000	67
+Note	15000	17000	65
+Note	16000	20000	70
+Note	18000	20000	70
+Note	19000	21000	72
+Note	20000	22000	74
+Note	21000	23000	72
+Note	22000	26000	70
+Note	24000	26000	77
+Note	25000	29000	77
+Note	27000	29000	72
+Note	28000	32000	74
+Note	30000	32000	69
+Note	31000	35000	70
+Note	33000	35000	69
+Note	34000	38000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Corners Gsgb 1625 No. 289
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,44 @@
+Reference OTL: Herr von Sain
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0367
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	1000	62
+Note	500	3500	62
+Note	2000	3000	62
+Note	2500	5500	67
+Note	4000	5000	69
+Note	4500	6500	71
+Note	5500	7500	69
+Note	6500	8500	67
+Note	8000	9000	69
+Note	8500	11500	71
+Note	10000	11000	73
+Note	10500	13500	74
+Note	12000	13000	73
+Note	12500	14000	71
+Note	13250	13750	69
+Note	13500	14500	71
+Note	14000	15000	67
+Note	14500	16500	69
+Note	16000	17000	69
+Note	16500	18500	69
+Note	17500	19500	69
+Note	18500	20500	71
+Note	19500	21500	69
+Note	20500	21500	67
+Note	21000	21333	66
+Note	21167	21833	62
+Note	21500	22167	66
+Note	21833	23167	64
+Note	22500	24500	62
+Reference AGN: Romanze, Ballade, Lied, Personenlied
+Comment	Melodie aus einer Pap. Hs. der Stadtbibl. zu Aachen. 16. Jh.
+Comment	   fol. 49. Abgedruckt Dr. L. Lerch, Niederrhein. Jahrb. f. Gesch.
+Comment	   und Kunst. Bonn 1844. II. Bd. S. 341.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

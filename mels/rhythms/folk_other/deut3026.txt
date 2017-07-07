@@ -1,0 +1,51 @@
+Reference OTL: Die Koenigskinder Es waren zwei Koenigeskinder,
+Reference ARE: Europa, Mitteleuropa, Deutschland (), Thueringen
+Reference YOR: 1, S. 219
+Comment	   1840 aufgezeichnet
+Reference SCT: Q0020M
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	1750	67
+Note	2500	2750	62
+Note	3000	3500	67
+Note	4000	4750	71
+Note	5500	5750	67
+Note	6000	6500	71
+Note	7000	8500	74
+Note	10000	11000	69
+Note	12000	12500	69
+Note	13000	13750	71
+Note	14500	14750	72
+Note	15000	15500	74
+Note	16000	16750	74
+Note	17500	17750	72
+Note	18000	18500	71
+Note	19000	20000	69
+Note	24000	24500	74
+Note	25000	25750	74
+Note	26500	26750	74
+Note	27000	27250	74
+Note	27500	27750	74
+Note	28000	28750	74
+Note	29500	29750	71
+Note	30000	30500	67
+Note	31000	31750	72
+Note	32500	32750	74
+Note	33000	33500	76
+Note	34000	35000	74
+Note	36000	36500	72
+Note	37000	37750	71
+Note	38500	38750	71
+Note	39000	39500	71
+Note	40000	40750	69
+Note	41500	41750	71
+Note	42000	42500	69
+Note	43000	44000	67
+Reference AGN: Ballade, Liebe, Trennung, Tod
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

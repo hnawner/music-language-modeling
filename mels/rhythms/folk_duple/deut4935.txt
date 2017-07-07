@@ -1,0 +1,43 @@
+Reference OTL: "Erhebung" BLENDET NICHT DEN FRISCHEN BLICK
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: Z1120
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key A Minor
+Note	0	1000	69
+Note	1000	2000	69
+Note	2000	3000	67
+Note	3000	4000	72
+Note	4000	4500	71
+Note	4500	5000	69
+Note	5000	6000	71
+Note	6000	8000	69
+Note	8000	9000	69
+Note	9000	10000	72
+Note	10000	11000	74
+Note	11000	12000	72
+Note	12000	13000	74
+Note	13000	14000	76
+Note	14000	16000	72
+Note	16000	17000	72
+Note	17000	18000	74
+Note	18000	19000	76
+Note	19000	20000	72
+Note	20000	21000	74
+Note	21000	21500	72
+Note	21500	22000	71
+Note	22000	24000	69
+Note	24000	25000	69
+Note	25000	26000	69
+Note	26000	27000	67
+Note	27000	28000	72
+Note	28000	28500	71
+Note	28500	29000	69
+Note	29000	30000	71
+Note	30000	32000	69
+Reference AGN: religioeses Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

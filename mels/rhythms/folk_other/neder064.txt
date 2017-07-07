@@ -1,0 +1,56 @@
+Reference OTL: Die wiedergefundene Schwester (Suedeli - Ballade) Verbliit v lieue susterkyn
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference YOR: 4, S. 30
+Comment	   14?? Handschrift (zweite Haelfte d. 15. Jh.)
+Reference SCT: Q3072F
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 2 sharps
+Info key D Major
+Note	0	1000	69
+Note	1000	3000	69
+Note	3000	4000	72
+Note	4000	6000	71
+Note	6000	7000	74
+Note	7000	9000	74
+Note	9000	11000	72
+Note	11000	12000	71
+Note	12000	13000	69
+Note	13000	14000	72
+Note	14000	15000	74
+Note	15000	16000	71
+Note	16000	17000	74
+Note	17000	19000	69
+Note	19000	21000	69
+Note	21000	23000	67
+Note	23000	24000	65
+Note	24000	26000	64
+Note	26000	27000	62
+Note	27000	28000	65
+Note	28000	29000	67
+Note	29000	30000	69
+Note	30000	31000	71
+Note	31000	32000	72
+Note	32000	33000	69
+Note	33000	34000	69
+Note	34000	36000	67
+Note	36000	37000	69
+Note	37000	39000	67
+Note	39000	40000	65
+Note	40000	42000	64
+Note	42000	43000	62
+Note	43000	45000	65
+Note	45000	47000	62
+Note	47000	49000	64
+Note	49000	50000	67
+Note	50000	52000	67
+Note	52000	54000	65
+Note	54000	55000	64
+Note	55000	59000	62
+Reference AGN: geistlich
+Comment	Melodievergleich zu Q0072C, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

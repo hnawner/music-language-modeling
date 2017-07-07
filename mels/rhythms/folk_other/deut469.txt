@@ -1,0 +1,58 @@
+Reference OTL: ICH KAM VOM WALDE
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0891
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 4 sharps
+Info key E Major
+Note	0	500	64
+Note	1000	2000	64
+Note	3000	3500	68
+Note	4000	4750	68
+Note	5500	5750	68
+Note	6000	6500	69
+Note	7000	8000	71
+Note	9000	9500	73
+Note	10000	11000	71
+Note	12000	12500	68
+Note	13000	13750	68
+Note	14500	14750	68
+Note	15000	15500	68
+Note	16000	16750	68
+Note	17500	17750	66
+Note	18000	18250	64
+Note	18500	18750	66
+Note	19000	20000	68
+Note	24000	24500	71
+Note	25000	25750	71
+Note	26500	26750	71
+Note	27000	27500	69
+Note	28000	28750	68
+Note	29500	29750	71
+Note	30000	30500	76
+Note	31000	32500	75
+Note	34000	35000	73
+Note	36000	36500	76
+Note	37000	37750	75
+Note	38500	38750	73
+Note	39000	39500	71
+Note	40000	40500	69
+Note	41000	41500	68
+Note	42000	42500	66
+Note	43000	44000	68
+Note	45000	45500	71
+Note	46000	46500	71
+Note	47000	47500	68
+Note	48000	48500	76
+Note	49000	49750	75
+Note	50500	50750	73
+Note	51000	51500	71
+Note	52000	52750	69
+Note	53500	53750	68
+Note	54000	54500	66
+Note	55000	56000	64
+Reference AGN: erzaehlendes Volks - Lied, Ballade, Liebe
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,56 @@
+Reference OTL: MAEDCHEN SIEH DAS VEILCHEN AN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0295
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 4 sharps
+Info key A-flat Major
+Note	0	1500	68
+Note	1500	2000	70
+Note	2000	3000	72
+Note	3000	4000	63
+Note	4000	5500	70
+Note	5500	6000	72
+Note	6000	7000	73
+Note	8000	9500	72
+Note	9500	10000	73
+Note	10000	11000	75
+Note	11000	11500	67
+Note	11500	12000	68
+Note	12000	13000	72
+Note	13000	14000	70
+Note	16000	17500	68
+Note	17500	18000	70
+Note	18000	19000	72
+Note	19000	20000	63
+Note	20000	21500	70
+Note	21500	22000	72
+Note	22000	23000	73
+Note	24000	25500	72
+Note	25500	26000	74
+Note	26000	27000	75
+Note	27000	28000	77
+Note	28000	29500	76
+Note	29500	30000	74
+Note	30000	31000	75
+Note	32000	32500	77
+Note	32500	33000	75
+Note	33000	33500	73
+Note	33500	34000	72
+Note	34000	35000	70
+Note	35000	36000	63
+Note	36000	38000	72
+Note	38000	38500	75
+Note	38500	39000	73
+Note	39000	39500	72
+Note	39500	40000	70
+Note	40000	41500	68
+Note	41500	42000	70
+Note	42000	43000	72
+Note	43000	44000	70
+Note	44000	46000	68
+Reference AGN: Jugend - Lied, Belehrung, Moral
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

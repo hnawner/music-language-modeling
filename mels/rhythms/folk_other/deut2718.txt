@@ -1,0 +1,49 @@
+Reference OTL: AN DEN RHEIN AN DEN RHEIN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0525
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	250	62
+Note	500	750	64
+Note	1000	2000	66
+Note	3000	3250	66
+Note	3500	3750	67
+Note	4000	5000	69
+Note	6000	6500	62
+Note	7000	7500	71
+Note	8000	8500	69
+Note	9000	9500	68
+Note	10000	11000	69
+Note	12000	12500	69
+Note	13000	14000	74
+Note	15000	15500	62
+Note	16000	16750	66
+Note	17500	17750	64
+Note	18000	18500	62
+Note	19000	21000	69
+Note	24000	24500	69
+Note	25000	25500	71
+Note	26000	26500	69
+Note	27000	27500	73
+Note	28000	28750	76
+Note	29500	29750	74
+Note	30000	30500	69
+Note	31000	32000	71
+Note	33000	33250	69
+Note	33500	33750	67
+Note	34000	35000	66
+Note	36000	36500	74
+Note	37000	37500	73
+Note	38000	38500	71
+Note	39000	39500	67
+Note	40000	40750	66
+Note	41500	41750	67
+Note	42000	42500	64
+Note	43000	45000	62
+Reference AGN: Wander - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,40 @@
+Reference OTL: Schlangenkoechin " Wo bist du gewesen, meine Tochter Marjaeh ?"
+Reference ARE: Europa, Mitteleuropa, Lothringen, Hambach
+Reference SCT: D0067A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	71
+Note	500	1000	72
+Note	1000	2000	74
+Note	2000	3000	71
+Note	3000	4000	74
+Note	4000	4500	72
+Note	4500	5000	71
+Note	5000	6000	69
+Note	6000	6500	72
+Note	6500	7000	72
+Note	7000	8000	71
+Note	8000	9000	67
+Note	9000	10000	71
+Note	10000	12000	69
+Note	12000	13000	62
+Note	13000	14000	67
+Note	14000	15000	67
+Note	15000	15500	69
+Note	15500	16000	69
+Note	16000	17000	71
+Note	17000	18000	71
+Note	18000	18500	71
+Note	18500	19000	72
+Note	19000	20000	74
+Note	20000	21000	71
+Note	21000	22000	69
+Note	22000	24000	67
+Reference AGN: Ballade
+Comment	In der zweiten Zeile rhythmisch korrigiert; Variante zu D0067
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

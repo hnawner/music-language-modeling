@@ -1,0 +1,61 @@
+Reference OTL: DAAR GING EEN PATERTJE
+Reference ARE: Europa, Mitteleuropa, Niederlande, Holland
+Reference SCT: E0977A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	55
+Note	1000	2000	60
+Note	3000	3500	62
+Note	4000	5000	60
+Note	6000	6500	55
+Note	7000	7500	57
+Note	8000	8500	55
+Note	9000	9500	57
+Note	10000	11500	55
+Note	13000	14000	57
+Note	15000	15500	60
+Note	16000	17000	59
+Note	18000	18500	62
+Note	19000	21500	60
+Note	24000	24500	55
+Note	25000	26000	60
+Note	27000	27500	62
+Note	28000	29000	60
+Note	30000	30500	55
+Note	31000	31500	57
+Note	32000	32500	55
+Note	33000	33500	57
+Note	34000	35500	55
+Note	37000	38000	57
+Note	39000	39500	60
+Note	40000	41000	59
+Note	42000	42500	62
+Note	43000	45500	60
+Note	48000	48500	60
+Note	49000	50000	62
+Note	51000	51500	62
+Note	52000	53000	62
+Note	54000	54500	64
+Note	55000	56000	65
+Note	57000	57500	64
+Note	58000	59500	62
+Note	61000	62000	64
+Note	63000	63500	60
+Note	64000	64500	60
+Note	65000	65500	59
+Note	66000	66500	60
+Note	67000	68000	62
+Note	69000	69500	59
+Note	70000	71500	55
+Note	73000	74000	57
+Note	75000	75500	60
+Note	76000	77000	59
+Note	78000	78500	62
+Note	79000	81000	60
+Reference AGN: Tanz - Lied, Reigen
+Reference ONB: ESAC (Essen Associative Code) Database: ERK2
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

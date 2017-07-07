@@ -1,0 +1,54 @@
+Reference OTL: KOMM FREUDE SEI GESEGNET
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0326
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	1000	70
+Note	1000	2500	77
+Note	2500	3000	74
+Note	3000	4000	75
+Note	4000	5000	72
+Note	5000	6500	74
+Note	6500	7000	72
+Note	7000	8000	70
+Note	8000	9000	74
+Note	9000	10000	72
+Note	10000	10500	74
+Note	10500	11000	70
+Note	11000	12000	69
+Note	12000	13000	67
+Note	13000	15000	65
+Note	16000	17000	65
+Note	17000	18500	72
+Note	18500	19000	75
+Note	19000	20500	74
+Note	20500	21000	77
+Note	21000	22000	77
+Note	22000	23000	75
+Note	23000	24000	72
+Note	24000	24500	74
+Note	24500	25000	70
+Note	25000	26000	67
+Note	26000	26500	75
+Note	26500	27000	72
+Note	27000	28000	70
+Note	28000	29000	69
+Note	29000	29500	70
+Note	29500	30000	72
+Note	30000	30500	74
+Note	30500	31000	75
+Note	31000	32000	77
+Note	32000	33000	65
+Note	33000	34000	67
+Note	34000	34500	75
+Note	34500	35000	72
+Note	35000	36000	70
+Note	36000	37000	69
+Note	37000	39000	70
+Reference AGN: Jugend - Lied, Belehrung, Freude
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

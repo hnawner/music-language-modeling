@@ -1,0 +1,67 @@
+Reference OTL: Abschiedsstunde
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0269A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/2; 6/2
+Info keysig 1 sharp
+Info key D Minor
+Note	0	4000	65
+Note	2000	4000	62
+Note	3000	5000	64
+Note	4000	6000	65
+Note	5000	7000	67
+Note	6000	10000	69
+Note	8000	12000	69
+Note	10000	14000	69
+Note	12000	16000	67
+Note	14000	16000	64
+Note	15000	17000	65
+Note	16000	20000	62
+Note	18000	22000	60
+Note	21000	23000	65
+Note	22000	24000	65
+Note	23000	25000	69
+Note	24000	26000	67
+Note	25000	27000	65
+Note	26000	30000	64
+Note	28000	30000	62
+Note	29000	31000	65
+Note	30000	32000	64
+Note	31000	33000	62
+Note	32000	34000	60
+Note	33000	35000	62
+Note	34000	38000	58
+Note	36000	40000	57
+Note	39000	41000	57
+Note	40000	42000	57
+Note	41000	43000	57
+Note	42000	46000	62
+Note	44000	46000	62
+Note	45000	48000	60
+Note	46500	47500	58
+Note	47000	48000	57
+Note	47500	48500	55
+Note	48000	52000	53
+Note	51000	53000	65
+Note	52000	54000	62
+Note	53000	55000	64
+Note	54000	56000	65
+Note	55000	57000	67
+Note	56000	62000	69
+Note	59000	60000	67
+Note	59500	60500	65
+Note	60000	64000	64
+Note	62000	66000	67
+Note	64000	66000	65
+Note	65000	69000	62
+Note	67000	69000	60
+Note	68000	70000	62
+Note	69000	71000	58
+Note	70000	78000	57
+Reference AGN: Romanze, Ballade, Lied
+Comment	Joh. Ott 1534 No. 22 - 24.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

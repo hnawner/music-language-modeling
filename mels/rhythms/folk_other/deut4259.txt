@@ -1,0 +1,46 @@
+Reference OTL: Alter Ruf zu Christo
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0540
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	2000	82
+Note	1000	3000	82
+Note	2000	4000	82
+Note	3000	5000	82
+Note	4000	6000	81
+Note	5000	7000	79
+Note	6000	8000	82
+Note	7000	9000	81
+Note	8000	10000	77
+Note	9000	11000	79
+Note	10000	14000	74
+Note	12000	14000	82
+Note	13000	15000	82
+Note	14000	16000	82
+Note	15000	17000	82
+Note	16000	18000	81
+Note	17000	19000	79
+Note	18000	20000	82
+Note	19000	21000	81
+Note	20000	22000	77
+Note	21000	23000	79
+Note	22000	26000	74
+Note	24000	26000	79
+Note	25000	27000	77
+Note	26000	28000	79
+Note	27000	29000	77
+Note	28000	30000	74
+Note	29000	31000	70
+Note	30000	32000	74
+Note	31000	33000	77
+Note	32000	34000	79
+Note	33000	35000	77
+Note	34000	38000	74
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Mainzer Cantual 1605.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

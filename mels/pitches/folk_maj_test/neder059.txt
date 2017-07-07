@@ -1,0 +1,67 @@
+Reference OTL: Des Grafen Toechterlein Ick weet noch eens Gravens Dochterkijn
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference YOR: 3, S. 186
+Comment	   1631 gedruckt in Antwerpen
+Reference SCT: Q2063C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	1000	3000	65
+Note	3000	4000	64
+Note	4000	6000	62
+Note	6000	7000	60
+Note	7000	9000	65
+Note	9000	10000	67
+Note	10000	12000	65
+Note	12000	13000	65
+Note	13000	15000	67
+Note	15000	15500	65
+Note	15500	16000	67
+Note	16000	18000	70
+Note	18000	19000	70
+Note	19000	21000	69
+Note	21000	21500	67
+Note	21500	22000	65
+Note	22000	24000	67
+Note	24000	25000	67
+Note	25000	27000	67
+Note	27000	27500	65
+Note	27500	28000	67
+Note	28000	30000	67
+Note	30000	30500	65
+Note	30500	31000	67
+Note	31000	35000	69
+Note	35000	39000	67
+Note	39000	41000	65
+Note	41000	42000	69
+Note	42000	44000	67
+Note	44000	44500	65
+Note	44500	45000	67
+Note	45000	47000	64
+Note	47000	47500	62
+Note	47500	48000	60
+Note	48000	50000	65
+Note	50000	50500	67
+Note	50500	51000	69
+Note	51000	53000	70
+Note	53000	55000	69
+Note	55000	56000	65
+Note	56000	57000	64
+Note	57000	57500	62
+Note	57500	58000	60
+Note	58000	58500	62
+Note	58500	59000	64
+Note	59000	60000	65
+Note	60000	61000	67
+Note	61000	63000	67
+Note	63000	65000	65
+Reference AGN: Ballade, Liebe, Standesunterschied, Strafe, Gnade
+Comment	Melodievarianten aus anderer Quelle abgedruckt. Niederlaendische
+Comment	   Fassung der Ballade. Taktart in FREI geaendert.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

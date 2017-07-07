@@ -1,0 +1,63 @@
+Reference OTL: WER SAGT MIR WO WEINSBERG LIEGT
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0150
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	250	55
+Note	250	750	60
+Note	750	1250	60
+Note	1250	2000	60
+Note	2000	2250	64
+Note	2250	2750	62
+Note	2750	3250	55
+Note	3250	3750	55
+Note	4000	4250	55
+Note	4250	4750	65
+Note	4750	5250	64
+Note	5250	5750	62
+Note	5750	6250	60
+Note	6250	6750	60
+Note	6750	7250	59
+Note	7250	7750	60
+Note	8000	8250	55
+Note	8250	8750	60
+Note	8750	9250	60
+Note	9250	10000	60
+Note	10000	10250	64
+Note	10250	10750	62
+Note	10750	11250	55
+Note	11250	11750	55
+Note	12000	12250	55
+Note	12250	12750	65
+Note	12750	13250	64
+Note	13250	13750	62
+Note	13750	14250	60
+Note	14250	14750	60
+Note	14750	15250	59
+Note	15250	15750	60
+Note	16000	16250	64
+Note	16250	17000	62
+Note	17000	17250	60
+Note	17250	17750	59
+Note	17750	18250	60
+Note	18250	19000	62
+Note	19000	19250	59
+Note	19250	19750	55
+Note	19750	20000	67
+Note	20000	20250	59
+Note	20250	20750	60
+Note	20750	21250	60
+Note	21250	21750	60
+Note	21750	22250	60
+Note	22250	22500	62
+Note	22500	22750	65
+Note	22750	23000	59
+Note	23000	23250	62
+Note	23250	23750	60
+Reference AGN: Ballade, Romanze
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0
