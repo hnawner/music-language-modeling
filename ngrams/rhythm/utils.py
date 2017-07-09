@@ -42,24 +42,57 @@ def read_files_rhythm(folder, r_dict = None):
         path = folder + "/" + f
         with open(path, 'r', 0) as f:
             mel = []
+            f = [line for line in f]
             for i in range(len(f)):
-                parsed = f[i].split() # delimiter as spaces
+                parsed = f[i].split("\t")
                 
                 if parsed[0] == "Note":
-                	length = None
-                	if f[i+1].split()[0] == "Note":
+                    length = None
+                    if f[i+1].split()[0] == "Note":
                         length = int(f[i+1].split()[1]) - int(parsed[1])
                     else:
-                    	length = int(parsed[2]) - int(parsed[1])
+                        length = int(parsed[2]) - int(parsed[1])
                     
-
                     r_approx = [v for (k, v) in r_dict.items() 
-                    	    if abs(length - k) < 5]
+                            if abs(length - k) < 5]
                     rhythm = r_approx[0]
                     mel.append(rhythm)
             mels.append(mel)
                             
     return mels
+    
+    
+def build_rhythm_dict(folder):
+    data = os.listdir(folder)
+    
+    rhythms = []
+    
+    for f in data:
+        #if ".txt" in f:
+            f_path = folder + "/" + f
+            with open(f_path, 'r', 0) as f:
+            	f = [line for line in f]
+                for i in range(len(f)):
+                    parsed = f[i].split("\t")
+
+                    if parsed[0] == "Note":
+                        length = None
+                        if f[i+1].split()[0] == "Note":
+                            length = int(f[i+1].split()[1]) - int(parsed[1])
+                        else:
+                            length = int(parsed[2]) - int(parsed[1])
+                            
+                        diffs = [abs(r - length) for r in rhythms]
+                        if diffs != [] and min(diffs) < 5:
+                            continue
+                        else: rhythms.append(length)
+                                
+    rhythms.sort()
+    r_dict = {}
+    for i in range(len(rhythms)):
+        r_dict[(rhythms[i])] = i
+                            
+    return r_dict
 
 
 def make_ngrams(seqs, n):

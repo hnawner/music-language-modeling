@@ -106,7 +106,7 @@ def predict(mels, p_bigrams):
     print("Total correct predictions: ", correct)
     print("Accuracy: ", accuracy, "\n")
 
-    return 1 - accuracy # error
+    return accuracy
 
 
 def cross_validation(mels):

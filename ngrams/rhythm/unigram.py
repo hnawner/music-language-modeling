@@ -6,6 +6,7 @@ import numpy as np
 from math import log
 from sklearn.model_selection import KFold
 from utils import read_files_rhythm as read
+from utils import build_rhythm_dict
 
 def distribution(mels):
 
@@ -87,6 +88,7 @@ def cv_test(mels):
     splits = 10
     kf = KFold(n_splits=splits, shuffle=True)
     count = 1
+    mels = np.asarray(mels)
 
     for train_index, test_index in kf.split(mels):
         train, test = mels[train_index], mels[test_index]
@@ -116,8 +118,10 @@ def main():
     if len(sys.argv) != 2:
         print("Usage: folder containing mel files")
         return 1
-
-    mels = read(sys.argv[1])
+        
+        
+    r_dict = build_rhythm_dict(sys.argv[1])
+    mels = read(sys.argv[1], r_dict)
     
     print("_______Unigram_______")
 

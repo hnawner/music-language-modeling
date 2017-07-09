@@ -28,14 +28,14 @@ def main():
     # Read training files
     fmaj = path + "folk_major/"
     fmin = path + "folk_minor/"
-    maj_train, temp = utils.read_files(fmaj)
-    temp, min_train = utils.read_files(fmin)
+    maj_train = utils.read_files(fmaj)
+    min_train = utils.read_files(fmin)
     
     # Read test files
     fmajtest = path + "folk_maj_test/"
     fmintest = path + "folk_min_test/"
-    maj_test, temp = utils.read_files(fmajtest)
-    temp, min_test = utils.read_files(fmintest)
+    maj_test = utils.read_files(fmajtest)
+    min_test = utils.read_files(fmintest)
     
     print("*** Unigram Test ***")
     print("__Major__")
