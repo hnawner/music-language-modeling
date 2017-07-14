@@ -1,0 +1,53 @@
+Reference OTL: AN DER SAALE HELLEM STRANDE
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0527
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	69
+Note	1000	2000	71
+Note	2000	3000	71
+Note	3000	3500	69
+Note	3500	4000	67
+Note	4000	5000	69
+Note	5000	6000	69
+Note	6000	6500	67
+Note	6500	7000	69
+Note	7000	7500	71
+Note	7500	8000	72
+Note	8000	9000	74
+Note	9000	9500	72
+Note	9500	10000	71
+Note	10000	11000	69
+Note	12000	12500	74
+Note	12500	13000	76
+Note	13000	13500	74
+Note	13500	14000	72
+Note	14000	15000	69
+Note	15000	15500	69
+Note	15500	16000	69
+Note	16000	17000	71
+Note	17000	18000	74
+Note	18000	18500	74
+Note	18500	19000	76
+Note	19000	19500	74
+Note	19500	20000	72
+Note	20000	21000	69
+Note	21000	21500	69
+Note	21500	22000	69
+Note	22000	23000	71
+Note	23000	24000	74
+Note	24000	24500	76
+Note	24500	25000	72
+Note	25000	25500	71
+Note	25500	26000	74
+Note	26000	27000	71
+Note	27000	28000	69
+Note	28000	29000	67
+Reference AGN: Wander - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

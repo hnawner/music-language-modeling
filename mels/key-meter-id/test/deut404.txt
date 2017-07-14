@@ -1,0 +1,49 @@
+Reference OTL: VIER ELEMENTE INNIG GESELLT
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0749
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	65
+Note	1000	1500	65
+Note	2000	2500	65
+Note	3000	3750	69
+Note	4500	4750	67
+Note	5000	5500	65
+Note	6000	6750	72
+Note	7500	7750	74
+Note	8000	8250	72
+Note	8500	8750	70
+Note	9000	10000	69
+Note	12000	12500	67
+Note	13000	13250	69
+Note	13500	13750	71
+Note	14000	14250	72
+Note	14500	14750	74
+Note	15000	15750	76
+Note	16500	16750	74
+Note	17000	17500	72
+Note	18000	18250	76
+Note	18500	18750	74
+Note	19000	19500	72
+Note	20000	20500	71
+Note	21000	22000	72
+Note	24000	24500	74
+Note	25000	25250	72
+Note	25500	25750	70
+Note	26000	26250	69
+Note	26500	26750	67
+Note	27000	27750	72
+Note	28500	28750	69
+Note	29000	29500	65
+Note	30000	30250	69
+Note	30500	30750	67
+Note	31000	31500	65
+Note	32000	32500	64
+Note	33000	34000	65
+Reference AGN: Geselligkeits -, Trink - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

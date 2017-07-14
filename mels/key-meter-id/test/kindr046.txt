@@ -1,0 +1,71 @@
+Reference OTL: HOTTE HOTTE REITERPFERD
+Reference ARE: Europa, Mitteleuropa, Deutschland, Erfurt, Stotternheim
+Reference SCT: K0363
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	67
+Note	1000	1500	71
+Note	1500	2000	71
+Note	2000	2500	74
+Note	2500	3000	74
+Note	3000	3500	71
+Note	3500	4000	71
+Note	4000	4500	67
+Note	4500	5000	67
+Note	5000	5500	71
+Note	5500	6000	71
+Note	6000	6500	74
+Note	6500	7000	74
+Note	7000	7500	71
+Note	8000	8500	67
+Note	8500	9000	69
+Note	9000	9500	71
+Note	9500	10000	72
+Note	10000	10500	74
+Note	10500	11000	74
+Note	11000	11500	71
+Note	12000	12500	67
+Note	12500	13000	69
+Note	13000	13500	71
+Note	13500	14000	72
+Note	14000	14500	74
+Note	14500	15000	74
+Note	15000	15500	71
+Note	16000	16500	67
+Note	16500	17000	69
+Note	17000	17500	71
+Note	17500	18000	72
+Note	18000	19000	74
+Note	19000	20000	71
+Note	20000	20500	67
+Note	20500	21000	69
+Note	21000	21500	71
+Note	21500	22000	72
+Note	22000	23000	74
+Note	23000	24000	71
+Note	24000	24500	74
+Note	24500	25000	74
+Note	25000	25500	71
+Note	25500	26000	67
+Note	26000	26500	76
+Note	26500	27000	76
+Note	27000	28000	74
+Note	28000	28500	72
+Note	28500	29000	72
+Note	29000	29500	71
+Note	29500	30000	71
+Note	30000	30500	69
+Note	30500	31000	69
+Note	31000	31500	67
+Note	32000	33000	74
+Note	33000	33500	71
+Note	33500	34000	69
+Note	34000	35000	67
+Reference AGN: Kinder -, Schaukel -, Knierreiter -, Spiel - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: KINDER
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

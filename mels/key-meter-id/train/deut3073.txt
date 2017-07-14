@@ -1,0 +1,42 @@
+Reference OTL: Der Maedchenmoerder (Halewijn - Ulinger) Schoen Ullerich und Hanselein
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien, Breslau
+Reference YOR: 2, S. 81
+Comment	   1912 gedruckt
+Reference SCT: Q0041D
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	71
+Note	1000	2000	74
+Note	2000	3000	71
+Note	3000	4000	74
+Note	4000	5000	67
+Note	5000	6000	76
+Note	6000	7000	76
+Note	7000	8000	74
+Note	8000	8500	71
+Note	8500	9000	72
+Note	9000	10000	74
+Note	10000	11000	74
+Note	11000	12000	72
+Note	12000	13000	69
+Note	13000	13500	67
+Note	13500	14000	66
+Note	14000	14500	67
+Note	14500	15000	69
+Note	15000	16000	67
+Note	16000	17000	62
+Note	17000	19000	71
+Note	19000	21000	74
+Note	21000	22000	72
+Note	22000	23000	69
+Note	23000	24000	71
+Note	24000	25000	66
+Note	25000	27000	67
+Reference AGN: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,56 @@
+Reference OTL: DORT BEIM SEE DA DRUNT
+Reference ARE: Europa, Mitteleuropa, Oesterreich, Steiermark
+Reference SCT: E0177
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	2000	55
+Note	2000	3000	64
+Note	3000	3500	52
+Note	3500	4000	60
+Note	4000	6000	55
+Note	6000	6500	55
+Note	6500	7000	55
+Note	7000	8000	59
+Note	8000	8500	55
+Note	8500	9000	65
+Note	9000	11000	64
+Note	11000	11500	52
+Note	11500	12000	60
+Note	12000	12500	59
+Note	12500	13000	53
+Note	13000	14000	59
+Note	14000	14500	55
+Note	14500	15000	62
+Note	15000	15500	60
+Note	15500	16000	52
+Note	16000	17000	60
+Note	17000	17500	55
+Note	17500	18000	60
+Note	18000	18500	59
+Note	18500	19000	65
+Note	19000	20000	59
+Note	20000	20500	65
+Note	20500	21000	59
+Note	21000	21500	60
+Note	21500	22000	64
+Note	22000	24000	67
+Note	24000	25500	57
+Note	25500	26000	65
+Note	26000	26500	57
+Note	26500	27000	65
+Note	27000	27500	64
+Note	27500	28000	55
+Note	28000	29000	64
+Note	29000	29500	55
+Note	29500	30000	64
+Note	30000	32000	62
+Note	32000	32500	55
+Note	32500	33000	62
+Note	33000	35000	60
+Reference AGN: erzaehlendes Volks - Lied, Sage, Pflanzen - Maerchen
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

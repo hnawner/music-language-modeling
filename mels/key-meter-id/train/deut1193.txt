@@ -1,0 +1,54 @@
+Reference OTL: WENN ICH ZUM THUEREL NAUS GEH
+Reference ARE: Europa, Mitteleuropa, Deutschland, Schlesien, Neisse
+Reference SCT: E0600A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	66
+Note	1000	1500	64
+Note	2000	2500	66
+Note	3000	3500	67
+Note	4000	4500	66
+Note	5000	5500	67
+Note	6000	7000	69
+Note	8000	8500	69
+Note	9000	9500	69
+Note	10000	10500	74
+Note	11000	11500	66
+Note	12000	12500	69
+Note	13000	13500	67
+Note	14000	14500	64
+Note	15000	16000	66
+Note	18000	18500	69
+Note	19000	19500	74
+Note	20000	20500	66
+Note	21000	21500	69
+Note	22000	22500	67
+Note	23000	23500	64
+Note	24000	24500	67
+Note	25000	25500	71
+Note	26000	26500	64
+Note	27000	27500	67
+Note	28000	28500	66
+Note	29000	29500	62
+Note	30000	30500	66
+Note	31000	31500	64
+Note	32000	32500	66
+Note	33000	33500	67
+Note	34000	34500	66
+Note	35000	35500	67
+Note	36000	37000	69
+Note	38000	38500	69
+Note	39000	39500	69
+Note	40000	40500	74
+Note	41000	41500	66
+Note	42000	42500	69
+Note	43000	43500	67
+Note	44000	44500	64
+Note	45000	46000	66
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

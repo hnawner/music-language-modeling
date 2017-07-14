@@ -1,0 +1,54 @@
+Reference OTL: Kurze Passion Christi
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0548
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	2000	69
+Note	500	4500	70
+Note	1500	5500	67
+Note	2500	6500	70
+Note	3500	7500	72
+Note	4500	12500	74
+Note	6500	12500	74
+Note	8000	10000	74
+Note	8500	12500	72
+Note	9500	13500	69
+Note	10500	14500	70
+Note	11500	15500	67
+Note	12500	20500	69
+Note	16000	18000	67
+Note	16500	20500	69
+Note	17500	21500	74
+Note	18500	22500	72
+Note	19500	23500	72
+Note	20500	24500	67
+Note	21500	25500	67
+Note	22500	26500	65
+Note	23500	27500	70
+Note	24500	28500	69
+Note	25500	27500	67
+Note	26000	28000	65
+Note	26500	30500	67
+Note	27500	29500	65
+Note	28000	30000	64
+Note	28500	36500	62
+Note	30500	38500	67
+Note	32500	34500	65
+Note	33000	35000	64
+Note	33500	37500	62
+Note	34500	38500	60
+Note	35500	39500	72
+Note	36500	42500	69
+Note	38000	40000	65
+Note	38500	42500	67
+Note	39500	41500	65
+Note	40000	42000	64
+Note	40500	54500	62
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Beuttner 1602 II No. 13. Variante von A0516.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

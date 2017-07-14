@@ -1,0 +1,37 @@
+Reference OTL: Halewyn
+Reference ARE: Europa, Mitteleuropa, Brabant
+Reference SCT: A0015B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	58
+Note	1000	1500	57
+Note	2000	2500	58
+Note	3000	4500	60
+Note	6000	7500	62
+Note	9000	10000	60
+Note	11000	11500	58
+Note	12000	13000	57
+Note	14000	14500	57
+Note	15000	16000	58
+Note	17000	17500	57
+Note	18000	19000	55
+Note	20000	20500	57
+Note	21000	22000	58
+Note	23000	23500	60
+Note	24000	25500	62
+Note	29000	29500	62
+Note	30000	31000	63
+Note	32000	32500	62
+Note	33000	34500	60
+Note	36000	37500	62
+Note	39000	40000	60
+Note	41000	41500	59
+Note	42000	43500	60
+Reference AGN: Romanze, Ballade, Lied
+Comment	Melodie  1836 mitgeteilt
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

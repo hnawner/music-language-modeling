@@ -1,0 +1,55 @@
+Reference OTL: Ritter und Magd Es spielt' ein Ritter mit seiner Magd
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Nord - Bayern, Franken
+Reference YOR: 3, S. 60
+Comment	   1855 gedruckt in Leipzig
+Reference SCT: Q0055Z
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	250	65
+Note	500	750	67
+Note	1000	2000	69
+Note	3000	3500	69
+Note	4000	4500	65
+Note	5000	5500	65
+Note	6000	6500	67
+Note	7000	8000	69
+Note	9000	9500	69
+Note	10000	11000	65
+Note	12000	12500	67
+Note	13000	14000	69
+Note	15000	15500	69
+Note	16000	16500	70
+Note	17000	17500	69
+Note	18000	18500	67
+Note	19000	20000	67
+Note	21000	21500	69
+Note	22000	23000	65
+Note	24000	24250	65
+Note	24500	24750	67
+Note	25000	26000	69
+Note	27000	27250	69
+Note	27500	27750	69
+Note	28000	29000	65
+Note	30000	30250	65
+Note	30500	30750	67
+Note	31000	32000	69
+Note	33000	33500	69
+Note	34000	35000	65
+Note	36000	36250	65
+Note	36500	36750	67
+Note	37000	38000	69
+Note	39000	39500	69
+Note	40000	40750	70
+Note	41500	41750	69
+Note	42000	42500	67
+Note	43000	44000	67
+Note	45000	45500	69
+Note	46000	47000	65
+Reference AGN: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+Comment	Dritte Zeile = Refrain auf sinnfreie Silben.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

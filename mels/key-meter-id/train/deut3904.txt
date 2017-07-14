@@ -1,0 +1,44 @@
+Reference OTL: Kuckuks Fall
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0168
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	2000	67
+Note	1000	5000	67
+Note	3000	5000	67
+Note	4000	8000	67
+Note	6000	8000	69
+Note	7000	11000	70
+Note	9000	11000	70
+Note	10000	14000	70
+Note	12000	14000	70
+Note	13000	17000	70
+Note	15000	17000	70
+Note	16000	18000	74
+Note	17000	21000	72
+Note	19000	25000	70
+Note	22000	26000	70
+Note	24000	26000	70
+Note	25000	29000	70
+Note	27000	29000	70
+Note	28000	32000	70
+Note	30000	32000	70
+Note	31000	35000	69
+Note	33000	35000	67
+Note	34000	38000	65
+Note	36000	38000	67
+Note	37000	41000	69
+Note	39000	41000	70
+Note	40000	44000	72
+Note	42000	44000	70
+Note	43000	45000	67
+Note	44000	48000	69
+Note	46000	50000	67
+Reference AGN: Romanze, Ballade, Lied
+Comment	Joh. Ott III 1544 No. 30
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

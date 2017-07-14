@@ -1,0 +1,49 @@
+Reference OTL: ALLEWEIL KA MER NET LUSTIG SEI
+Reference ARE: Europa, Mitteleuropa, Deutschland, Schwaben
+Reference SCT: E0575
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	750	67
+Note	1500	1750	67
+Note	2000	2500	67
+Note	3000	3500	71
+Note	4000	4500	69
+Note	5000	5500	67
+Note	6000	6750	74
+Note	7500	7750	62
+Note	8000	8500	62
+Note	9000	9750	67
+Note	10500	10750	66
+Note	11000	11500	67
+Note	12000	12500	71
+Note	13000	13500	69
+Note	14000	14500	67
+Note	15000	16500	74
+Note	18000	18750	72
+Note	19500	19750	74
+Note	20000	20500	76
+Note	21000	21500	76
+Note	22000	22500	74
+Note	23000	23500	72
+Note	24000	24500	71
+Note	25000	25250	71
+Note	25500	25750	72
+Note	26000	26500	74
+Note	27000	27500	69
+Note	28000	28250	69
+Note	28500	28750	71
+Note	29000	29500	72
+Note	30000	30750	67
+Note	31500	31750	67
+Note	32000	32500	67
+Note	33000	33500	66
+Note	34000	34500	64
+Note	35000	35500	66
+Note	36000	38500	67
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,46 @@
+Reference OTL: Ritter und Magd Ich waiss ein schoens Lustgaertelein,
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference YOR: 3, S. 54
+Comment	   1646 Handschrift Kloster Seeon
+Reference SCT: Q1055O
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  6/4; 4/4
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	1000	2000	65
+Note	2000	3000	67
+Note	3000	4000	69
+Note	4000	5000	70
+Note	5000	6000	72
+Note	6000	7000	69
+Note	7000	9000	65
+Note	10000	11000	77
+Note	11000	12000	77
+Note	12000	13000	77
+Note	13000	14000	76
+Note	14000	15000	72
+Note	15000	17000	74
+Note	17000	19000	72
+Note	20000	21000	65
+Note	21000	22000	72
+Note	22000	23000	77
+Note	23000	24000	74
+Note	24000	25000	72
+Note	25000	26000	74
+Note	26000	27000	74
+Note	27000	29000	72
+Note	30000	31000	69
+Note	31000	32000	74
+Note	32000	33000	72
+Note	33000	34000	70
+Note	34000	35000	69
+Note	35000	37000	67
+Note	37000	39000	65
+Reference AGN: ???
+Comment	Melodievergleich zu Q0055C, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

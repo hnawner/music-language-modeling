@@ -1,0 +1,54 @@
+Reference OTL: Das Schwabentoechterlein Maria unser frowe,
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference YOR: 4, S.50
+Comment	   1349 Handschrift
+Reference SCT: Q1073G
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	1000	74
+Note	1000	2000	74
+Note	2000	3000	74
+Note	3000	4000	76
+Note	4000	5000	74
+Note	5000	6000	76
+Note	6000	6500	72
+Note	6500	7000	71
+Note	7000	9000	69
+Note	9000	11000	74
+Note	11000	12000	72
+Note	12000	13000	71
+Note	13000	14500	72
+Note	14500	15000	71
+Note	15000	16000	69
+Note	16000	17000	72
+Note	17000	18000	72
+Note	18000	19000	71
+Note	19000	20000	72
+Note	20000	21000	69
+Note	21000	22000	67
+Note	22000	23000	65
+Note	23000	24000	64
+Note	24000	25000	62
+Note	25000	26000	65
+Note	26000	27000	67
+Note	27000	28000	69
+Note	28000	29000	71
+Note	29000	30500	72
+Note	30500	31000	71
+Note	31000	33000	69
+Note	33000	34000	69
+Note	34000	35000	67
+Note	35000	36000	65
+Note	36000	37000	67
+Note	37000	38000	65
+Note	38000	39000	64
+Note	39000	40000	62
+Reference AGN: geistlich, Geissler - Lied, Brauchtum
+Comment	Melodievergleich zu Q0073, D, E und F; anderes Lied "Viertes
+Comment	   Geissler - Lied" .
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

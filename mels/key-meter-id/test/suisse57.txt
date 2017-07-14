@@ -1,0 +1,53 @@
+Reference OTL: Verschlafener Jaeger Es wollt ein Jaegerli jagen
+Reference ARE: Europa, Mitteleuropa, Schweiz
+Reference YOR: 7, S. 215
+Comment	   ????
+Reference SCT: Q0152J
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	2000	67
+Note	3000	3500	67
+Note	4000	4750	71
+Note	5500	5750	69
+Note	6000	6500	67
+Note	7000	8000	66
+Note	9000	9500	67
+Note	10000	11000	69
+Note	12000	12500	62
+Note	13000	13750	67
+Note	14500	14750	69
+Note	15000	15500	67
+Note	16000	16500	71
+Note	17000	17500	69
+Note	18000	18500	67
+Note	19000	20000	66
+Note	21000	21500	67
+Note	22000	23000	69
+Note	24000	24250	71
+Note	24500	24750	72
+Note	25000	25750	74
+Note	26500	26750	71
+Note	27000	27500	67
+Note	28000	28500	67
+Note	29000	29500	66
+Note	30000	30500	67
+Note	31000	32000	69
+Note	33000	33500	66
+Note	34000	35000	62
+Note	36000	36250	71
+Note	36500	36750	72
+Note	37000	37750	74
+Note	38500	38750	71
+Note	39000	39500	67
+Note	40000	40750	69
+Note	41500	41750	67
+Note	42000	42500	66
+Note	43000	44000	67
+Reference AGN: Ballade, Verfuehrung, Versagen, Spott
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

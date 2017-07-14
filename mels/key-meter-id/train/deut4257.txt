@@ -1,0 +1,70 @@
+Reference OTL: Fastengesang
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0539B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	2000	67
+Note	1000	3000	67
+Note	2000	4000	67
+Note	3000	5000	67
+Note	4000	6000	67
+Note	5000	9000	69
+Note	7000	9000	67
+Note	8000	10000	67
+Note	9000	11000	65
+Note	10000	12000	64
+Note	11000	13000	65
+Note	12000	14000	62
+Note	13000	17000	60
+Note	17000	19000	67
+Note	18000	20000	67
+Note	19000	21000	67
+Note	20000	22000	67
+Note	21000	25000	69
+Note	23000	25000	65
+Note	24000	26000	65
+Note	25000	27000	69
+Note	26000	28000	69
+Note	27000	29000	70
+Note	28000	30000	69
+Note	29000	33000	67
+Note	32000	34000	67
+Note	33000	35000	67
+Note	34000	36000	67
+Note	35000	37000	67
+Note	36000	38000	67
+Note	37000	41000	72
+Note	39000	41000	67
+Note	40000	42000	67
+Note	41000	43000	69
+Note	42000	44000	69
+Note	43000	45000	67
+Note	44000	46000	67
+Note	45000	49000	65
+Note	48000	50000	67
+Note	49000	51000	67
+Note	50000	52000	67
+Note	51000	53000	67
+Note	52000	54000	69
+Note	53000	57000	67
+Note	55000	57000	64
+Note	56000	58000	64
+Note	57000	59000	65
+Note	58000	60000	64
+Note	59000	63000	62
+Note	61000	65000	60
+Note	65000	67000	65
+Note	66000	68000	67
+Note	67000	71000	69
+Note	69000	73000	70
+Note	71000	75000	67
+Note	73000	77000	66
+Note	75000	77000	67
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Leisentrits Gsgb. 1567.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

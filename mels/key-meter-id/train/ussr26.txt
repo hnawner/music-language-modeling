@@ -1,0 +1,31 @@
+Reference OTL: Die Koenigstochter im Heeresdienst ohne Text
+Reference ARE: Europa, Osteuropa, UdSSR, Estland
+Reference YOR: 5, S. 86
+Comment	   ????
+Reference SCT: Q3095F
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	71
+Note	500	1000	71
+Note	1000	1500	72
+Note	1500	2000	71
+Note	2000	2500	69
+Note	2500	3000	69
+Note	3000	3500	69
+Note	3500	4000	69
+Note	4000	4500	69
+Note	4500	5000	69
+Note	5000	5500	71
+Note	5500	6000	69
+Note	6000	6500	67
+Note	6500	7000	67
+Note	7000	7500	67
+Note	7500	8000	67
+Reference AGN: Runen - Weise
+Comment	Melodievergleich zu Q0095, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,66 @@
+Reference OTL: ES KOMMEN DREI HERREN AUS NINIVE
+Reference ARE: Europa, Mitteleuropa, Deutschland, Siegburg bei Bonn
+Reference SCT: K2270A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  6/8; 2/4
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	1500	67
+Note	2000	2500	67
+Note	3000	3500	67
+Note	4000	4500	66
+Note	5000	5500	66
+Note	6000	6500	66
+Note	7000	8000	67
+Note	9000	9500	62
+Note	10000	11000	62
+Note	12000	12500	62
+Note	13000	14000	64
+Note	15000	15500	64
+Note	16000	17000	66
+Note	18000	18500	66
+Note	19000	20500	67
+Note	22000	23000	67
+Note	24000	24500	62
+Note	25000	25500	67
+Note	26000	26500	67
+Note	27000	27500	67
+Note	28000	28500	66
+Note	29000	29500	66
+Note	30000	30500	66
+Note	31000	32000	67
+Note	33000	33500	62
+Note	34000	35000	62
+Note	36000	36500	62
+Note	37000	38000	64
+Note	39000	39500	64
+Note	40000	41000	66
+Note	42000	42500	66
+Note	43000	44500	67
+Note	46000	47000	67
+Note	48000	48500	62
+Note	49000	49500	67
+Note	49500	50000	66
+Note	50000	50500	64
+Note	50500	51000	62
+Note	51000	52000	62
+Note	52500	53000	62
+Note	53000	53500	67
+Note	53500	54000	66
+Note	54000	54500	64
+Note	54500	55000	62
+Note	55000	56000	62
+Note	56500	57000	62
+Note	57000	58000	64
+Note	58000	59000	64
+Note	59000	60000	66
+Note	60000	61000	66
+Note	61000	63000	67
+Note	63000	64000	67
+Reference AGN: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+Reference ONB: ESAC (Essen Associative Code) Database: KINDER
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,61 @@
+Reference OTL: ALLE DIE WILLEN NAER
+Reference ARE: Europa, Mitteleuropa, Niederlande, Flandern
+Reference SCT: E1499
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key A Minor
+Note	0	1000	69
+Note	1000	1750	69
+Note	1750	2000	71
+Note	2000	3000	72
+Note	3000	3500	72
+Note	3500	4000	74
+Note	4000	5000	76
+Note	5000	6000	74
+Note	6000	7000	72
+Note	7500	8000	74
+Note	8000	8750	76
+Note	8750	9000	74
+Note	9000	9500	72
+Note	9500	10000	71
+Note	10000	10750	69
+Note	10750	11000	71
+Note	11000	11750	72
+Note	11750	12000	74
+Note	12000	12750	76
+Note	12750	13000	74
+Note	13000	13750	72
+Note	13750	14000	71
+Note	14000	14500	69
+Note	14500	15000	68
+Note	15500	16000	64
+Note	16000	16750	69
+Note	16750	17000	71
+Note	17000	17750	72
+Note	17750	18000	69
+Note	18000	18750	71
+Note	18750	19000	72
+Note	19000	19750	74
+Note	19750	20000	71
+Note	20000	21000	72
+Note	21000	21750	74
+Note	21750	22000	74
+Note	22000	23500	76
+Note	23500	24000	72
+Note	24000	24750	74
+Note	24750	25000	72
+Note	25000	25750	74
+Note	25750	26000	76
+Note	26000	26750	77
+Note	26750	27000	76
+Note	27000	27750	74
+Note	27750	28000	72
+Note	28000	29000	72
+Note	29000	30000	71
+Note	30000	31000	69
+Reference AGN: Staende -, Seemanns - Lied, Fischer
+Reference ONB: ESAC (Essen Associative Code) Database: ERK3
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

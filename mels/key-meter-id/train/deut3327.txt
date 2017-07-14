@@ -1,0 +1,35 @@
+Reference OTL: Die drei Hexen Die Engel singen suessen sang,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Rheinland, Andernach
+Reference YOR: 4, S. 227
+Comment	   1608 gedruckt
+Reference SCT: Q1080J
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	1000	3000	72
+Note	3000	4000	74
+Note	4000	6000	72
+Note	6000	7000	67
+Note	7000	8000	72
+Note	8000	9000	70
+Note	9000	10000	69
+Note	10000	12000	67
+Note	12000	13000	65
+Note	13000	15000	64
+Note	15000	16000	65
+Note	16000	18000	67
+Note	18000	19000	69
+Note	19000	19500	67
+Note	19500	20000	69
+Note	20000	20500	70
+Note	20500	21500	69
+Note	21500	22000	67
+Note	22000	24000	65
+Reference AGN: Marien - Lied, geistlich
+Comment	Melodievergleich zu Q0080I, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

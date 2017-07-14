@@ -1,0 +1,40 @@
+Reference OTL: Nun laube, Lindlein, laube
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0175
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	4000	72
+Note	2000	4000	67
+Note	3000	5000	69
+Note	4000	6000	72
+Note	5000	7000	71
+Note	6000	10000	69
+Note	8000	12000	67
+Note	11000	13000	74
+Note	12000	14000	76
+Note	13000	15000	74
+Note	14000	16000	72
+Note	15000	17000	71
+Note	16000	20000	69
+Note	18000	22000	67
+Note	21000	23000	69
+Note	22000	24000	70
+Note	23000	25000	69
+Note	24000	26000	67
+Note	25000	27000	70
+Note	26000	30000	67
+Note	28000	32000	65
+Note	31000	33000	69
+Note	32000	34000	72
+Note	33000	35000	69
+Note	34000	36000	67
+Note	35000	37000	69
+Note	36000	44000	67
+Reference AGN: Romanze, Ballade, Lied
+Comment	In Trillers Singbuch 1555 zu einem geistlichen Text.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

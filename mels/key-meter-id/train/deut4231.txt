@@ -1,0 +1,59 @@
+Reference OTL: Himmelsrose
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0516
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	2000	69
+Note	1000	3000	70
+Note	2000	4000	67
+Note	3000	5000	70
+Note	4000	6000	72
+Note	5000	7000	74
+Note	6000	7000	74
+Note	6500	7500	72
+Note	7000	9000	74
+Note	8000	10000	69
+Note	9000	11000	67
+Note	10000	12000	74
+Note	11000	13000	72
+Note	12000	14000	70
+Note	13000	17000	69
+Note	16000	18000	74
+Note	17000	19000	74
+Note	18000	19000	74
+Note	18500	19500	74
+Note	19000	21000	72
+Note	20000	22000	74
+Note	21000	23000	72
+Note	22000	23000	70
+Note	22500	23500	69
+Note	23000	25000	67
+Note	24000	25000	72
+Note	24500	25500	72
+Note	25000	27000	69
+Note	26000	28000	65
+Note	27000	29000	67
+Note	28000	29000	65
+Note	28500	29500	64
+Note	29000	33000	62
+Note	32000	34000	70
+Note	33000	34000	69
+Note	33500	34500	67
+Note	34000	35000	65
+Note	34500	35500	64
+Note	35000	37000	62
+Note	36000	38000	60
+Note	37000	39000	65
+Note	38000	40000	67
+Note	39000	41000	69
+Note	40000	41000	65
+Note	40500	41500	64
+Note	41000	47000	62
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Speiersches Gsgb. 1617 fol. 31.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

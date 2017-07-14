@@ -1,0 +1,33 @@
+Reference OTL: Die Rabenmutter Es wollt' ein Hirtlein treiben aus,
+Reference ARE: Europa, Mitteleuropa, Deutschland / Polen, Schlesien
+Reference YOR: 5, S. 267
+Comment	   1842 gedruckt in Leipzig
+Reference SCT: Q0114E
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	71
+Note	1000	1500	72
+Note	1500	2500	74
+Note	2500	3000	74
+Note	3000	3500	72
+Note	3500	4000	71
+Note	4000	4500	72
+Note	4500	5500	74
+Note	6000	6500	69
+Note	6500	7000	71
+Note	7000	7500	74
+Note	7500	8000	72
+Note	8000	8500	71
+Note	8500	9000	69
+Note	9000	9500	67
+Note	9500	10000	71
+Note	10000	10500	69
+Note	10500	11500	67
+Reference AGN: Ballade, Kinds - Mord, Strafe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

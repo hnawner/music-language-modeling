@@ -1,0 +1,34 @@
+Reference OTL: Die Geburt im Walde Bie vrie ischt auf schianai Gerizo!
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Gottschee, Verdreng
+Reference YOR: 1, S. 63
+Comment	   1907 aufgezeichnet
+Reference SCT: Q0007B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  2/2; 4/2
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	55
+Note	500	1500	60
+Note	1000	2000	60
+Note	1500	2500	64
+Note	2000	2500	64
+Note	2250	2750	64
+Note	2500	4500	60
+Note	3500	5500	62
+Note	4500	6500	64
+Note	6000	7000	60
+Note	6500	7500	62
+Note	7000	8000	62
+Note	7500	8500	64
+Note	8000	8500	64
+Note	8250	8750	64
+Note	8500	10500	60
+Note	9500	11500	62
+Note	10500	12500	60
+Reference AGN: Ballade, Geburt, Tod, Moral
+Comment	Grundton in der zweigestrichenen Oktave
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

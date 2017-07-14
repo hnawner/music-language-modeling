@@ -1,0 +1,50 @@
+Reference OTL: Graf und Nonne (Die Nonne) Die Blaetter von den Baeumen,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Franken, Mittelfranken, Hersbruck,
+Comment	   Altsittenbach
+Reference YOR: 8, S. 61
+Comment	   1914 aufgezeichnet
+Reference SCT: Q0155O
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	55
+Note	1000	2500	60
+Note	2500	3000	55
+Note	3000	4000	52
+Note	4000	5000	55
+Note	5000	6000	55
+Note	6000	7000	64
+Note	7000	8000	64
+Note	8000	9000	64
+Note	9000	10500	62
+Note	10500	11000	60
+Note	11000	12000	59
+Note	12000	13000	62
+Note	13000	16000	62
+Note	16000	17000	55
+Note	17000	18500	64
+Note	18500	19000	64
+Note	19000	20000	64
+Note	20000	21000	64
+Note	21000	22000	64
+Note	22000	23000	67
+Note	23000	24000	65
+Note	24000	25000	64
+Note	25000	26500	62
+Note	26500	27000	62
+Note	27000	28000	62
+Note	28000	29000	64
+Note	29000	30000	65
+Note	30000	31000	69
+Note	31000	32000	67
+Note	32000	33000	64
+Note	33000	35000	67
+Note	35000	37000	65
+Note	37000	40000	64
+Reference AGN: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage;, bei der Arbeit, Hopfenpfluecken
+Comment	Grundton in der zweigestrichenen Oktave
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,53 @@
+Reference OTL: Der Muskatbaum Spewaj mi, spewaj socholask,
+Reference ARE: Europa, Mitteleuropa, Deutschland (), Lausitz; sorbisch
+Reference YOR: 6, S. 147
+Comment	   1893 gedruckt
+Reference SCT: Q2130B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	67
+Note	1000	3000	72
+Note	3000	4000	72
+Note	4000	5000	71
+Note	5000	6000	69
+Note	6000	7000	67
+Note	7000	9000	69
+Note	9000	10000	71
+Note	10000	12000	72
+Note	12000	13000	71
+Note	13000	14000	69
+Note	14000	15000	71
+Note	15000	16000	72
+Note	16000	18000	74
+Note	18000	19000	71
+Note	19000	20000	72
+Note	20000	21000	71
+Note	21000	22000	69
+Note	22000	24000	67
+Note	24000	25000	67
+Note	25000	27000	72
+Note	27000	28000	67
+Note	28000	30000	69
+Note	30000	30500	65
+Note	30500	31000	62
+Note	31000	32000	67
+Note	32000	33000	67
+Note	33000	34000	65
+Note	34000	36000	64
+Note	36000	37000	62
+Note	37000	39000	64
+Note	39000	40000	69
+Note	40000	42000	67
+Note	42000	43000	67
+Note	43000	44000	65
+Note	44000	45000	64
+Note	45000	46000	62
+Note	46000	48000	60
+Reference AGN: Ballade, Werbung, Standesunterschied
+Comment	Sorbische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

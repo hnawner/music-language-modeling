@@ -1,0 +1,61 @@
+Reference OTL: WENNS KUMMT UM WEIHNACHTE
+Reference ARE: Europa, Mitteleuropa, Deutschland, Kuhlaendchen
+Reference SCT: Z0201
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	500	65
+Note	1000	1250	70
+Note	1500	1750	74
+Note	2000	2500	77
+Note	3000	3500	77
+Note	4000	4250	77
+Note	4500	4750	75
+Note	5000	6000	75
+Note	7000	7500	74
+Note	8000	8750	74
+Note	9500	9750	74
+Note	10000	10250	74
+Note	10500	10750	72
+Note	11000	11750	72
+Note	12500	12750	75
+Note	13000	13250	74
+Note	13500	13750	72
+Note	14000	14500	70
+Note	15000	15500	69
+Note	16000	17000	70
+Note	18000	18500	65
+Note	19000	19250	70
+Note	19500	19750	74
+Note	20000	20500	77
+Note	21000	21500	74
+Note	22000	22250	74
+Note	22500	22750	72
+Note	23000	23750	72
+Note	24500	24750	65
+Note	25000	25250	70
+Note	25500	25750	74
+Note	26000	26500	77
+Note	27000	27500	74
+Note	28000	28500	74
+Note	29000	29500	72
+Note	30000	30500	65
+Note	31000	31250	70
+Note	31500	31750	74
+Note	32000	32500	77
+Note	33000	33500	77
+Note	34000	34250	77
+Note	34500	34750	75
+Note	35000	35750	75
+Note	36500	36750	75
+Note	37000	37250	74
+Note	37500	37750	72
+Note	38000	38500	70
+Note	39000	39500	69
+Note	40000	41000	70
+Reference AGN: Schiffer -, Handwerker - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

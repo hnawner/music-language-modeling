@@ -1,0 +1,59 @@
+Reference OTL: Der schwatzhafte Junggeselle Khatrina Khatriina tu raine Mogd.
+Reference ARE: Europa, Osteuropa, Ungarn
+Reference YOR: 6, S. 312
+Comment	   ????
+Reference SCT: Q1139T
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	2000	67
+Note	2000	3000	66
+Note	3000	4000	64
+Note	4000	6000	62
+Note	6000	7000	67
+Note	7000	8500	69
+Note	8500	9000	71
+Note	9000	9500	69
+Note	9500	10000	66
+Note	10000	12000	67
+Note	12000	13000	62
+Note	13000	14000	67
+Note	14000	15000	66
+Note	15000	16000	64
+Note	16000	18000	62
+Note	18000	19000	67
+Note	19000	20500	69
+Note	20500	21000	71
+Note	21000	21500	69
+Note	21500	22000	66
+Note	22000	24000	67
+Note	24000	24500	71
+Note	24500	25000	71
+Note	25000	26000	71
+Note	26000	27000	71
+Note	27000	28000	71
+Note	28000	29000	71
+Note	29000	30000	69
+Note	30000	31000	74
+Note	31000	33000	72
+Note	33000	34000	71
+Note	34000	36000	69
+Note	36000	37000	67
+Note	37000	38000	66
+Note	38000	39000	69
+Note	39000	40000	69
+Note	40000	41000	69
+Note	41000	42000	67
+Note	42000	43000	69
+Note	43000	45000	71
+Note	45000	45500	69
+Note	45500	46000	66
+Note	46000	48000	67
+Reference AGN: Legenden - Lied, geistlich
+Comment	Melodievergleich zu Q0139 ff., anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

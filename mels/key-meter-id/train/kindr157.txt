@@ -1,0 +1,41 @@
+Reference OTL: IST DIE SCHWARZE KOECHIN DA
+Reference ARE: Europa, Mitteleuropa, Deutschland, Dresden
+Reference SCT: K2267A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	69
+Note	500	1000	69
+Note	1000	1500	71
+Note	1500	2000	71
+Note	2000	2500	69
+Note	2500	3000	67
+Note	3000	4000	66
+Note	4000	5000	69
+Note	5000	6000	71
+Note	6000	7000	69
+Note	7500	8000	62
+Note	8000	8500	69
+Note	8500	9000	67
+Note	9000	9500	66
+Note	9500	10000	62
+Note	10000	10500	69
+Note	10500	11000	67
+Note	11000	11500	66
+Note	11500	12000	62
+Note	12000	12500	69
+Note	12500	13000	69
+Note	13000	13500	71
+Note	13500	14000	71
+Note	14000	14500	69
+Note	14500	15000	67
+Note	15000	16000	66
+Note	16000	16500	69
+Note	17000	17500	71
+Note	18000	18500	69
+Reference AGN: Kinder - Lied, Reigen, Tanz - Spiel
+Reference ONB: ESAC (Essen Associative Code) Database: KINDER
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

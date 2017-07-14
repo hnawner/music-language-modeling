@@ -1,0 +1,55 @@
+Reference OTL: Der Maedchenmoerder (Halewijn - Ulinger) Mooi Amberecht schreef een brievetje fijn,
+Reference ARE: Europa, Mitteleuropa, Niederlande, flaemisch
+Reference YOR: 2, S. 100
+Comment	   1900 gedruckt in Gent
+Reference SCT: Q2041I
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	62
+Note	1000	1500	59
+Note	2000	2500	59
+Note	3000	3500	60
+Note	4000	5000	62
+Note	6000	6500	64
+Note	7000	7500	62
+Note	8000	8500	61
+Note	9000	9500	62
+Note	10000	11000	59
+Note	12000	12500	62
+Note	13000	14000	64
+Note	15000	15500	62
+Note	16000	16500	60
+Note	17000	17500	59
+Note	18000	18500	60
+Note	19000	20000	60
+Note	21000	21500	62
+Note	22000	23500	64
+Note	28000	29500	64
+Note	31000	32000	67
+Note	33000	33500	65
+Note	34000	35500	62
+Note	37000	38000	65
+Note	39000	39500	64
+Note	40000	40500	62
+Note	41000	41500	60
+Note	42000	42500	64
+Note	43000	44500	62
+Note	48000	48500	64
+Note	49000	50000	65
+Note	51000	51500	67
+Note	52000	53500	64
+Note	55000	56000	60
+Note	57000	57500	62
+Note	58000	58500	64
+Note	59000	59500	62
+Note	60000	60500	64
+Note	61000	62500	62
+Reference AGN: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+Comment	Grundton in der zweigestrichenen Oktave. Pausen am Schluss der
+Comment	   dritten und vierten Zeile ergaenzt. Flaemische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

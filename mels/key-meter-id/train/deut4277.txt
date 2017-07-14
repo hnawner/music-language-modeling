@@ -1,0 +1,45 @@
+Reference OTL: Alter Ostergesang
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0552C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/1; 6/1
+Info keysig 2 sharps
+Info key D Major
+Note	0	8000	69
+Note	2000	6000	67
+Note	3000	7000	69
+Note	4000	12000	72
+Note	6000	14000	69
+Note	8000	12000	69
+Note	9000	13000	65
+Note	10000	14000	67
+Note	11000	15000	69
+Note	12000	20000	65
+Note	14000	22000	62
+Note	16000	20000	65
+Note	17000	19000	67
+Note	17500	19500	67
+Note	18000	22000	62
+Note	19000	23000	60
+Note	20000	28000	67
+Note	22000	30000	69
+Note	24000	32000	65
+Note	26000	30000	69
+Note	27000	31000	65
+Note	28000	32000	67
+Note	29000	33000	69
+Note	30000	38000	65
+Note	32000	40000	62
+Note	34000	42000	64
+Note	36000	40000	60
+Note	37000	39000	62
+Note	37500	39500	62
+Note	38000	46000	64
+Note	40000	48000	62
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Peter Schoeffer 1513 No. 62
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

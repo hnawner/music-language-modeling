@@ -1,0 +1,41 @@
+Reference OTL: Die Rabenmutter ohne Text
+Reference ARE: Europa, Mitteleuropa, Deutschland / France, Lothringen
+Reference YOR: 5, S. 270
+Comment	   1939 gedruckt in Kassel
+Reference SCT: Q0114U
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	500	1000	62
+Note	1000	1500	67
+Note	1500	2500	67
+Note	2500	3500	71
+Note	3500	4000	67
+Note	4000	4500	67
+Note	4500	6000	69
+Note	6000	6500	67
+Note	6500	7000	66
+Note	7000	7500	67
+Note	7500	8500	69
+Note	8500	9000	74
+Note	9000	9500	72
+Note	9500	10000	71
+Note	10000	10500	69
+Note	10500	11000	67
+Note	11000	11500	66
+Note	11500	12000	67
+Note	12000	12500	66
+Note	12500	13500	64
+Note	13500	14000	74
+Note	14000	14500	72
+Note	14500	15000	71
+Note	15000	15500	69
+Note	15500	17000	67
+Reference AGN: Ballade, Kinds - Mord, Strafe
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

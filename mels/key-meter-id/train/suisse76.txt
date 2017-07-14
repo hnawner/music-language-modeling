@@ -1,0 +1,42 @@
+Reference OTL: Jodler
+Reference ARE: Europa, Mitteleuropa, Schweiz, Kt. Wallis, Brigersberg
+Reference SCT: D0090
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	500	1000	64
+Note	1000	1500	66
+Note	1500	2500	67
+Note	2500	3500	74
+Note	3500	4500	71
+Note	4500	6000	79
+Note	6000	6500	76
+Note	6500	7000	74
+Note	7000	7500	71
+Note	7500	8500	67
+Note	8500	9500	66
+Note	9500	10500	74
+Note	10500	12000	72
+Note	12000	12500	62
+Note	12500	13000	64
+Note	13000	13500	66
+Note	13500	14000	69
+Note	14000	14500	74
+Note	14500	15000	72
+Note	15000	15500	76
+Note	15500	16000	74
+Note	16000	16250	66
+Note	16250	16500	74
+Note	16500	17500	67
+Note	17500	18500	76
+Note	18500	19500	74
+Note	19500	22500	71
+Reference AGN: Jodler
+Comment	erste Zeile rhythmisch korrigiert
+Comment	   Notentext vollstaendig ??  Sonderzeichen in der Notation
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

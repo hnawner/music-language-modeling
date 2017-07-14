@@ -1,0 +1,79 @@
+Reference OTL: Die erloeste Sklavin Ich fuhr einstmal auf stiller See
+Reference ARE: Europa, Mitteleuropa, Deutschland, Untermainfranken, Spessart
+Reference SCT: D0172
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	333	65
+Note	333	667	69
+Note	667	1000	67
+Note	1000	2500	65
+Note	2500	3000	74
+Note	3000	4500	72
+Note	4500	5000	70
+Note	5000	6000	70
+Note	6000	7000	69
+Note	8000	8500	69
+Note	8500	9000	70
+Note	9000	10500	72
+Note	10500	11000	69
+Note	11000	11500	74
+Note	11500	12000	72
+Note	12000	12500	70
+Note	12500	13000	69
+Note	13000	13500	69
+Note	13500	14000	67
+Note	14000	15000	67
+Note	15000	16000	67
+Note	16000	16500	65
+Note	16500	17000	69
+Note	17000	18000	72
+Note	18000	19000	72
+Note	19000	19500	72
+Note	19500	20500	77
+Note	20500	21000	74
+Note	21000	21500	74
+Note	21500	22000	72
+Note	22000	23000	72
+Note	23000	24000	72
+Note	24000	24500	70
+Note	24500	25000	69
+Note	25000	26000	70
+Note	26000	27000	70
+Note	27000	27500	70
+Note	27500	28000	74
+Note	28000	28500	72
+Note	28500	29000	70
+Note	29000	30000	69
+Note	30000	31000	72
+Note	31000	32000	72
+Note	32000	32500	65
+Note	32500	33000	69
+Note	33000	34000	72
+Note	34000	35000	72
+Note	35000	35500	72
+Note	35500	36500	77
+Note	36500	37000	74
+Note	37000	37500	74
+Note	37500	38000	72
+Note	38000	39000	72
+Note	39000	40000	72
+Note	40000	40500	70
+Note	40500	41000	69
+Note	41000	42000	70
+Note	42000	43000	70
+Note	43000	43500	70
+Note	43500	44000	74
+Note	44000	44500	72
+Note	44500	45000	70
+Note	45000	46000	69
+Note	46000	47000	72
+Note	47000	48000	72
+Reference AGN: Ballade, Liebe mit gluecklichem Ausgang
+Comment	Grundton ??; Auftakt rhythmisch korrigiert; Verzierungen;
+Comment	   Inzipit = Variante zum Lied
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,47 @@
+Reference OTL: Ein alter Ruf, wenn man zu Unser Lieben Frawen kirchfahrten thut
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0604
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	2000	60
+Note	1000	3000	60
+Note	2000	4000	62
+Note	3000	5000	60
+Note	4000	6000	59
+Note	5000	9000	57
+Note	7000	9000	55
+Note	8000	10000	55
+Note	9000	11000	60
+Note	10000	12000	60
+Note	11000	13000	62
+Note	12000	14000	65
+Note	13000	17000	64
+Note	16000	18000	62
+Note	17000	19000	64
+Note	18000	20000	65
+Note	19000	21000	67
+Note	20000	22000	64
+Note	21000	23000	64
+Note	22000	24000	67
+Note	23000	25000	65
+Note	24000	26000	64
+Note	25000	27000	62
+Note	26000	28000	60
+Note	27000	29000	64
+Note	28000	30000	60
+Note	29000	31000	57
+Note	30000	32000	59
+Note	31000	35000	60
+Note	33000	35000	57
+Note	34000	35000	57
+Note	34500	35500	57
+Note	35000	39000	59
+Note	37000	43000	60
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Beuttner 1602 No. 30
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

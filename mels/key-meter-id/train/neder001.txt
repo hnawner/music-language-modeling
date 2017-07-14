@@ -1,0 +1,45 @@
+Reference OTL: WILDY HOOREN
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference SCT: E0017A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	500	62
+Note	500	1000	65
+Note	1000	1500	67
+Note	1500	3000	69
+Note	3000	3250	67
+Note	3250	3500	65
+Note	3500	4000	67
+Note	4000	4500	67
+Note	4500	6000	69
+Note	6000	6500	69
+Note	6500	7000	72
+Note	7000	7500	74
+Note	7500	9000	76
+Note	9000	9250	74
+Note	9250	9500	72
+Note	9500	10500	71
+Note	10500	12000	69
+Note	12000	12500	69
+Note	12500	13000	69
+Note	13000	13500	69
+Note	13500	15000	72
+Note	15000	15500	69
+Note	15500	16000	69
+Note	16000	16500	67
+Note	16500	18000	65
+Note	18500	19500	72
+Note	19500	21000	74
+Note	21000	21500	69
+Note	21500	22000	69
+Note	22000	22250	67
+Note	22250	22500	65
+Note	22500	23500	64
+Note	23500	24000	62
+Reference AGN: Maerchen -, Zauber - Lied, Tannhaeuser - Sage, Ballade ?
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,35 @@
+Reference OTL: Der grausame Bruder Krist give at Dronningen hun var dod,
+Reference ARE: Nordeuropa, Daenemark, Faeroer
+Reference YOR: 3, S. 260
+Comment	   1923 gedruckt in Kobenhavn
+Reference SCT: Q2068L
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	1000	65
+Note	1000	1500	65
+Note	1500	2000	65
+Note	2000	3000	65
+Note	3000	3500	60
+Note	3500	4000	60
+Note	4000	5000	64
+Note	5000	6000	65
+Note	6000	7000	67
+Note	7000	8000	65
+Note	8000	9000	69
+Note	9000	9500	72
+Note	9500	10000	72
+Note	10000	11000	72
+Note	11000	11500	69
+Note	11500	12000	69
+Note	12000	13000	65
+Note	13000	14000	65
+Note	14000	15000	65
+Note	15000	16000	62
+Reference AGN: Ballade, Schwangerschaft, Moral, Mord
+Comment	Daenische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,34 @@
+Reference OTL: AUS DEM HIMMEL FERNE
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0642
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	1000	67
+Note	1000	2000	67
+Note	2000	3500	69
+Note	3500	4000	67
+Note	4000	6000	67
+Note	6000	8000	64
+Note	8000	9000	64
+Note	9000	10000	60
+Note	10000	11000	65
+Note	11000	12000	64
+Note	12000	15000	62
+Note	16000	17500	62
+Note	17500	18000	62
+Note	18000	19000	60
+Note	19000	20000	60
+Note	20000	22000	65
+Note	22000	24000	64
+Note	24000	25000	69
+Note	25000	26000	65
+Note	26000	27000	64
+Note	27000	28000	62
+Note	28000	31000	60
+Reference AGN: Kinder - Lied, religioes
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,40 @@
+Reference OTL: Der Maedchenmoerder (Halewijn - Ulinger) Heer Halwyn zong een liedekyn,
+Reference ARE: Europa, Mitteleuropa, Niederlande, flaemisch, Brabant
+Reference YOR: 2, S. 100
+Comment	   1837 gedruckt
+Reference SCT: Q2041H
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	60
+Note	1000	1500	59
+Note	2000	2500	60
+Note	3000	4500	62
+Note	6000	7500	64
+Note	9000	10000	62
+Note	11000	11500	60
+Note	12000	13000	59
+Note	14000	14500	59
+Note	15000	16000	60
+Note	17000	17500	59
+Note	18000	19000	57
+Note	20000	20500	59
+Note	21000	22000	60
+Note	23000	23500	62
+Note	24000	25000	64
+Note	26000	26500	64
+Note	27000	28000	65
+Note	29000	29500	64
+Note	30000	31500	62
+Note	33000	34500	64
+Note	36000	37000	62
+Note	38000	38500	61
+Note	39000	40000	62
+Reference AGN: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+Comment	Grundton in der zweigestrichenen Oktave. Flaemische Fassung der
+Comment	   Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

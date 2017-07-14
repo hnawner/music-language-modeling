@@ -1,0 +1,45 @@
+Reference OTL: WE SALL DAT MUEHLKEN MAHLEN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Westfalen
+Reference SCT: E1564
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	60
+Note	1000	2000	65
+Note	3000	3500	67
+Note	4000	5000	69
+Note	6000	6500	70
+Note	7000	8500	72
+Note	10000	11000	69
+Note	12000	12250	69
+Note	12500	12750	70
+Note	13000	14000	72
+Note	15000	15500	72
+Note	16000	17000	65
+Note	18000	18500	72
+Note	19000	20000	74
+Note	21000	21500	72
+Note	22000	23000	74
+Note	24000	24500	72
+Note	25000	26500	72
+Note	28000	29500	69
+Note	31000	32500	77
+Note	34000	35000	74
+Note	36000	36250	74
+Note	36500	36750	74
+Note	37000	38000	74
+Note	39000	39500	74
+Note	40000	41000	72
+Note	42000	42500	69
+Note	43000	44000	72
+Note	45000	45500	72
+Note	46000	46500	72
+Note	47000	47750	72
+Note	48500	48750	70
+Note	49000	51500	69
+Reference AGN: Staende -, Bauern - Lied, Flachsbrechen, bei der Arbeit
+Reference ONB: ESAC (Essen Associative Code) Database: ERK3
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

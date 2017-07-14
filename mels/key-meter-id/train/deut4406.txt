@@ -1,0 +1,52 @@
+Reference OTL: Steh ich an mein Fensterlein, schau so trueb, so traurig drein
+Reference ARE: Europa, Mitteleuropa, Deutschland, Baden, Freiburg i. Brsg.
+Reference SCT: D0093
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  3/4; 2/4
+Info keysig 2 sharps
+Info key D Major
+Note	0	500	66
+Note	500	1000	67
+Note	1000	2500	69
+Note	2500	3000	71
+Note	3000	3500	69
+Note	3500	4000	69
+Note	4000	5000	67
+Note	6000	6500	69
+Note	6500	7000	74
+Note	7000	8500	78
+Note	8500	9000	76
+Note	9000	9500	76
+Note	9500	10000	74
+Note	10000	11000	69
+Note	12000	12500	74
+Note	12500	13000	73
+Note	13000	14500	71
+Note	14500	15000	71
+Note	15000	15500	71
+Note	15500	16000	71
+Note	16000	17000	69
+Note	18000	18500	69
+Note	18500	19000	69
+Note	19000	20000	67
+Note	20000	21000	73
+Note	21000	22000	74
+Note	23000	23500	74
+Note	23500	24000	73
+Note	24000	25500	71
+Note	25500	26000	71
+Note	26000	26500	71
+Note	26500	27000	71
+Note	27000	28000	69
+Note	29000	29500	69
+Note	29500	30000	69
+Note	30000	31000	67
+Note	31000	32000	73
+Note	32000	33000	74
+Reference AGN: Liebesschmerz
+Comment	Inzipit = Variante zum Lied
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

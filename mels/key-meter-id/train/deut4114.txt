@@ -1,0 +1,56 @@
+Reference OTL: Georg von Fronspergs Lied ueber Hofgunst
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0391
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key A Minor
+Note	0	8000	76
+Note	4000	8000	77
+Note	6000	10000	77
+Note	8000	12000	76
+Note	10000	14000	76
+Note	12000	16000	72
+Note	14000	18000	72
+Note	16000	20000	74
+Note	19000	21000	76
+Note	20000	22000	77
+Note	21000	23000	76
+Note	22000	24000	74
+Note	23000	25000	72
+Note	24000	26000	76
+Note	25000	27000	77
+Note	26000	30000	74
+Note	28000	32000	72
+Note	31000	33000	72
+Note	32000	34000	71
+Note	33000	37000	76
+Note	35000	37000	74
+Note	36000	40000	76
+Note	39000	41000	76
+Note	40000	44000	79
+Note	42000	46000	77
+Note	44000	48000	76
+Note	47000	49000	76
+Note	48000	52000	79
+Note	50000	54000	77
+Note	52000	56000	76
+Note	55000	57000	74
+Note	56000	60000	77
+Note	58000	62000	76
+Note	60000	64000	74
+Note	63000	65000	74
+Note	64000	68000	72
+Note	66000	70000	74
+Note	68000	72000	76
+Note	71000	73000	72
+Note	72000	74000	74
+Note	73000	75000	69
+Note	74000	78000	71
+Note	76000	84000	69
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Joh. Ott 1534 No. 39 und 40.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

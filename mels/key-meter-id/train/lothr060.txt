@@ -1,0 +1,45 @@
+Reference OTL: Schneider - Verschwoerung Es haben sich sieben und siebzig Schneider verschworen,
+Reference ARE: Europa, Mitteleuropa, Lothringen, Woelflingen
+Reference SCT: D0063
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	1000	62
+Note	1000	2000	62
+Note	2000	3000	69
+Note	3000	4000	69
+Note	4000	4500	69
+Note	4500	4750	69
+Note	4750	5000	69
+Note	5000	6000	69
+Note	6000	7000	71
+Note	7000	8000	69
+Note	8000	9000	67
+Note	9000	10000	67
+Note	10000	11000	67
+Note	11000	12000	67
+Note	12000	13000	67
+Note	13000	15000	67
+Note	15000	16000	72
+Note	16000	17000	72
+Note	17000	18000	72
+Note	18000	19000	72
+Note	19000	22000	72
+Note	22000	24000	72
+Note	24000	24750	72
+Note	24750	25000	72
+Note	25000	26500	71
+Note	26500	27000	71
+Note	27000	28000	71
+Note	28000	29000	69
+Note	29000	30000	69
+Note	30000	31000	69
+Note	31000	33000	69
+Reference AGN: Spott - Lied
+Comment	rezitativisch, Vortragsbezeichnung: lustig, schalkhaft
+Comment	   Verzierung; Inzipt = Variante zum Lied
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

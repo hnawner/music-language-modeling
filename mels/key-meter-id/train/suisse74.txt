@@ -1,0 +1,50 @@
+Reference OTL: Mis Bueoeli Mis Schaetzaeli geit ueber Sapuener Staeg
+Reference ARE: Europa, Mitteleuropa,Schweiz, Kt. Graubuenden, Chur
+Reference SCT: D0089
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key E-flat Major
+Note	0	500	70
+Note	1000	1500	67
+Note	2000	2500	68
+Note	3000	3500	70
+Note	4000	4500	72
+Note	5000	5500	75
+Note	6000	6500	72
+Note	7000	8000	70
+Note	9000	9500	68
+Note	10000	11000	65
+Note	12000	12500	70
+Note	13000	13500	67
+Note	14000	14500	68
+Note	15000	15500	70
+Note	16000	16500	72
+Note	17000	17500	75
+Note	18000	18500	72
+Note	19000	20500	70
+Note	24000	24500	67
+Note	25000	25500	65
+Note	26000	26500	67
+Note	27000	27500	65
+Note	28000	28500	63
+Note	29000	29500	65
+Note	30000	30500	67
+Note	31000	31750	65
+Note	32500	32750	67
+Note	33000	33500	65
+Note	34000	35000	63
+Note	36000	36500	70
+Note	37000	37500	67
+Note	38000	38500	68
+Note	39000	39500	70
+Note	40000	40500	72
+Note	41000	41500	75
+Note	42000	42500	72
+Note	43000	44500	70
+Reference AGN: Liebes - Lied
+Comment	Inzipit = Variante zum Lied
+Reference ONB: ESAC (Essen Associative Code) Database: DVA
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0
