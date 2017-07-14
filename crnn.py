@@ -4,16 +4,20 @@ from __future__ import absolute_import
 from __future__ import print_function
 from __future__ import division
 
-from timesteps_utils import get_data, get_lengths
+from crnn_utils import get_data, get_lengths
 from sklearn.utils import shuffle
+import sys
 import numpy as np
 import tensorflow as tf
 
+TIME_STEP = sys.argv[1]
+KERN_SIZE = sys.argv[2]
 
 # padded with [-1, -1]
-(X_tr, X_te, Y_tr, Y_te), max_len = get_data("temperley/melfiles/")
+path = '/home/hawner2/reu/musical-forms/mels/krn_split/converted/train/'
+(X_tr, X_te, Y_tr, Y_te), max_len = get_data(path, TIME_STEP, KERN_SIZE)
 
-kern_size = 8
+kern_size = KERN_SIZE
 n_inputs = 2
 n_outputs = 3
 
@@ -25,14 +29,14 @@ lens = tf.placeholder(tf.int32, [None])
 # CNN pre-processing
 network = tf.layers.conv1d(inputs=X,
                            filters=16,
-                           kernel_size=kern_size,
+                           kernel_size=kern_size, # reduces size of input
                            padding='valid',
                            activation=tf.nn.relu,
                            name='conv1')
 
 network = tf.layers.conv1d(inputs=network,
                            filters=8,
-                           kernel_size=1,
+                           kernel_size=1, # keeps input/output size constant
                            padding='valid',
                            activation=tf.nn.relu,
                            name='conv2')
