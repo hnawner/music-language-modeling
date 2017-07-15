@@ -11,7 +11,6 @@ from sklearn.model_selection import train_test_split
 
 def read(directory):
     seqs = []
-    files = []
     for fi in listdir(directory):
         if fi.endswith(".txt"):
             path = directory + '/' + fi
@@ -24,18 +23,25 @@ def read(directory):
                     if line[0] == "Note":
                         onset = int(float(line[1]))
                         offset = int(float(line[2]))
+                        # triplet edge case:
+                        # replace triplets with first triplet, spanning
+                        # entire triplets' duration
                         if onset % 10 not in {0, 5} or offset % 10 not in {0, 5}:
-                            # replace triplets with rests
-                            continue
-                        if offset <= prev_offset:
-                            continue
-                        if onset < prev_offset:
-                            onset = prev_offset
+                            # check if first occurence of triplets
+                            if len(seq[-1]) == 2:
+                                seq.append(onset)
+                        # check if first occurence after triplets
+                        elif len(seq[-1]) == 1:
+                            triplet_onset = seq.pop()
+                            seq.append((triplet_onset, prev_offset))
+                        # disregard overlapping notes
+                        elif offset <= prev_offset: continue
+                        # disregard overlapping portion of notes
+                        elif onset < prev_offset: onset = prev_offset
                         prev_offset = offset
                         seq.append((onset, offset))
                 seqs.append(seq)
-                files.append(fi)
-    return seqs, files
+    return seqs
 
 
 def encode_input(seqs, files, time_step):
@@ -131,11 +137,6 @@ def get_data(directory, time_step, kern_size):
     max_len = pad(X, Y)
     X = np.asarray(X)
     Y = np.asarray(Y)
-    print('X')
-    print(X)
-    print('Y')
-    print(Y)
-#    split = train_test_split(X, Y, test_size=0.2)
-#    return split, max_len
+    split = train_test_split(X, Y, test_size=0.2)
+    return split, max_len
 
-get_data('/home/hawner2/reu/musical-forms/mels/krn_split/converted/train/', 125, 8)

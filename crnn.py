@@ -10,26 +10,26 @@ import sys
 import numpy as np
 import tensorflow as tf
 
-TIME_STEP = sys.argv[1]
-KERN_SIZE = sys.argv[2]
+TIME_STEP = 250
+KERN_SIZE = 
 
 # padded with [-1, -1]
 path = '/home/hawner2/reu/musical-forms/mels/krn_split/converted/train/'
 (X_tr, X_te, Y_tr, Y_te), max_len = get_data(path, TIME_STEP, KERN_SIZE)
 
-kern_size = KERN_SIZE
 n_inputs = 2
 n_outputs = 3
 
+
 # X lengths after CNN processing is len - kern_size
 X = tf.placeholder(tf.float32, [None, max_len, n_inputs], name="X")
-Y = tf.placeholder(tf.float32, [None, max_len-kern_size+1, n_outputs], name="Y")
+Y = tf.placeholder(tf.float32, [None, max_len-KERN_SIZE+1, n_outputs], name="Y")
 lens = tf.placeholder(tf.int32, [None])
 
 # CNN pre-processing
 network = tf.layers.conv1d(inputs=X,
                            filters=16,
-                           kernel_size=kern_size, # reduces size of input
+                           kernel_size=KERN_SIZE, # reduces size of input
                            padding='valid',
                            activation=tf.nn.relu,
                            name='conv1')
@@ -52,7 +52,7 @@ outs, _ = tf.nn.dynamic_rnn(multi, network, sequence_length=lens,
                             dtype=tf.float32, swap_memory=True)
 stacked_outs = tf.reshape(outs, [-1, nu_rnn], name='stacked_outs')
 stacked_logits = tf.layers.dense(stacked_outs, n_outputs, name='dense')
-logits = tf.reshape(stacked_logits, [-1, max_len-kern_size+1, n_outputs],
+logits = tf.reshape(stacked_logits, [-1, max_len-KERN_SIZE+1, n_outputs],
                     name='logits')
 
 def loss_fn(logits, Y):
