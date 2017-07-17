@@ -28,10 +28,13 @@ def read(directory):
                         # entire triplets' duration
                         if onset % 10 not in {0, 5} or offset % 10 not in {0, 5}:
                             # check if first occurence of triplets
-                            if len(seq[-1]) == 2:
+                            if (seq == [] or
+                            isinstance(seq[-1], tuple) and len(seq[-1]) == 2):
                                 seq.append(onset)
+                                continue
+                            continue
                         # check if first occurence after triplets
-                        elif len(seq[-1]) == 1:
+                        elif len(seq) > 0 and isinstance(seq[-1], int):
                             triplet_onset = seq.pop()
                             seq.append((triplet_onset, prev_offset))
                         # disregard overlapping notes
@@ -40,16 +43,18 @@ def read(directory):
                         elif onset < prev_offset: onset = prev_offset
                         prev_offset = offset
                         seq.append((onset, offset))
+                if isinstance(seq[-1], int): # triplets are end of seq
+                    triplet_onset = seq.pop()
+                    seq.append((triplet_onset, prev_offset))
                 seqs.append(seq)
     return seqs
 
 
-def encode_input(seqs, files, time_step):
+def encode_input(seqs, time_step):
     # INDICES: LEN 2
     # 0: note is playing
     # 1: note is articulated
     encoded = []
-    count = 0
     for s in seqs:
         new = []
         end = s[-1][1]
@@ -68,24 +73,20 @@ def encode_input(seqs, files, time_step):
                 s.pop(0)
             else:
                 print('inputs')
-                print('file', files[count])
                 print('time step', t)
                 print('s[0]', s[0])
                 print('s[1]', s[1])
-                print('count', count)
                 raise Exception("nonexhaustive match failure")
-        count += 1
         encoded.append(new)
     return encoded
 
 
-def encode_target(seqs, files, time_step):
+def encode_target(seqs, time_step):
     # INDICES: LEN 3
     # 0: note is articulated
     # 1: note is playing
     # 2: note is not playing
     encoded = []
-    count = 0
     for s in seqs:
         new = []
         end = s[-1][1]
@@ -104,12 +105,10 @@ def encode_target(seqs, files, time_step):
                 s.pop(0)
             else:
                 print('targets')
-                print('file', files[count])
                 print('time step', t)
                 print('s[0]', s[0])
                 print('s[1]', s[1])
                 raise Exception("nonexhaustive match failure")
-        count += 1
         encoded.append(new)
     return encoded
 
@@ -123,18 +122,32 @@ def pad(X, Y):
         Y[i] += [[0,0,0]] * diff
     return max_len
 
+
+def make_ngrams(X, n):
+    grams = list()
+    for L in X:
+        prevs = L[:(n-1)]
+        for i in range((n-1), len(L)):
+            prevs += [ L[i] ]
+            grams.append(prevs)
+            prevs = prevs[1:]
+    return grams
+
+
 def get_lengths(L):
     lens = deepcopy(L)
     return map(lambda l: len(l), L)
 
-def get_data(directory, time_step, kern_size):
-    seqs, files = read(directory)
-    X = encode_input(deepcopy(seqs), files, time_step)
-    Y = encode_target(seqs, files, time_step)
+
+def get_data(directory, time_step):
+    seqs = read(directory)
+    X = encode_input(deepcopy(seqs), time_step)
+    Y = encode_target(seqs, time_step)
     for i in range(len(X)):
         X[i] = X[i][:-1]
-        Y[i] = Y[i][kern_size:]
+        Y[i] = Y[i][8:]
     max_len = pad(X, Y)
+    #X = np.asarray(make_ngrams(X, kern_size)).flatten()
     X = np.asarray(X)
     Y = np.asarray(Y)
     split = train_test_split(X, Y, test_size=0.2)

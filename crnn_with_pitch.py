@@ -4,27 +4,28 @@ from __future__ import absolute_import
 from __future__ import print_function
 from __future__ import division
 
-from crnn_utils import get_data, get_lengths
+from crnn_utils_with_pitch import get_data
 from sklearn.utils import shuffle
 import sys
 import numpy as np
 import tensorflow as tf
 
 TIME_STEP = 125
+PITCH_MIN = 40
+PITCH_MAX = 90
+PITCH_RANGE = PITCH_MAX - PITCH_MIN
 #KERN_SIZE = 4
 
-# padded with [-1, -1]
 path = '/home/hawner2/reu/musical-forms/mels/krn_split/converted/train/'
 (X_tr, X_te, Y_tr, Y_te), max_len = get_data(path, TIME_STEP)
 
-n_inputs = 2
-n_outputs = 3
+n_inputs = 2 + PITCH_RANGE
+n_outputs = n_inputs
 
 
 # X lengths after CNN processing is len - kern_size
 X = tf.placeholder(tf.float32, [None, max_len, n_inputs], name="X")
 Y = tf.placeholder(tf.float32, [None, max_len-7, n_outputs], name="Y")
-#lens = tf.placeholder(tf.int32, [None])
 
 # CNN pre-processing
 network = tf.layers.conv1d(inputs=X,
@@ -115,9 +116,10 @@ def next_batch(size, x, y, n):
         return x[start:], y[start:] 
     return x[start:end], y[start:end]
 
-n_epochs = 5
+n_epochs = 1
 batch_size = 32
 n_batches = int(np.ceil(len(X_tr) / batch_size))
+n_batches_te = int(np.ceil(len(X_te) / batch_size))
 
 with tf.Session() as s:
     init.run()
@@ -136,9 +138,10 @@ with tf.Session() as s:
         for b in range(n_batches):
             X_tr_b, Y_tr_b = next_batch(batch_size, X_tr, Y_tr, b)
             acc_tr += [ accuracy.eval(feed_dict={X: X_tr_b, Y: Y_tr_b}) ]
-            X_te_b, Y_te_b = next_batch(batch_size, X_te, Y_te, b)
-            acc_te += [ accuracy.eval(feed_dict={X: X_te_b, Y: Y_te_b}) ]
             log_tr += [ loss.eval(feed_dict={X: X_tr_b, Y: Y_tr_b}) ]
+        for b in range(n_batches_te):
+            X_te_b, Y_te_b = next_batch(batch_size, X_te, Y_te, b)
+            acc_te += [ accuracy.eval(feed_dict{X: X_te_b, Y: Y_te_b}) ]
             log_te += [ loss.eval(feed_dict={X: X_te_b, Y: Y_te_b}) ]
             # F1 score
             # logits_tr += [ logits.eval(feed_dict={X: X_tr_b, Y: Y_tr_b}) ]
