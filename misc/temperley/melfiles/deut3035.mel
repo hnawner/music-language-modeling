@@ -1,0 +1,59 @@
+Reference OTL: Schloss in Oesterreich Es ligt ein schlos in Ostereich,
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference YOR: 1, S. 250
+Comment	   1549 gedruckt in Nuernberg
+Reference SCT: Q0024A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Irregular meter.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	1000	2000	65
+Note	2000	3000	67
+Note	3000	5000	69
+Note	5000	6000	70
+Note	6000	8000	72
+Note	8000	9000	69
+Note	9000	11000	65
+Note	12000	13000	65
+Note	13000	14000	69
+Note	14000	15000	70
+Note	15000	17000	72
+Note	17000	18000	65
+Note	18000	20000	65
+Note	20000	20500	64
+Note	20500	21000	62
+Note	21000	22000	64
+Note	22000	23000	65
+Note	23000	25000	62
+Note	25000	27000	60
+Note	28000	29000	72
+Note	29000	30000	72
+Note	30000	31000	72
+Note	31000	32500	74
+Note	32500	33000	72
+Note	33000	34000	74
+Note	34000	36000	72
+Note	36000	37000	70
+Note	37000	39000	69
+Note	40000	41000	74
+Note	41000	42000	72
+Note	42000	43000	67
+Note	43000	44000	69
+Note	44000	45000	65
+Note	45000	46000	64
+Note	46000	47000	65
+Note	47000	48000	67
+Note	48000	50000	69
+Note	50000	50500	67
+Note	50500	51000	65
+Note	51000	53000	67
+Note	53000	57000	65
+Reference AGN: Ballade, Gefangenschaft, Hinrichtung, Tod, Vergeltung
+Comment	Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+Comment	   Refrainartiges Anhaengsel an der letzten Zeile.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

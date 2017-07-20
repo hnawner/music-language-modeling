@@ -1,0 +1,50 @@
+Reference OTL: Nachtfahrt
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0074
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key D Minor
+Note	0	1000	62
+Note	500	1500	64
+Note	1000	4000	65
+Note	2500	3500	64
+Note	3000	5000	65
+Note	4000	7000	67
+Note	5500	6500	65
+Note	6000	8000	67
+Note	7000	15000	69
+Note	12000	14000	69
+Note	13000	16000	67
+Note	14500	15500	69
+Note	15000	17000	70
+Note	16000	19000	69
+Note	17500	18500	70
+Note	18000	20000	67
+Note	19000	29000	65
+Note	24000	25000	65
+Note	24500	25500	67
+Note	25000	29000	69
+Note	27000	29000	69
+Note	28000	31000	72
+Note	29500	30500	70
+Note	30000	32000	69
+Note	31000	37000	67
+Note	34000	36000	64
+Note	35000	37000	69
+Note	36000	38000	67
+Note	37000	40000	65
+Note	38500	39500	64
+Note	39000	41000	62
+Note	40000	43000	61
+Note	41500	42500	62
+Note	42000	44000	64
+Note	43000	53000	62
+Reference AGN: Romanze, Ballade, Lied
+Comment	 Melodie aus Hainhofer, Lautenbuch II.Bl.7 (Mspt. von 1603. Bibl.
+Comment	   zu Wolfenbuettel). Die Melodie ist von Boehme aus der Lautenschrift
+Comment	   entziffert.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

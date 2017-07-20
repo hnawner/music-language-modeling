@@ -1,0 +1,62 @@
+Reference OTL: Herr von Braunschweig Het was een kint, soo kleynen kint,
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference YOR: 1, S. 242
+Comment	   1614 gedruckt in Antwerpen
+Reference SCT: Q0023A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  3/4; 4/4
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	65
+Note	1000	2000	65
+Note	2000	3000	64
+Note	3000	5000	62
+Note	5000	6000	60
+Note	6000	7000	65
+Note	7000	8000	67
+Note	8000	10000	69
+Note	10000	11000	72
+Note	11000	12000	72
+Note	12000	13000	70
+Note	13000	15000	69
+Note	15000	16000	67
+Note	16000	17000	65
+Note	17000	18000	67
+Note	18000	20000	69
+Note	20000	21000	69
+Note	21000	22000	69
+Note	22000	23000	67
+Note	23000	25000	65
+Note	25000	26000	69
+Note	26000	28000	72
+Note	28000	29000	70
+Note	29000	31000	69
+Note	31000	32000	67
+Note	32000	33000	65
+Note	33000	34000	65
+Note	34000	35000	67
+Note	35000	36000	69
+Note	36000	38000	67
+Note	38000	40000	65
+Note	40000	41000	69
+Note	41000	42000	69
+Note	42000	43000	67
+Note	43000	45000	65
+Note	45000	46000	69
+Note	46000	48000	72
+Note	48000	49000	70
+Note	49000	51000	69
+Note	51000	52000	67
+Note	52000	53000	65
+Note	53000	54000	65
+Note	54000	55000	67
+Note	55000	56000	69
+Note	56000	58000	67
+Note	58000	60000	65
+Reference AGN: Ballade, Hinrichtung, Tod, Vergeltung; geistlich
+Comment	Melodie = geistliche Kontrafaktur.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0
