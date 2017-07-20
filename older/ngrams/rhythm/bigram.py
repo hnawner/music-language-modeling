@@ -151,7 +151,7 @@ def main():
     r_dict = build_rhythm_dict(sys.argv[1])
     mels = read(sys.argv[1], r_dict)
     
-    print("_______Unigram_______")
+    print("_______Bigram_______")
 
     print("___Quadruple/Duple Meter___")
     cv_test(mels)
