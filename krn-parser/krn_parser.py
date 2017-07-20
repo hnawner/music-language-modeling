@@ -6,6 +6,7 @@ pc_dict = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
 p_alt = {"#": 1, "n": 0, "-": -1}
 extras = ["{", "}", "x"]
 unknown = []
+lengths = []
 
 def parse_files(source, dest):
     files = os.listdir(source)
@@ -66,12 +67,12 @@ def parse_info(line):
         key = line[1:-1]
         key_alt = ""
         if len(key) == 2:
-        	key_alt = key[1]
-        	if key_alt == "-":
-        		key_alt = "-flat"
-        	else:
-        		key_alt = "-sharp"
-        	key = key[0]
+            key_alt = key[1]
+            if key_alt == "-":
+                key_alt = "-flat"
+            else:
+                key_alt = "-sharp"
+            key = key[0]
         mode = "Minor"
         if key[0].isupper():
             mode = "Major"
@@ -104,7 +105,11 @@ def parse_note(line):
         elif is_int(line[i]): # rhythm value
             length += str(line[i])
         elif line[i] == ".": # dotted rhythm
-            length_alt += 1
+            if (len(line) > (i + 1)) and line[i+1] == "5":
+                length += ".5"
+                i += 1
+            else:
+                length_alt += 1
         elif (line[i].upper()) in pc_dict: #pitch
             pc = pc_dict[line[i].upper()]
             if line[i].isupper():
@@ -143,12 +148,18 @@ def parse_note(line):
         pitch = (octave * 12) + pc + pitch_alt
     
     # calculate rhythm
-    if int(length) == 0:
+    if int(float(length)) == 0:
         length = 0.5
     length = 4000.0 / float(length)
     rhythm = length
     for dot in range(length_alt):
-        rhythm += np.power(0.5, (dot + 1)) * int(length)
+        rhythm += np.power(0.5, (dot + 1)) * (length)
+        
+    length = int(length)
+    
+    # debug
+    if (length in lengths) == False:
+        lengths.append(length)
         
     return [pitch, rhythm, tie]                
                 
@@ -204,5 +215,6 @@ def is_int(i):
 def main():
     parse_files(sys.argv[1], sys.argv[2])
     print("Unknown: ", unknown)
+    print("Lengths: ", lengths)
     
 main()
