@@ -1,0 +1,26 @@
+2017-07-19 14:24:37.194199: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-19 14:24:37.194447: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-19 14:24:37.195366: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-19 14:24:38.869204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K20Xm
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:20:00.0
+Total memory: 5.57GiB
+Free memory: 5.50GiB
+2017-07-19 14:24:38.869297: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-07-19 14:24:38.869327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-07-19 14:24:38.869398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20Xm, pci bus id: 0000:20:00.0)
+2017-07-19 14:24:47.688771: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 6798 get requests, put_count=3397 evicted_count=1000 eviction_rate=0.294377 and unsatisfied allocation rate=0.662107
+2017-07-19 14:24:47.688874: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+crnn_new_loss.py:113: RuntimeWarning: invalid value encountered in long_scalars
+  precision = true_pos / (true_pos + false_pos)
+xentropy Tensor("mul:0", shape=(?, 192, 53), dtype=float32)
+xentropy Tensor("Neg:0", shape=(?, 192), dtype=float32)
+mask Tensor("Sign:0", shape=(?, 192), dtype=float32)
+xentropy Tensor("mul_1:0", shape=(?, 192), dtype=float32)
+xentropy Tensor("Sum_1:0", shape=(?,), dtype=float32)
+xentropy Tensor("truediv:0", shape=(?,), dtype=float32)
+------------ 0 ------------
+logp -tr 2.38831 -te 2.43021
+acc  -tr 0.692212 -te 0.68408
+f1   -tr nan -te nan

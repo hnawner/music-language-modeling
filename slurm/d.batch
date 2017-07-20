@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH -p gpu --gres=gpu:1 -o d.out -t 00:00:30
+
+module load tensorflow
+python crnn_new_loss.py
+module unload tensorflow
