@@ -87,10 +87,9 @@ def predict(test_X, test_y, beat_distr, div_distr):
     for mel, key in zip(test_X, test_y):
     	offsets = [0, 500, 1000]
     	
-    	if key[0] == 2 or key[1] == 2: # irregular
-    		continue
-    	#print(mel)
-    	#print(key)
+    	#if key[0] == 2 or key[1] == 2: # irregular
+    	#	continue
+
        
     	sub_val = 500
         
@@ -158,8 +157,8 @@ def predict(test_X, test_y, beat_distr, div_distr):
 
         if key[2] == prediction[2]:
             pickup_correct += 1
-        print("k: ",key[2])
-        print(prediction[2])
+        #print("k: ",key[2])
+        #print(prediction[2])
 
         predictions += 1
         
@@ -167,6 +166,7 @@ def predict(test_X, test_y, beat_distr, div_distr):
         #print(prediction)
     
     accuracy = correct / predictions
+    print(div_correct, "/", predictions)
     
     d_acc = div_correct / predictions
     b_acc = beat_correct / predictions

@@ -48,10 +48,10 @@ def read_files_rhythm(folder, r_dict = None):
                 
                 if parsed[0] == "Note":
                     length = None
-                    if f[i+1].split()[0] == "Note":
-                        length = int(f[i+1].split()[1]) - int(parsed[1])
+                    if (i+1) < len(f) and f[i+1].split()[0] == "Note":
+                        length = int(float(f[i+1].split()[1])) - int(float(parsed[1]))
                     else:
-                        length = int(parsed[2]) - int(parsed[1])
+                        length = int(float(parsed[2])) - int(float(parsed[1]))
                     
                     r_approx = [v for (k, v) in r_dict.items() 
                             if abs(length - k) < 5]
@@ -77,10 +77,10 @@ def build_rhythm_dict(folder):
 
                     if parsed[0] == "Note":
                         length = None
-                        if f[i+1].split()[0] == "Note":
-                            length = int(f[i+1].split()[1]) - int(parsed[1])
+                        if (i+1) < len(f) and f[i+1].split()[0] == "Note":
+                            length = int(float(f[i+1].split()[1])) - int(float(parsed[1]))
                         else:
-                            length = int(parsed[2]) - int(parsed[1])
+                            length = int(float(parsed[2])) - int(float(parsed[1]))
                             
                         diffs = [abs(r - length) for r in rhythms]
                         if diffs != [] and min(diffs) < 5:
