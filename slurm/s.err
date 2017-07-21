@@ -691,3 +691,15 @@ Free memory: 5.50GiB
 2017-07-20 11:21:04.597517: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 317098 get requests, put_count=324696 evicted_count=22000 eviction_rate=0.0677557 and unsatisfied allocation rate=0.0695242
 2017-07-20 11:21:04.597642: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 84085 to 92493
 2017-07-20 11:21:05.455995: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 27132 get requests, put_count=45540 evicted_count=10000 eviction_rate=0.219587 and unsatisfied allocation rate=0
+Traceback (most recent call last):
+  File "crnn/crnn.py", line 140, in <module>
+    save_path = saver.save(s, save_name)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 1494, in save
+    self.export_meta_graph(meta_graph_filename)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/training/saver.py", line 1522, in export_meta_graph
+    graph_def=ops.get_default_graph().as_graph_def(add_shapes=True),
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2361, in as_graph_def
+    result, _ = self._as_graph_def(from_version, add_shapes)
+  File "/software/anaconda/4.4.0/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2324, in _as_graph_def
+    raise ValueError("GraphDef cannot be larger than 2GB.")
+ValueError: GraphDef cannot be larger than 2GB.
