@@ -194,7 +194,7 @@ def build_mel(mel):
             start = time
             time += mel[i][1] + tie_length
             end = time
-            note += "Note\t" + str(round(start)) + "\t" + str(round(end)) + "\t" + str(pitch)
+            note += "Note\t" + str(int(round(start))) + "\t" + str(int(round(end))) + "\t" + str(int(pitch))
             
         if mel[i][2] == -1: # tie ends:
             tie_length = 0
