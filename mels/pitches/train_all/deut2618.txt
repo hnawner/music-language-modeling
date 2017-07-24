@@ -1,0 +1,42 @@
+Reference OTL: KOMMT DIE NACHT MIT IHREM SCHATTEN
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: B0414
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	750	72
+Note	750	1000	74
+Note	1000	2000	72
+Note	2000	3000	70
+Note	3000	3750	70
+Note	3750	4000	72
+Note	4000	5000	70
+Note	5000	6000	69
+Note	6000	6750	69
+Note	6750	7000	70
+Note	7000	8500	69
+Note	8500	9000	67
+Note	9000	9500	70
+Note	9500	10000	74
+Note	10000	12000	72
+Note	12000	12500	72
+Note	12500	13000	77
+Note	13000	14500	76
+Note	14500	15000	74
+Note	15000	15500	72
+Note	15500	16000	70
+Note	16000	17000	74
+Note	17000	18000	72
+Note	18000	18500	69
+Note	18500	19000	72
+Note	19000	20500	74
+Note	20500	21000	72
+Note	21000	21500	70
+Note	21500	22000	72
+Note	22000	24000	69
+Reference AGN: Liebes - Lied, Liebes - Lust
+Reference ONB: ESAC (Essen Associative Code) Database: BOEHME
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

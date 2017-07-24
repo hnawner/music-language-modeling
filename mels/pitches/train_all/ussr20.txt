@@ -1,0 +1,31 @@
+Reference OTL: Tod der Geschwister ohne Text
+Reference ARE: Europa, Osteuropa, UdSSR, Rossiya, mordwinisch
+Reference YOR: 5, S. 206
+Comment	   ????
+Reference SCT: Q3107A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	250	67
+Note	500	750	70
+Note	1000	1750	72
+Note	2500	2750	70
+Note	3000	3500	72
+Note	4000	4250	70
+Note	4500	4750	67
+Note	5000	5250	70
+Note	5500	5750	67
+Note	6000	6500	65
+Note	7000	7500	67
+Note	8000	8333	72
+Note	8667	8833	70
+Note	9000	9250	72
+Note	9500	9750	70
+Note	10000	10500	67
+Reference AGN: historisches Lied
+Comment	Melodievergleich zu Q0107, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

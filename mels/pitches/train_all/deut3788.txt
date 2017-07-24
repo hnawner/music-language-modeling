@@ -1,0 +1,47 @@
+Reference OTL: Tanhaeuser
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0021
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	4000	65
+Note	1000	5000	65
+Note	2000	6000	65
+Note	3000	7000	67
+Note	4000	8000	69
+Note	5000	9000	70
+Note	6000	10000	70
+Note	7000	11000	69
+Note	8000	12000	67
+Note	10000	14000	67
+Note	11000	15000	72
+Note	12000	16000	72
+Note	13000	17000	70
+Note	14000	18000	65
+Note	15000	19000	67
+Note	16000	20000	69
+Note	17000	21000	70
+Note	19000	23000	67
+Note	20000	24000	70
+Note	21000	27000	69
+Note	22500	24500	67
+Note	23000	27000	72
+Note	24000	28000	70
+Note	25000	33000	69
+Note	28000	32000	67
+Note	29000	33000	69
+Note	30000	34000	70
+Note	31000	35000	72
+Note	32000	36000	65
+Note	33000	41000	67
+Note	35000	51000	65
+Reference AGN: Romanze, Ballade, Lied
+Comment	Die Melodie des alten, echten Volksliedes vom Tanhaeuser habe
+Comment	   ich gluecklicherweise gefunden im 8. Quodlibet bei W. Schmeltzel
+Comment	   1544. Die vierte, fehlende Zeile habe ich musikalisch zu ergaen-
+Comment	   zen versucht.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

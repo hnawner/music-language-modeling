@@ -1,0 +1,59 @@
+Reference OTL: Rache im Zweikampf Pres de chez nous il-y-a un capitaine
+Reference ARE: Europa, Mitteleuropa, franzoesische Schweiz, Wallis
+Reference YOR: 5, S. 105
+Comment	   1917 gedruckt in Bale und Lausanne
+Reference SCT: Q2097C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	72
+Note	1000	1500	72
+Note	2000	2500	72
+Note	3000	3500	74
+Note	4000	4500	72
+Note	5000	5500	71
+Note	6000	6500	72
+Note	7000	7500	71
+Note	8000	8500	69
+Note	9000	10000	67
+Note	11000	11500	64
+Note	12000	12500	72
+Note	13000	13500	72
+Note	14000	14500	72
+Note	15000	15500	74
+Note	16000	16500	72
+Note	17000	17500	71
+Note	18000	18500	72
+Note	19000	19500	71
+Note	20000	20500	69
+Note	21000	22000	67
+Note	23000	23500	67
+Note	24000	25000	67
+Note	26000	26500	65
+Note	27000	28500	64
+Note	30000	30500	67
+Note	31000	31500	72
+Note	32000	32500	74
+Note	33000	33500	76
+Note	34000	34500	74
+Note	35000	35500	76
+Note	36000	37500	74
+Note	39000	40000	72
+Note	41000	41250	76
+Note	41500	41750	76
+Note	42000	43000	74
+Note	44000	44500	72
+Note	45000	46500	67
+Note	48000	48500	74
+Note	49000	49500	76
+Note	50000	50500	74
+Note	51000	52000	69
+Note	53000	53500	71
+Note	54000	57000	72
+Reference AGN: Ballade, Frau in Maennerkleidung, Soldat, Betrug, Rache
+Comment	Schweizerische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

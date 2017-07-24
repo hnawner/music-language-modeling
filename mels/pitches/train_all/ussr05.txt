@@ -1,0 +1,35 @@
+Reference OTL: Ritter und Magd Es spielt's ein Graf mit seiner Dam',
+Reference ARE: Europa, Osteuropa, UdSSR, Rossiya, Wolgagebiet
+Reference YOR: 3, S. 65
+Comment	   ????
+Reference SCT: Q0055n
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	500	1000	67
+Note	1000	1500	69
+Note	1500	2500	71
+Note	2500	3000	69
+Note	3000	3500	67
+Note	3500	3750	66
+Note	3750	4000	69
+Note	4000	4500	69
+Note	4500	5500	69
+Note	5500	6000	67
+Note	6000	6500	64
+Note	6500	7000	62
+Note	7000	7500	62
+Note	7500	8500	74
+Note	8500	9000	72
+Note	9000	9500	69
+Note	9500	10000	74
+Note	10000	10500	72
+Note	10500	12000	71
+Reference AGN: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+Comment	Verselbstaendigter Vordersatz ?
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

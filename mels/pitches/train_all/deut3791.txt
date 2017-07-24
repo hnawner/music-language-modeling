@@ -1,0 +1,44 @@
+Reference OTL: Zwei Wasser. (Schwimmersage)
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0024A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key G Minor
+Note	0	4000	67
+Note	1000	9000	67
+Note	3000	7000	70
+Note	4000	12000	69
+Note	6000	10000	67
+Note	7000	13000	69
+Note	8500	10500	70
+Note	9000	13000	72
+Note	10000	18000	74
+Note	12000	16000	74
+Note	13000	21000	72
+Note	15000	19000	69
+Note	16000	20000	70
+Note	17000	25000	67
+Note	19000	31000	65
+Note	24000	28000	65
+Note	25000	33000	69
+Note	27000	31000	70
+Note	28000	36000	72
+Note	30000	34000	70
+Note	31000	37000	67
+Note	32500	34500	69
+Note	33000	37000	70
+Note	34000	42000	69
+Note	36000	40000	67
+Note	37000	41000	65
+Note	38000	46000	62
+Note	40000	48000	67
+Note	42000	46000	66
+Note	43000	51000	67
+Reference AGN: Romanze, Ballade, Lied
+Comment	Mel. bei Joh. Ott, 1534 No. 37. Diskant. Conform bei Ott
+Comment	   III. 1544 No. 15 und Pet. Schoeffer II No. 9.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

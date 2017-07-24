@@ -1,0 +1,44 @@
+Reference OTL: Waise und Stiefmutter Wer lieben will, muss leiden,
+Reference ARE: Europa, Mitteleuropa, Deutschland (BRD), Hessen
+Reference YOR: 5, S. 299
+Comment	   1894 gedruckt in Leipzig
+Reference SCT: Q1116C
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	2000	67
+Note	3000	3500	59
+Note	4000	5000	64
+Note	6000	6500	62
+Note	7000	7500	62
+Note	8000	8500	60
+Note	12000	12250	66
+Note	12500	12750	67
+Note	13000	14000	69
+Note	15000	15500	60
+Note	16000	17000	64
+Note	18000	18500	62
+Note	19000	20000	59
+Note	24000	24500	62
+Note	25000	26000	71
+Note	27000	27500	69
+Note	28000	29000	67
+Note	30000	30500	66
+Note	31000	31500	66
+Note	32000	32500	64
+Note	36000	36250	64
+Note	36500	36750	64
+Note	37000	38000	62
+Note	39000	39500	67
+Note	40000	40500	66
+Note	41000	41500	64
+Note	42000	42500	66
+Note	43000	44000	67
+Reference AGN: ???
+Comment	Melodievergleich zu Q0116, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

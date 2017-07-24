@@ -1,0 +1,44 @@
+Reference OTL: "Der Eifersuechtige" GANG MIR NIT UEBER MI MAETTELI
+Reference ARE: Europa, Mitteleuropa, Schweiz; Elsass
+Reference SCT: Z1214
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	500	73
+Note	1000	1500	76
+Note	2000	2500	74
+Note	3000	3500	71
+Note	4000	4500	73
+Note	5000	5500	75
+Note	6000	6750	76
+Note	7500	7750	78
+Note	8000	8500	76
+Note	9000	9500	73
+Note	10000	10500	76
+Note	11000	11500	74
+Note	12000	12500	71
+Note	13000	13500	73
+Note	14000	14500	74
+Note	15000	16000	73
+Note	18000	18500	73
+Note	19000	19500	76
+Note	20000	20500	73
+Note	21000	21500	71
+Note	22000	22500	74
+Note	23000	23500	71
+Note	24000	24750	69
+Note	25500	25750	71
+Note	26000	26500	69
+Note	27000	27500	73
+Note	28000	28500	76
+Note	29000	29500	73
+Note	30000	30500	71
+Note	31000	31500	74
+Note	32000	32500	71
+Note	33000	34000	69
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

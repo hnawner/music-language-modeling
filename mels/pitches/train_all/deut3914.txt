@@ -1,0 +1,55 @@
+Reference OTL: Espen - Zweiglein
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0178A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  4/2; 6/2
+Info keysig 1 sharp
+Info key G Major
+Note	1000	3000	67
+Note	2000	4000	67
+Note	3000	5000	67
+Note	4000	6000	72
+Note	5000	7000	69
+Note	6000	8000	71
+Note	7000	9000	72
+Note	8000	12000	74
+Note	11000	13000	67
+Note	12000	14000	72
+Note	13000	15000	74
+Note	14000	16000	76
+Note	15000	16000	74
+Note	15500	16500	72
+Note	16000	18000	71
+Note	17000	19000	72
+Note	18000	22000	74
+Note	20000	22000	72
+Note	21000	23000	72
+Note	22000	24000	71
+Note	23000	25000	72
+Note	24000	26000	74
+Note	25000	27000	76
+Note	26000	28000	76
+Note	27000	29000	74
+Note	28000	31000	72
+Note	29500	30000	71
+Note	29750	30250	69
+Note	30000	34000	67
+Note	32000	36000	72
+Note	34000	37000	69
+Note	35500	36500	71
+Note	36000	38000	72
+Note	37000	41000	74
+Note	39000	41000	72
+Note	40000	42000	71
+Note	41000	43000	71
+Note	42000	44000	69
+Note	43000	45000	67
+Note	44000	48000	69
+Note	46000	50000	67
+Reference AGN: Romanze, Ballade, Lied
+Comment	Forster III 1549 No. 27
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

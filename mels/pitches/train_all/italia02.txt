@@ -1,0 +1,47 @@
+Reference OTL: ES WAR EINMAL EIN JUNGER KNAB
+Reference ARE: Europa, Mitteleuropa, Italia, Tirol, Meran
+Reference SCT: E0093B
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	65
+Note	500	1000	65
+Note	1000	1500	69
+Note	1500	3000	72
+Note	3000	3500	74
+Note	3500	4000	70
+Note	4000	4500	72
+Note	4500	5500	69
+Note	6000	6500	65
+Note	6500	7000	65
+Note	7000	7500	69
+Note	7500	9000	72
+Note	9000	9500	74
+Note	9500	10000	70
+Note	10000	10500	72
+Note	10500	11500	69
+Note	12000	12500	65
+Note	12500	13000	65
+Note	13000	13500	65
+Note	13500	14500	74
+Note	14500	15000	70
+Note	15000	15500	70
+Note	15500	16000	77
+Note	16000	16500	74
+Note	16500	18000	72
+Note	18000	18500	69
+Note	18500	19000	69
+Note	19000	19500	69
+Note	19500	20500	67
+Note	20500	21000	72
+Note	21000	21500	72
+Note	21500	22000	70
+Note	22000	22250	72
+Note	22250	22500	70
+Note	22500	23500	69
+Reference AGN: erzaehlendes Volks - Lied, Sage, Liebe, Leid, Tod, Ballade ?
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

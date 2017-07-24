@@ -1,0 +1,47 @@
+Reference OTL: EIN BISSERLE LIEB UND E BISSERLE TREU
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: F0130
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	60
+Note	1000	1250	65
+Note	1500	1750	67
+Note	2000	2500	69
+Note	3000	3500	70
+Note	4000	4500	72
+Note	5000	5500	72
+Note	6000	6500	72
+Note	7000	7500	74
+Note	8000	8500	74
+Note	9000	9500	74
+Note	10000	11000	72
+Note	12000	12250	72
+Note	12500	12750	72
+Note	13000	13500	70
+Note	14000	14500	70
+Note	15000	15500	70
+Note	16000	16500	69
+Note	17000	17500	69
+Note	18000	18500	69
+Note	19000	19500	67
+Note	20000	20500	67
+Note	21000	21500	67
+Note	22000	23000	65
+Note	24000	24500	72
+Note	25000	25500	67
+Note	26000	26750	72
+Note	27500	27750	70
+Note	28000	28500	69
+Note	29000	29750	77
+Note	30500	30750	72
+Note	31000	31500	72
+Note	32000	32500	69
+Note	33000	33500	67
+Note	34000	35000	65
+Reference AGN: Liebes - Lied, Spott
+Reference ONB: ESAC (Essen Associative Code) Database: FINK
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

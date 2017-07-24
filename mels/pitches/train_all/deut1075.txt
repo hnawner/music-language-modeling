@@ -1,0 +1,56 @@
+Reference OTL: WENN ICH EIN KLEINS WALDVOEGLEIN WAER
+Reference ARE: Europa, Mitteleuropa, Deutschland, Schlesien, Neisse, Waltorf
+Reference SCT: E0512
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	74
+Note	1000	1250	74
+Note	1500	1750	71
+Note	2000	2250	67
+Note	2500	2750	71
+Note	3000	3500	71
+Note	4000	4250	69
+Note	4500	4750	67
+Note	5000	5500	69
+Note	6000	6500	69
+Note	7000	7250	66
+Note	7500	7750	62
+Note	8000	8500	72
+Note	9000	9500	72
+Note	10000	10250	71
+Note	10500	10750	69
+Note	11000	11500	71
+Note	12000	12250	74
+Note	12500	12750	74
+Note	13000	13250	76
+Note	13500	13750	74
+Note	14000	14500	72
+Note	15000	15500	71
+Note	16000	16500	69
+Note	18000	18250	69
+Note	18500	18750	71
+Note	19000	19500	72
+Note	20000	20500	69
+Note	21000	21250	71
+Note	21500	21750	76
+Note	22000	22750	74
+Note	23500	23750	71
+Note	24000	24250	69
+Note	24500	24750	71
+Note	25000	25500	72
+Note	26000	26500	69
+Note	27000	27250	71
+Note	27500	27750	76
+Note	28000	28750	74
+Note	29500	29750	71
+Note	30000	30500	71
+Note	31000	31750	69
+Note	32500	32750	67
+Note	33000	34000	67
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

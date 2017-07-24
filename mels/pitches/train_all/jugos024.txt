@@ -1,0 +1,48 @@
+Reference OTL: Die Todesbraut ohne Text
+Reference ARE: Europa, Suedosteuropa, Jugoslavija, Slovenien
+Reference YOR: 2, S. 240
+Comment	   1839 gedruckt in Zagreb
+Reference SCT: Q2049M
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	74
+Note	1000	2000	71
+Note	3000	3500	74
+Note	4000	5000	76
+Note	6000	6500	74
+Note	7000	7500	74
+Note	8000	8500	72
+Note	9000	9500	71
+Note	12000	12500	74
+Note	13000	14000	71
+Note	15000	15500	74
+Note	16000	17000	76
+Note	18000	18500	74
+Note	19000	19500	74
+Note	20000	20500	72
+Note	21000	21500	71
+Note	23000	23500	72
+Note	24000	24500	69
+Note	25000	26000	67
+Note	27000	27500	71
+Note	28000	29000	74
+Note	30000	30500	71
+Note	31000	31500	71
+Note	32000	32500	69
+Note	33000	33500	67
+Note	35000	35500	72
+Note	36000	36500	69
+Note	37000	38000	67
+Note	39000	39500	71
+Note	40000	41000	74
+Note	42000	42500	71
+Note	43000	44500	69
+Note	46000	47000	67
+Reference AGN: Ballade, Hochzeit, Unfall, Tod
+Comment	Slovenische Fassung der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

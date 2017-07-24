@@ -1,0 +1,52 @@
+Reference OTL: ES WAR EIN JAEGER DER BLIES INS HORN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Siebengebirge
+Reference SCT: E0019F
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	500	65
+Note	1000	2000	70
+Note	3000	3500	70
+Note	4000	4500	70
+Note	5000	5500	70
+Note	6000	6500	70
+Note	7000	8000	72
+Note	9000	9500	72
+Note	10000	11500	72
+Note	13000	13500	70
+Note	14000	14500	72
+Note	15000	15500	74
+Note	16000	17000	75
+Note	18000	18500	74
+Note	19000	20000	72
+Note	24000	24500	65
+Note	25000	26000	72
+Note	27000	27500	72
+Note	28000	28500	72
+Note	29000	29500	74
+Note	30000	30500	75
+Note	31000	31500	74
+Note	32000	32500	72
+Note	33000	33500	74
+Note	34000	35500	70
+Note	37000	37500	70
+Note	38000	38500	72
+Note	39000	39500	74
+Note	40000	40500	70
+Note	41000	41500	72
+Note	42000	42500	74
+Note	43000	44000	72
+Note	45000	45500	65
+Note	46000	47500	65
+Note	49000	49500	74
+Note	50000	50500	74
+Note	51000	51500	74
+Note	52000	53000	72
+Note	54000	54500	72
+Note	55000	56000	70
+Reference AGN: Sage, Maerchen -, Zauber - Lied, Ballade ?
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

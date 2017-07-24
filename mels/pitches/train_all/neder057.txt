@@ -1,0 +1,57 @@
+Reference OTL: Totenamt Et daget in den Oosten,
+Reference ARE: Europa, Mitteleuropa, Niederlande
+Reference YOR: 3, S. 164
+Comment	   1635 gedruckt in Antwerpen
+Reference SCT: Q2061F
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Comment	Mixed meters:  6/4; 3/4; 2/2
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	67
+Note	1000	3000	67
+Note	3000	4000	67
+Note	4000	6000	69
+Note	6000	7000	69
+Note	7000	10000	67
+Note	10000	12000	67
+Note	12000	12500	70
+Note	12500	13000	72
+Note	13000	15000	74
+Note	15000	16000	69
+Note	16000	18000	70
+Note	18000	18500	69
+Note	18500	19000	67
+Note	19000	21000	69
+Note	21000	22000	69
+Note	22000	24000	72
+Note	24000	25000	72
+Note	25000	27000	72
+Note	27000	27500	74
+Note	27500	28000	75
+Note	28000	31000	74
+Note	31000	33000	69
+Note	33000	34000	70
+Note	34000	36000	69
+Note	36000	37000	67
+Note	37000	39000	65
+Note	39000	40000	67
+Note	40000	42000	69
+Note	42000	43000	69
+Note	43000	45000	72
+Note	45000	46000	72
+Note	46000	48000	72
+Note	48000	48500	74
+Note	48500	49000	75
+Note	49000	50000	74
+Note	49500	50500	74
+Note	50000	51000	72
+Note	50500	51500	70
+Note	51000	53000	69
+Note	52000	53000	67
+Reference AGN: Ballade, Liebe, Eifersucht, Tod, geistlich
+Comment	Geistliche Kontrafaktur der Ballade.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: irregular
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

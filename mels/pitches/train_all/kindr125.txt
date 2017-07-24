@@ -1,0 +1,43 @@
+Reference OTL: GEH IN DEN KREIS MEINE ROSA
+Reference ARE: Europa, Mitteleuropa, Deutschland, Kassel
+Reference SCT: K2184A
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	55
+Note	500	1000	55
+Note	1000	1500	55
+Note	1500	3500	60
+Note	3500	4000	60
+Note	4000	4500	62
+Note	4500	5500	60
+Note	5500	6000	59
+Note	6000	6500	55
+Note	6500	7000	55
+Note	7000	7500	55
+Note	7500	9500	62
+Note	9500	10000	62
+Note	10000	10500	64
+Note	10500	11500	62
+Note	11500	12000	60
+Note	12000	12500	55
+Note	12500	13000	55
+Note	13000	13500	55
+Note	13500	15000	64
+Note	15000	15500	62
+Note	15500	16000	60
+Note	16000	16500	59
+Note	16500	18000	62
+Note	18000	18500	57
+Note	18500	19000	57
+Note	19000	19500	57
+Note	19500	20500	62
+Note	20500	21500	60
+Note	21500	22500	59
+Note	22500	23500	60
+Reference AGN: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+Reference ONB: ESAC (Essen Associative Code) Database: KINDER
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,46 @@
+Reference OTL: Die Unbestechliche Wol auf, mein sel, gehab dich wol;
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference YOR: 7, S. 36
+Comment	   14?? Handschrift Hohenfurt
+Reference SCT: Q1144E
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	1000	2000	71
+Note	3000	3500	72
+Note	4000	5000	74
+Note	6000	6500	74
+Note	7000	7500	72
+Note	8000	8500	71
+Note	9000	9500	74
+Note	10000	10500	67
+Note	12000	12500	72
+Note	13000	13500	74
+Note	14000	14500	74
+Note	15000	15500	72
+Note	16000	16500	69
+Note	17000	17500	67
+Note	18000	18500	71
+Note	19000	19500	67
+Note	20000	20500	66
+Note	21000	21500	67
+Note	22000	22500	62
+Note	24000	24500	62
+Note	25000	25500	67
+Note	26000	26500	66
+Note	27000	27500	67
+Note	28000	29000	71
+Note	30000	30500	72
+Note	31000	31500	69
+Note	32000	32500	67
+Note	33000	33500	69
+Note	34000	35000	67
+Reference AGN: geistlich
+Comment	Melodievergleich zu Q0144C, anderes Lied. Eingeklammerte Vorzeichnung
+Comment	   uebernommen. Pause am Ende der zweiten Zeile ergaenzt. Schon kodiert ?
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

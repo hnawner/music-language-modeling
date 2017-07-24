@@ -1,0 +1,36 @@
+Reference OTL: Die dienende Schwester Es wohnt ein Markgraf uebern Rhein,
+Reference ARE: Europa, Osteuropa, Tschechoslowakei, Sudetenland, Zips
+Reference ARD1: Europa%Osteuropa%Deutschland@Sudetenland#Zips:?
+Reference ARL1: 49.78/11.58:?
+Reference ARD2: Europa%Osteuropa%Ceska Republika@Sudetenland#
+Reference ARL2: 49.75/15.00#
+Reference YOR: 4, S. 120
+Comment	   1943 gedruckt in Kassel
+Reference SCT: Q0075z
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	500	77
+Note	500	1000	72
+Note	1000	1500	69
+Note	1500	2500	65
+Note	2500	3500	74
+Note	3500	4000	74
+Note	4000	4500	72
+Note	4500	5000	72
+Note	5000	5500	69
+Note	6000	6500	77
+Note	6500	7000	76
+Note	7000	7500	77
+Note	7500	8500	79
+Note	8500	9500	72
+Note	9500	10000	77
+Note	10000	10500	76
+Note	10500	11000	74
+Note	11000	11500	72
+Reference AGN: Ballade, Adelige als Dienstmagd, Tod; Kinder - Spiel, Tanz
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

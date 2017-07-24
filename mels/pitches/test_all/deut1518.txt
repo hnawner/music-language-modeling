@@ -1,0 +1,34 @@
+Reference OTL: JUNGFRAU IN DEM ROTHEN ROCK
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: E0943
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	1000	69
+Note	1000	2000	69
+Note	2000	3000	70
+Note	3000	4000	70
+Note	4000	5000	72
+Note	5000	6000	72
+Note	6000	7000	67
+Note	7000	8000	70
+Note	8000	9500	69
+Note	9500	10000	67
+Note	10000	12000	65
+Note	15000	16000	67
+Note	16000	17000	69
+Note	17000	18000	69
+Note	18000	19000	70
+Note	19000	20000	70
+Note	20000	22000	72
+Note	22000	23000	67
+Note	23000	24000	70
+Note	24000	25500	69
+Note	25500	26000	67
+Note	26000	28000	65
+Reference AGN: Tanz -, Spiel - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK2
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

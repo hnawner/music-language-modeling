@@ -1,0 +1,47 @@
+Reference OTL: Wiegenlied
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0493
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	2000	65
+Note	1000	3000	65
+Note	2000	4000	65
+Note	3000	5000	69
+Note	4000	6000	65
+Note	5000	7000	72
+Note	6000	8000	72
+Note	7000	9000	72
+Note	8000	10000	72
+Note	9000	11000	74
+Note	10000	12000	72
+Note	11000	13000	69
+Note	12000	14000	70
+Note	13000	17000	72
+Note	16000	18000	72
+Note	17000	19000	72
+Note	18000	20000	72
+Note	19000	21000	72
+Note	20000	22000	69
+Note	21000	23000	72
+Note	22000	24000	72
+Note	23000	25000	69
+Note	24000	26000	72
+Note	25000	27000	70
+Note	26000	28000	69
+Note	27000	29000	67
+Note	28000	30000	67
+Note	29000	33000	65
+Note	31000	35000	69
+Note	33000	35000	72
+Note	34000	36000	69
+Note	35000	37000	67
+Note	36000	38000	67
+Note	37000	43000	65
+Reference AGN: Romanze, Ballade, Lied
+Comment	Calvisius, Harmonia cantionem 1597 und Strassburger Gsgb 1616.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

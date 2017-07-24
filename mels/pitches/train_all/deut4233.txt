@@ -1,0 +1,46 @@
+Reference OTL: Ein Kinderlied auf die Weihnachten
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0518
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key F Major
+Note	0	2000	77
+Note	500	4500	76
+Note	1500	5500	74
+Note	2500	6500	76
+Note	3500	7500	72
+Note	4500	8500	74
+Note	5500	9500	76
+Note	6500	10500	77
+Note	8000	10000	77
+Note	8500	12500	77
+Note	9500	13500	72
+Note	10500	14500	72
+Note	11500	15500	69
+Note	12500	16500	72
+Note	13500	17500	70
+Note	14500	18500	69
+Note	16000	18000	69
+Note	16500	20500	74
+Note	17500	21500	74
+Note	18500	22500	72
+Note	19500	23500	76
+Note	20500	24500	77
+Note	21500	25500	74
+Note	22500	26500	72
+Note	24000	26000	77
+Note	24500	28500	76
+Note	25500	29500	74
+Note	26500	30500	72
+Note	27500	31500	74
+Note	28500	30500	70
+Note	29000	31000	69
+Note	29500	33500	67
+Note	30500	36500	65
+Reference AGN: Romanze, Ballade, Lied, religioeses Lied
+Comment	Schumanns Gsgb 1539 fol. 3 (Luther?)
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

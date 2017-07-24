@@ -1,0 +1,117 @@
+2017-07-23 23:11:33.122717: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-23 23:11:33.123014: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-23 23:11:33.124027: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-23 23:11:34.973782: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: Tesla K20Xm
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:8b:00.0
+Total memory: 5.57GiB
+Free memory: 5.50GiB
+2017-07-23 23:11:34.973885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-07-23 23:11:34.973915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-07-23 23:11:34.973951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20Xm, pci bus id: 0000:8b:00.0)
+----------------------
+SNN model type default
+----------------------
+0   acc 0.277    lp 2.197
+1   acc 0.300    lp 2.103
+2   acc 0.310    lp 2.071
+3   acc 0.298    lp 2.150
+4   acc 0.311    lp 2.106
+5   acc 0.296    lp 2.177
+6   acc 0.326    lp 2.008
+7   acc 0.303    lp 2.096
+8   acc 0.302    lp 2.097
+9   acc 0.315    lp 2.112
+10   acc 0.316    lp 2.054
+11   acc 0.283    lp 2.072
+12   acc 0.315    lp 2.056
+13   acc 0.317    lp 2.049
+14   acc 0.310    lp 2.125
+15   acc 0.320    lp 2.035
+16   acc 0.306    lp 2.135
+17   acc 0.296    lp 2.108
+18   acc 0.295    lp 2.101
+19   acc 0.309    lp 2.049
+20   acc 0.300    lp 2.195
+21   acc 0.307    lp 2.101
+22   acc 0.301    lp 2.046
+23   acc 0.310    lp 2.088
+24   acc 0.289    lp 2.098
+25   acc 0.291    lp 2.151
+26   acc 0.321    lp 2.007
+27   acc 0.301    lp 2.067
+28   acc 0.286    lp 2.264
+29   acc 0.284    lp 2.171
+30   acc 0.278    lp 2.181
+31   acc 0.291    lp 2.143
+32   acc 0.313    lp 2.059
+33   acc 0.316    lp 2.040
+34   acc 0.323    lp 2.009
+35   acc 0.313    lp 1.981
+36   acc 0.311    lp 2.085
+37   acc 0.284    lp 2.173
+38   acc 0.279    lp 2.179
+39   acc 0.305    lp 2.086
+40   acc 0.293    lp 2.248
+41   acc 0.294    lp 2.249
+42   acc 0.307    lp 2.109
+43   acc 0.309    lp 2.050
+44   acc 0.302    lp 2.101
+45   acc 0.276    lp 2.289
+46   acc 0.310    lp 2.006
+47   acc 0.312    lp 2.038
+48   acc 0.292    lp 2.188
+49   acc 0.300    lp 2.202
+50   acc 0.306    lp 2.101
+51   acc 0.299    lp 2.129
+52   acc 0.312    lp 2.131
+53   acc 0.311    lp 2.028
+54   acc 0.304    lp 2.087
+55   acc 0.300    lp 2.141
+56   acc 0.300    lp 2.113
+57   acc 0.291    lp 2.121
+58   acc 0.311    lp 2.073
+59   acc 0.314    lp 1.988
+60   acc 0.305    lp 2.028
+61   acc 0.307    lp 2.034
+62   acc 0.312    lp 2.045
+63   acc 0.300    lp 2.150
+64   acc 0.312    lp 2.053
+65   acc 0.303    lp 2.186
+66   acc 0.311    lp 2.045
+67   acc 0.310    lp 2.038
+68   acc 0.312    lp 2.102
+69   acc 0.300    lp 2.063
+70   acc 0.316    lp 2.020
+71   acc 0.280    lp 2.185
+72   acc 0.307    lp 2.069
+73   acc 0.319    lp 2.100
+74   acc 0.300    lp 2.108
+75   acc 0.314    lp 2.091
+76   acc 0.304    lp 2.064
+77   acc 0.299    lp 2.038
+78   acc 0.289    lp 2.212
+79   acc 0.297    lp 2.148
+80   acc 0.302    lp 2.062
+81   acc 0.319    lp 2.043
+82   acc 0.295    lp 2.166
+83   acc 0.313    lp 2.105
+84   acc 0.307    lp 2.075
+85   acc 0.310    lp 2.084
+86   acc 0.287    lp 2.214
+87   acc 0.316    lp 2.057
+88   acc 0.319    lp 2.017
+89   acc 0.280    lp 2.232
+90   acc 0.289    lp 2.048
+91   acc 0.292    lp 2.133
+92   acc 0.309    lp 2.083
+93   acc 0.307    lp 2.071
+94   acc 0.322    lp 2.040
+95   acc 0.306    lp 2.093
+96   acc 0.317    lp 1.999
+97   acc 0.305    lp 2.084
+98   acc 0.301    lp 2.137
+99   acc 0.289    lp 2.113
+accuracy: 0.283
+log prob: 2.157

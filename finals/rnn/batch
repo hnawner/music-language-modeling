@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#SBATCH -p gpu -J RNN -o a.out -t 10:00:00 --mem=40g
+
+module load tensorflow
+python rnn_run.py
+module unload tensorflow

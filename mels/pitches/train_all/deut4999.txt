@@ -1,0 +1,47 @@
+Reference OTL: "Die Treue" MEIN SCHATZ DER GING DEN BERG HINAUF
+Reference ARE: Europa, Mitteleuropa, Deutschland, Nord - Deutschland
+Reference SCT: Z1186
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	500	55
+Note	1000	2000	60
+Note	3000	3500	60
+Note	4000	5000	59
+Note	6000	6500	59
+Note	7000	8000	57
+Note	9000	9500	57
+Note	10000	11500	55
+Note	13000	14000	53
+Note	15000	15500	53
+Note	16000	16500	52
+Note	17000	17500	52
+Note	18000	18500	55
+Note	19000	20000	55
+Note	21000	21500	59
+Note	22000	23500	60
+Note	25000	25500	60
+Note	26000	26500	59
+Note	27000	27500	60
+Note	28000	28500	64
+Note	29000	29500	62
+Note	30000	30500	60
+Note	31000	31500	62
+Note	32000	32500	60
+Note	33000	33500	62
+Note	34000	34500	65
+Note	35000	35500	64
+Note	36000	36500	64
+Note	37000	38000	64
+Note	39000	39500	64
+Note	40000	40500	64
+Note	41000	41500	62
+Note	42000	42500	60
+Note	43000	44500	62
+Note	46000	47000	60
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,31 @@
+Reference OTL: Die Koenigstochter im Heeresdienst Nun, jetzt muss ich von euch scheiden,
+Reference ARE: Europa, Mitteleuropa, Oesterreich, Burgenland
+Reference YOR: 5, S. 86
+Comment	   ????
+Reference SCT: Q1095E
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	67
+Note	500	1000	69
+Note	1000	2000	71
+Note	2000	3000	74
+Note	3000	3500	72
+Note	3500	4000	71
+Note	4000	5000	71
+Note	5000	6000	69
+Note	6000	6500	71
+Note	6500	7000	69
+Note	7000	8000	67
+Note	8000	8500	69
+Note	8500	9000	72
+Note	9000	9500	71
+Note	9500	10000	69
+Note	10000	12000	67
+Reference AGN: Totenwacht - Lied
+Comment	Melodievergleich zu Q0095, anderes Lied.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

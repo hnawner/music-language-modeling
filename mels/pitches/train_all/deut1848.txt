@@ -1,0 +1,57 @@
+Reference OTL: ES WAR EIN JAEGER WOHLGEMUTH
+Reference ARE: Europa, Mitteleuropa, Deutschland, Schwarzwald; Rheinland, Koeln
+Reference SCT: E1455
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	500	69
+Note	1000	1500	69
+Note	2000	2500	69
+Note	3000	4000	73
+Note	5000	5500	69
+Note	6000	6750	73
+Note	7500	7750	71
+Note	8000	8500	68
+Note	9000	9750	73
+Note	10500	10750	71
+Note	11000	11500	68
+Note	12000	12500	71
+Note	13000	13500	71
+Note	14000	14500	71
+Note	15000	15750	76
+Note	16500	16750	71
+Note	17000	17500	71
+Note	18000	18500	69
+Note	19000	19500	68
+Note	20000	20500	66
+Note	21000	22000	64
+Note	24000	24500	74
+Note	25000	25500	74
+Note	26000	26500	74
+Note	27000	27500	73
+Note	28000	28500	73
+Note	29000	29500	73
+Note	30000	30500	71
+Note	31000	31500	71
+Note	32000	32500	71
+Note	33000	33250	69
+Note	33500	33750	68
+Note	34000	34250	69
+Note	34500	34750	73
+Note	35000	35500	76
+Note	36000	36500	69
+Note	37000	37500	69
+Note	38000	38500	69
+Note	39000	39750	73
+Note	40500	40750	71
+Note	41000	41500	69
+Note	42000	42500	73
+Note	43000	43500	71
+Note	44000	44500	68
+Note	45000	46000	69
+Reference AGN: Staende -, Jaeger - Lied, Liebe
+Reference ONB: ESAC (Essen Associative Code) Database: ERK3
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,50 @@
+Reference OTL: Winterrosen Rejt'wal jo rejtar spy gyli, hurra!
+Reference ARE: Europa, Mitteleuropa, Deutschland (), Lausitz, sorbisch
+Reference YOR: 7, S. 62
+Comment	   1889 gedruckt
+Reference SCT: Q2145I
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	1500	67
+Note	2000	2500	67
+Note	3000	4000	67
+Note	5000	5500	71
+Note	6000	6500	71
+Note	7000	7500	69
+Note	8000	8500	69
+Note	9000	9500	69
+Note	11000	11500	74
+Note	12000	13000	71
+Note	17000	17500	71
+Note	18000	19000	74
+Note	20000	20500	74
+Note	21000	22000	74
+Note	23000	23500	76
+Note	24000	25000	72
+Note	26000	26500	72
+Note	27000	28000	72
+Note	29000	29500	74
+Note	30000	31000	71
+Note	32000	32500	71
+Note	33000	33500	71
+Note	34000	34500	69
+Note	35000	35500	67
+Note	36000	37000	69
+Note	38000	38500	69
+Note	39000	40000	69
+Note	41000	41500	71
+Note	42000	43000	71
+Note	44000	44500	71
+Note	45000	46000	69
+Note	47000	47500	69
+Note	48000	49000	67
+Reference AGN: Ballade, Verfuehrung, verlorene Ehre
+Comment	Sorbische Fassung der Ballade. Anhaengsel an der ersten Zeile.
+Comment	   Refrain auf "hurra" in der letzten Zeile.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

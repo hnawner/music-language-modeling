@@ -1,0 +1,43 @@
+Reference OTL: Verschlafener Jaeger Ein Jaeger ging spazieren,
+Reference ARE: Europa, Osteuropa, Tschechoslowakei, Sudetenland
+Reference ARD: Europa%Osteuropa%Ceska Republika@Sudetenland#
+Reference ARL: 49.75/15.00#
+Reference YOR: 7, S. 220
+Comment	   1943 gedruckt in Kassel
+Reference SCT: Q0152S
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	1000	62
+Note	1000	2000	71
+Note	2000	3000	71
+Note	3000	4000	74
+Note	4000	5000	71
+Note	5000	7000	69
+Note	7000	8000	72
+Note	8000	9000	62
+Note	9000	10000	72
+Note	10000	11000	72
+Note	11000	12000	76
+Note	12000	13000	72
+Note	13000	15000	71
+Note	15000	16000	74
+Note	16000	17000	67
+Note	17000	19000	76
+Note	19000	20000	76
+Note	20000	21000	76
+Note	21000	23000	74
+Note	23000	24000	71
+Note	24000	25000	74
+Note	25000	26000	74
+Note	26000	27000	72
+Note	27000	28000	76
+Note	28000	29000	74
+Note	29000	31000	71
+Reference AGN: Ballade, Verfuehrung, verlorene Ehre
+Comment	Zugehoerigkeit zu dieser Balladengruppe ungeklaert.
+Reference ONB: ESAC (Essen Associative Code) Database: BALLADE
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

@@ -1,0 +1,34 @@
+Reference OTL: DREIMAL UMS SCHEITERBEIG
+Reference ARE: Europa, Mitteleuropa, Deutschland, Schwaben, Tuttlingen
+Reference SCT: E0823
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key B-flat Major
+Note	0	500	65
+Note	1000	1500	67
+Note	2000	2500	65
+Note	3000	3500	65
+Note	4000	4500	63
+Note	5000	5500	63
+Note	6000	6500	63
+Note	7000	7500	65
+Note	8000	8500	63
+Note	9000	9500	63
+Note	10000	10500	62
+Note	11000	11500	63
+Note	12000	12500	65
+Note	13000	13500	67
+Note	14000	14500	65
+Note	15000	15500	65
+Note	16000	16500	63
+Note	17000	17500	63
+Note	18000	18500	65
+Note	19000	19500	67
+Note	20000	20500	69
+Note	21000	22000	70
+Reference AGN: Kilt - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK2
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

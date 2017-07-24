@@ -1,0 +1,55 @@
+Reference OTL: "Der Mann" MANN MANN WAS HAST DU IN DEINEM KOEBERCHEN
+Reference ARE: Europa, Mitteleuropa, Deutschland, Niedersachsen
+Reference SCT: Z1373
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	1000	69
+Note	1000	2000	69
+Note	2000	3000	69
+Note	3500	3750	71
+Note	3750	4000	73
+Note	4000	4500	74
+Note	4500	5000	73
+Note	5000	5500	71
+Note	5500	6000	69
+Note	6000	6500	68
+Note	6500	7000	66
+Note	7000	8000	64
+Note	8000	9000	69
+Note	9000	10000	69
+Note	10000	11000	69
+Note	11500	11750	68
+Note	11750	12000	69
+Note	12000	12500	71
+Note	12500	13000	69
+Note	13000	13500	68
+Note	13500	14000	69
+Note	14000	14500	68
+Note	14500	15000	66
+Note	15000	15500	64
+Note	15500	16000	68
+Note	16000	16500	71
+Note	16500	17000	69
+Note	17000	17500	68
+Note	17500	18000	71
+Note	18000	18750	74
+Note	18750	19000	73
+Note	19000	19500	71
+Note	19500	20000	71
+Note	20000	20750	69
+Note	20750	21000	68
+Note	21000	21500	69
+Note	21500	22000	71
+Note	22000	22750	73
+Note	22750	23000	74
+Note	23000	24000	76
+Note	24000	25000	73
+Note	25000	26000	71
+Note	26000	28000	69
+Reference AGN: Kinder - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

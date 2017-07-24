@@ -1,0 +1,52 @@
+Reference OTL: "Die Flucht" JETZT GEH ICH ANS BRUENNELE
+Reference ARE: Europa, Mitteleuropa, Deutschland, Baden
+Reference SCT: Z1081
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 3 sharps
+Info key A Major
+Note	0	500	64
+Note	1000	1750	69
+Note	2500	2750	71
+Note	3000	3500	73
+Note	4000	4750	69
+Note	5500	5750	68
+Note	6000	6500	69
+Note	7000	7250	71
+Note	7500	7750	73
+Note	8000	8500	74
+Note	9000	9500	73
+Note	10000	11000	71
+Note	12000	12500	64
+Note	13000	13750	69
+Note	14500	14750	71
+Note	15000	15500	73
+Note	16000	16750	69
+Note	17500	17750	68
+Note	18000	18500	69
+Note	19000	19250	71
+Note	19500	19750	73
+Note	20000	20500	74
+Note	21000	21500	73
+Note	22000	23500	71
+Note	25000	25250	71
+Note	25500	25750	73
+Note	26000	26250	74
+Note	26500	26750	78
+Note	27000	27250	76
+Note	27500	27750	74
+Note	28000	28250	74
+Note	28500	28750	73
+Note	29000	29250	73
+Note	29500	29750	71
+Note	30000	30500	73
+Note	31000	31250	71
+Note	31500	31750	74
+Note	32000	32500	73
+Note	33000	33500	71
+Note	34000	35000	69
+Reference AGN: Romanze, Ballade, Abschieds - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ZUCCAL
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

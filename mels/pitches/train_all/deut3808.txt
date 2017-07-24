@@ -1,0 +1,52 @@
+Reference OTL: Unter der Linde
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0040
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 2 sharps
+Info key D Major
+Note	0	2000	62
+Note	1000	5000	62
+Note	3000	5000	62
+Note	4000	6000	69
+Note	5000	7000	69
+Note	6000	8000	69
+Note	7000	9000	71
+Note	8000	10000	71
+Note	9000	11000	71
+Note	10000	14000	69
+Note	12000	14000	69
+Note	13000	17000	71
+Note	15000	17000	69
+Note	16000	20000	74
+Note	18000	20000	69
+Note	19000	23000	72
+Note	21000	23000	71
+Note	22000	26000	69
+Note	24000	26000	72
+Note	25000	28000	71
+Note	26500	27500	72
+Note	27000	29000	74
+Note	28000	31000	72
+Note	29500	30500	71
+Note	30000	32000	69
+Note	31000	33000	67
+Note	32000	34000	64
+Note	33000	35000	65
+Note	34000	38000	62
+Note	36000	38000	69
+Note	37000	41000	69
+Note	39000	41000	72
+Note	40000	42000	69
+Note	41000	43000	69
+Note	42000	44000	62
+Note	43000	45000	65
+Note	44000	48000	64
+Note	46000	50000	62
+Reference AGN: Romanze, Ballade, Lied
+Comment	Melodie (von Boehme zum Text gesetzt): Souterliedekens 1544
+Comment	   ad Ps. 63.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple triple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

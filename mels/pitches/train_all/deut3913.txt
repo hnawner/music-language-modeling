@@ -1,0 +1,50 @@
+Reference OTL: Die Linde im Thal
+Reference ARE: Europa, Mitteleuropa, Deutschland
+Reference SCT: A0177
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig no accidentals
+Info key C Major
+Note	0	2000	55
+Note	1000	3000	60
+Note	2000	4000	60
+Note	3000	5000	60
+Note	4000	6000	62
+Note	5000	7000	59
+Note	6000	8000	57
+Note	7000	11000	55
+Note	10000	12000	60
+Note	11000	13000	59
+Note	12000	14000	55
+Note	13000	15000	57
+Note	14000	16000	57
+Note	15000	19000	55
+Note	18000	20000	55
+Note	19000	21000	60
+Note	20000	22000	60
+Note	21000	24000	67
+Note	22500	23500	65
+Note	23000	27000	64
+Note	25000	29000	62
+Note	27000	28000	60
+Note	27500	28500	62
+Note	28000	29000	64
+Note	28500	29500	62
+Note	29000	31000	60
+Note	30000	31000	59
+Note	30500	31500	57
+Note	31000	39000	59
+Note	36000	38000	55
+Note	37000	39000	57
+Note	38000	40000	59
+Note	39000	42000	60
+Note	40500	41500	62
+Note	41000	43000	64
+Note	42000	44000	62
+Note	43000	51000	60
+Reference AGN: Romanze, Ballade, Lied
+Comment	68 Lieder. Nuernberg bei Berg und Newber No. 25.
+Reference ONB: ESAC (Essen Associative Code) Database: ALTDEU
+Reference AMT: simple quadruple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0

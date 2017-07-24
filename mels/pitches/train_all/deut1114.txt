@@ -1,0 +1,32 @@
+Reference OTL: ICH HAETT EMAL EN FREIER
+Reference ARE: Europa, Mitteleuropa, Deutschland, Hessen, Nassau
+Reference SCT: E0534
+Reference YEM: Copyright 1995, estate of Helmut Schaffrath.
+Info keysig 1 sharp
+Info key G Major
+Note	0	500	62
+Note	1000	1500	67
+Note	2000	2500	67
+Note	3000	3500	67
+Note	4000	4500	71
+Note	5000	5500	69
+Note	6000	6500	67
+Note	7000	8500	69
+Note	12000	12500	69
+Note	13000	13500	69
+Note	14000	14500	69
+Note	15000	15500	69
+Note	16000	16500	72
+Note	17000	17500	71
+Note	18000	18500	69
+Note	19000	20000	71
+Note	21000	21500	76
+Note	22000	23000	74
+Note	24000	24500	72
+Note	25000	26500	71
+Reference AGN: Liebes - Lied
+Reference ONB: ESAC (Essen Associative Code) Database: ERK1
+Reference AMT: compound duple
+Reference AIN: vox
+Reference EED: Helmut Schaffrath
+Reference EEV: 1.0
