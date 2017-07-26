@@ -9,38 +9,6 @@ from os import listdir
 from copy import deepcopy
 from sklearn.model_selection import train_test_split
 
-
-'''
-def read(directory):
-    seqs = []
-    files = []
-    for fi in listdir(directory):
-        if fi.endswith(".txt"):
-            path = directory + '/' + fi
-            with open(path) as f:
-                seq = []
-                prev_offset = 0
-                for line in f:
-                    line = line.split()
-
-                    if line[0] == "Note":
-                        onset = int(float(line[1]))
-                        offset = int(float(line[2]))
-                        if onset % 10 not in {0, 5} or offset % 10 not in {0, 5}:
-                            # replace triplets with rests
-                            continue
-                        if offset <= prev_offset:
-                            continue
-                        if onset < prev_offset:
-                            onset = prev_offset
-                        prev_offset = offset
-                        seq.append((onset, offset))
-                seqs.append(seq)
-                files.append(fi)
-    return seqs, files
-'''
-
-
     
 def read(directory):
     seqs = []
