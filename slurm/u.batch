@@ -1,6 +1,0 @@
-#!/bin/bash
-#SBATCH -p gpu -c 2 --gres=gpu:1 -o u.out -e u.err -t 6:00:00 --mem=30gb
-
-module load tensorflow
-python crnn/crnn_with_pitch.py
-module unload tensorflow

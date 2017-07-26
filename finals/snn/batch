@@ -1,7 +1,0 @@
-#!/bin/bash
-
-#SBATCH -p gpu --gres=gpu:1 -J pc&o -o p.out -t 10:00:00 --mem=40g
-
-module load tensorflow
-python snn_run.py
-module unload tensorflow

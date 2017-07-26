@@ -4,30 +4,32 @@ from __future__ import absolute_import
 from __future__ import print_function
 from __future__ import division
 
-from crnn_utils import get_data
+from crnn_utils import get_data, get_lengths
 from sklearn.utils import shuffle
+import sys
 import numpy as np
 import tensorflow as tf
 from datetime import datetime
 
-TIME_STEP = 250
-PITCH_MIN = 40
-PITCH_MAX = 90
-PITCH_RANGE = PITCH_MAX - PITCH_MIN
+TIME_STEP = 125
+#KERN_SIZE = 4
+
+# padded with [-1, -1]
+path = '/home/hawner2/reu/musical-forms/mels/krn_split/converted/train/'
+(X_tr, X_te, Y_tr, Y_te), max_len = get_data(path, TIME_STEP)
+
+n_inputs = 2
+n_outputs = 3
 
 # log file
-#now = datetime.utcnow().strftime("%H%M%S")
-#root_logdir = 'crnn_logs'
-#logdir = '{}/run-{}/'.format(root_logdir, now)
+now = datetime.utcnow().strftime("%H%M%S")
+root_logdir = 'crnn_rhythm_logs'
+logdir = '{}/run-{}/'.format(root_logdir, now)
 
-path = '/home/hawner2/reu/musical-forms/mels/krn_split/converted/sample/'
-(X_tr, X_te, Y_tr, Y_te), max_len = get_data(path, TIME_STEP, PITCH_MIN, PITCH_MAX)
-
-n_inputs = 3 + PITCH_RANGE
-n_outputs = n_inputs
-
+# X lengths after CNN processing is len - kern_size
 X = tf.placeholder(tf.float32, [None, max_len, n_inputs], name="X")
-Y = tf.placeholder(tf.float32, [None, max_len-15, n_outputs], name="Y")
+Y = tf.placeholder(tf.float32, [None, max_len-7, n_outputs], name="Y")
+#lens = tf.placeholder(tf.int32, [None])
 
 # CNN pre-processing
 network = tf.layers.conv1d(inputs=X,
@@ -35,14 +37,14 @@ network = tf.layers.conv1d(inputs=X,
                            kernel_size=4,
                            padding='valid',
                            activation=tf.nn.relu,
-                           name='conv_layer1')
+                           name='conv1')
 
 network = tf.layers.conv1d(inputs=network,
                            filters=8,
-                           kernel_size=13,
+                           kernel_size=5,
                            padding='valid',
                            activation=tf.nn.relu,
-                           name='conv_layer2')
+                           name='conv2')
 
 nu_rnn = 32
 
@@ -52,11 +54,10 @@ cells.append(tf.contrib.rnn.LSTMCell(nu_rnn, activation=tf.tanh))
 cells.append(tf.contrib.rnn.LSTMCell(nu_rnn, activation=tf.tanh))
 multi = tf.contrib.rnn.MultiRNNCell(cells)
 outs, _ = tf.nn.dynamic_rnn(multi, network, dtype=tf.float32, swap_memory=True)
-with tf.name_scope("fully_connected"):
-    stacked_outs = tf.reshape(outs, [-1, nu_rnn], name='stacked_outs')
-    stacked_logits = tf.layers.dense(stacked_outs, n_outputs, name='dense')
-    logits = tf.reshape(stacked_logits, [-1, max_len-15, n_outputs],
-                            name='logits')
+stacked_outs = tf.reshape(outs, [-1, nu_rnn], name='stacked_outs')
+stacked_logits = tf.layers.dense(stacked_outs, n_outputs, name='dense')
+logits = tf.reshape(stacked_logits, [-1, max_len-7, n_outputs],
+                    name='logits')
 
 def loss_fn(logits, Y):
     xentropy = Y * tf.log(tf.nn.softmax(logits))
@@ -67,23 +68,6 @@ def loss_fn(logits, Y):
     xentropy /= tf.reduce_sum(mask, reduction_indices=1)
     return tf.reduce_mean(xentropy)
 
-def accuracy_fn(logits, Y):
-    no_event_label = [0] * (3 + PITCH_RANGE)
-    no_event_label[0] = 1
-    logits_flat = tf.contrib.layers.flatten(logits)
-    y_flat = tf.contrib.layers.flatten(Y)
-    predictions = tf.argmax(logits, axis=1)
-    correct = tf.to_float(tf.equal(predictions, y_flat))
-    events = tf.to_float(tf.not_equal(y_flat, no_event_label))
-    no_events = tf.to_float(tf.equal(y_flat, no_event_label))
-    mask = tf.sign(tf.reduce_max(tf.abs(y_flat), reduction_indices=1))
-    correct *= mask
-    events *= mask
-    no_events *= mask
-    event_acc = tf.reduce_sum(correct * events) / tf.reduce_sum(events)
-    no_event_acc = tf.reduce_sum(correct * no_events) / tf.reduce_sum(no_events)
-    return event_acc, no_event_acc
-    
 
 def f1_build(predictions, targets):
     false_pos = false_neg = true_pos = 0
@@ -125,20 +109,17 @@ def f1_score(false_pos, false_neg, true_pos):
     return (2 * precision * recall) / (precision + recall)
 
 
-learn_rate = 0.001
+learn_rate = 0.05
 
 # loss
-with tf.name_scope("metrics"):
-    loss = loss_fn(logits, Y)
-    optimizer = tf.train.GradientDescentOptimizer(learning_rate=learn_rate)
-    train_op = optimizer.minimize(loss)
-    accuracy = accuracy_fn(logits, Y)
+loss = loss_fn(logits, Y)
+optimizer = tf.train.AdamOptimizer(learning_rate=learn_rate)
+train_op = optimizer.minimize(loss)
 
 init = tf.global_variables_initializer()
-#saver = tf.train.Saver()
-#save_name = 'crnn-sample-10e'
-#loss_summary = tf.summary.scalar('Loss', loss)
-#file_writer = tf.summary.FileWriter(logdir, tf.get_default_graph())
+saver = tf.train.Saver()
+save_name = 'crnn-rhythm-train-70e'.format(logdir)
+loss_summary = tf.summary.scalar('Loss', loss)
 
 def next_batch(size, x, y, n):
     start = size * n
@@ -147,7 +128,7 @@ def next_batch(size, x, y, n):
         return x[start:], y[start:] 
     return x[start:end], y[start:end]
 
-n_epochs = 64
+n_epochs = 70
 batch_size = 32
 n_batches = int(np.ceil(len(X_tr) / batch_size))
 n_batches_te = int(np.ceil(len(X_te) / batch_size))
@@ -155,28 +136,21 @@ n_batches_te = int(np.ceil(len(X_te) / batch_size))
 with tf.Session() as s:
     init.run()
     for e in range(n_epochs):
-        print('time: {:%Y-%m-%d %H:%M:%S}'.format(datetime.now()))
-#        if e % 2 == 0:
-#            save_path = saver.save(s, save_name)
+        if e % 10 == 0:
+            save_path = saver.save(s, save_name)
         X_shuf, Y_shuf = shuffle(X_tr, Y_tr)
         # train
         for b in range(n_batches):
             X_batch, Y_batch = next_batch(batch_size, X_shuf, Y_shuf, b)
-#            if b == 0:
-#                summary_str = loss_summary.eval(feed_dict={X: X_batch, Y: Y_batch})
-#                step = e * n_batches
-#                file_writer.add_summary(summary_str, step)
             s.run(train_op, feed_dict={X: X_batch, Y: Y_batch})
         # eval
-        if e % 2 == 0:
+        if e % 10 == 0:
             log_tr, log_te = [], []
-            # f1
             fp_tr = fn_tr = tp_tr = 0
             fp_te = fn_te = tp_te = 0
             for b in range(n_batches):
                 X_tr_b, Y_tr_b = next_batch(batch_size, X_tr, Y_tr, b)
                 log_tr += [ loss.eval(feed_dict={X: X_tr_b, Y: Y_tr_b}) ]
-                acc_tr += [ accuracy.eval(feed_dict{X: X_tr_b, Y: Y_tr_b}) ]
                 logits_tr = logits.eval(feed_dict={X: X_tr_b, Y: Y_tr_b})
                 fp, fn, tp = f1_build(logits_tr, Y_tr_b)
                 fp_tr += fp
@@ -185,21 +159,21 @@ with tf.Session() as s:
             for b in range(n_batches_te):
                 X_te_b, Y_te_b = next_batch(batch_size, X_te, Y_te, b)
                 log_te += [ loss.eval(feed_dict={X: X_te_b, Y: Y_te_b}) ]
-                acc_te += [ accuracy.eval(feed_dict={X: X_te_b, Y: Y_te_b}) ]
                 logits_te = logits.eval(feed_dict={X: X_te_b, Y: Y_te_b})
                 fp, fn, tp = f1_build(logits_te, Y_te_b)
                 fp_te += fp
                 fn_te += fn
                 tp_te += tp
-           
+
             f1_tr = f1_score(fp_tr, fn_tr, tp_tr)
             f1_te = f1_score(fp_te, fn_te, tp_te)
 
-            print('------------ %d ------------' % e)
-            print('logp -tr', np.mean(log_tr), '-te', np.mean(log_te))
-            print('acc  -tr', np.mean(acc_tr), '-te', np.mean(acc_te))
-            print('f1   -tr', f1_tr, '-te', f1_te)
+        
 
-#    save_path = saver.save(s, save_name)
-#file_writer.close()
+        print('------------ %d ------------' % e)
+        print('logp -tr', np.mean(log_tr), '-te', np.mean(log_te))
+        print('f1   -tr', f1_tr, '-te', f1_te)
+
+    save_path = saver.save(s, save_name)
+
 

@@ -117,6 +117,7 @@ def one_hot_ngram_CNN(grams, n):
 
     return np.array(vecs_list), np.array(targets)
 
+
         
 def setup_ngrams(folder, n, encoder):
     mels = read_files(folder)
