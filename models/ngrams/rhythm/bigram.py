@@ -5,8 +5,8 @@ import os, sys
 import numpy as np
 from math import log
 from sklearn.model_selection import KFold
-from utils import read_files_rhythm as read
-from utils import build_rhythm_dict
+from utils import read_files as read
+
 
 def distribution(mels):
 
@@ -143,17 +143,15 @@ def cv_test(mels):
     print("Mean negative log probability: " + str(np.mean(neglogprob_means)))
     print("Standard deviation negative log probability: " + str(np.std(neglogprob_means)))
 
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: folder containing mel files")
         return 1
 
-    r_dict = build_rhythm_dict(sys.argv[1])
     mels = read(sys.argv[1], r_dict)
     
     print("_______Bigram_______")
-
-    print("___Quadruple/Duple Meter___")
     cv_test(mels)
 
     print("Done.")

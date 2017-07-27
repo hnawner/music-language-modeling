@@ -5,8 +5,7 @@ import os, sys
 import numpy as np
 from math import log
 from sklearn.model_selection import KFold
-from utils import read_files_rhythm as read
-from utils import build_rhythm_dict
+from utils import read_files as read
 
 def distribution(mels):
 
@@ -119,13 +118,10 @@ def main():
         print("Usage: folder containing mel files")
         return 1
         
-        
-    r_dict = build_rhythm_dict(sys.argv[1])
     mels = read(sys.argv[1], r_dict)
     
     print("_______Unigram_______")
 
-    print("___Quadruple/Duple Meter___")
     cv_test(mels)
     
 
