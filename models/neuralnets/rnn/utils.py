@@ -6,7 +6,7 @@ import numpy as np
 from os import listdir
 
 
-def read_files(folder):
+def read_mels(folder):
     files = listdir(folder)
 
     mels = []
@@ -24,16 +24,69 @@ def read_files(folder):
             for line in f:
                 parsed = line.split() # delimiter as spaces
 
-                if parsed[0] == "Info" and parsed[1] == "key":
-                    offset = offsets[parsed[2]]
+                if parsed[0] == "*K":
+                    offset = offsets[parsed[1]]
 
                 elif parsed[0] == "Note":
-                    pitch = int(parsed[3]) - offset
+                    pitch = int(float(parsed[3])) - offset
                     mel.append(pitch)
 
             mels.append(mel)
     
     return mels
+    
+r_dict = {"unknown": 0}
+
+def read_rhythms(folder, train):
+    files = listdir(folder)
+
+    rhys = []
+
+    for f in files:
+        path = folder + "/" + f
+        with open(path, 'r', 0) as f:
+            rhy = []
+            key_offset = 0
+            for line in f:
+                parsed = line.split() # delimiter as spaces
+
+                if parsed[0] == "Note":
+
+                    onset = int(float(parsed[1]))
+                    offset = int(float(parsed[2]))
+                    length = offset - onset
+                    if rhy == []: # starts with rest
+                        if onset != 0:
+                            rhy.append([0, onset])
+                            add_to_r_dict((onset), True, train)
+                    elif onset > rhy[-1][1]: # rest
+                        rhy.append([rhy[-1][1], onset])
+                        add_to_r_dict((onset - rhy[-1][1]), True, train)
+
+                    rhy.append([onset, offset])
+                    add_to_r_dict(length, True, train)
+
+            rhys.append(rhy)
+    
+    return rhys
+
+
+def add_to_r_dict(length, read, train):
+    if length in r_dict:
+        return r_dict[length]
+    else:
+        # for triplet slopiness
+        if (length + 1) in r_dict:
+            return r_dict[length + 1]
+        elif (length - 1) in r_dict:
+            return r_dict[length -1]
+        elif read and train: # if reading train data
+            r_dict[length] = len(r_dict)
+            return r_dict[length]
+        else: # don't alter dict of encoding or reading test data
+            return r_dict["unknown"]
+            
+            
 
 def pad(tr_mels, te_mels):
     max_len = len(max(tr_mels + te_mels, key=len))
@@ -44,7 +97,7 @@ def pad(tr_mels, te_mels):
             m += padding
     return max_len - 1
 
-def encode(mels, p_min, pr):
+def pitch_encode(mels, p_min, pr):
     inputs = []
     labels = []
     for m in mels:
@@ -67,12 +120,42 @@ def encode(mels, p_min, pr):
         labels.append(targets[1:])
 
     return inputs, labels
+    
+def rhythm_encode(mels):
+    inputs = []
+    labels = []
+    for m in mels:
+        vecs = []
+        targets = []
+        for rhy in m:
+            if type(rhy) == list:
+                length = int(rhy[1] - rhy[0])
+                value = add_to_r_dict(length, False, False)
+                vec = [0] * len(r_dict)
+                vec[value] = 1
+                vecs.append(vec)
+            else: # padding
+                vec = [0] * len(r_dict)
+                vecs.append(vec)
+        inputs.append(vecs[:-1])
+        labels.append(vecs[1:])
 
-def setup(tr_folder, te_folder, p_min, pr):
-    tr_mels, te_mels = read_files(tr_folder), read_files(te_folder)
+    return inputs, labels
+
+def setup(tr_folder, te_folder, d_type, p_min, pr):
+    tr_mels, te_mels = None, None
+    if d_type == "pitch":
+        tr_mels, te_mels = read_mels(tr_folder), read_mels(te_folder)
+    elif d_type == "rhythm":
+        tr_mels, te_mels = read_rhythms(tr_folder, True), read_rhythms(te_folder, False)
     max_len = pad(tr_mels, te_mels)
-    tr_x, tr_y = encode(tr_mels, p_min, pr)
-    te_x, te_y = encode(te_mels, p_min, pr)
+    tr_x, tr_y, te_x, te_y = None, None, None, None
+    if d_type == "pitch":
+    	tr_x, tr_y = pitch_encode(tr_mels, p_min, pr)
+    	te_x, te_y = pitch_encode(te_mels, p_min, pr)
+    elif d_type == "rhythm":
+    	tr_x, tr_y = rhythm_encode(tr_mels)
+    	te_x, te_y = rhythm_encode(te_mels)
     return tr_x, tr_y, te_x, te_y, max_len
 
 

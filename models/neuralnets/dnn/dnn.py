@@ -3,8 +3,8 @@
 from __future__ import division, print_function
 import tensorflow as tf
 import numpy as np
-from utils import setup
-
+import utils
+import sys
 from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split as tts
 
@@ -13,23 +13,35 @@ class DNN:
 
     min_pitch = 40
     max_pitch = 95
-    n_outputs = max_pitch - min_pitch
-    ngram = 8
-    n_features = 20 * (ngram - 1)
+    n_outputs = (max_pitch - min_pitch)
+    ngram = None
+    n_features = None
     batch_size = 64
-    n_epochs = 100
+    n_epochs = 250
 
-    def __init__(self, data_tr, data_te, model_type = 'default'):
-        self.tr_x, self.tr_y, self.te_x, self.te_y = setup(data_tr,
-                                                           data_te,
+    def __init__(self, data_tr, data_te, n, d_type, model_type = 'default', trans = True):
+        DNN.ngram = n
+        self.tr_x, self.tr_y, self.te_x, self.te_y = utils.setup(data_tr,
+                                                           data_te, 
                                                            DNN.ngram,
+                                                           d_type,
                                                            DNN.min_pitch,
-                                                           DNN.n_outputs)
+                                                           DNN.n_outputs,
+                                                           trans)
+        self.tr_x, self.val_x, self.tr_y, self.val_y = tts(self.tr_x, self.tr_y,
+        	test_size = 0.2)
+        if d_type == "pitch":
+        	DNN.n_outputs = DNN.max_pitch - DNN.min_pitch
+        	DNN.n_features = 20 * (DNN.ngram - 1)
+        elif d_type == "rhythm":
+        	DNN.n_outputs = len(utils.r_dict)
+        	DNN.n_features = len(utils.r_dict) * (DNN.ngram - 1)   	
         self.X = tf.placeholder(tf.float32, shape=[None, DNN.n_features], name="X")
         self.y = tf.placeholder(tf.int32, shape=[None], name='y')
         if model_type == 'bn':
             self.is_training = tf.placeholder(tf.bool, name='is_training')
         self.model = model_type
+        self.save_path = "dnn"+d_type+model_type+str(trans)+str(DNN.ngram)+"/best.ckpt"
 
         self.build()
 
@@ -52,11 +64,17 @@ class DNN:
                                     normalizer_fn=bn,
                                     normalizer_params=bn_params,
                                     weights_regularizer=reg)
+            if self.model == 'bn':
+                fc1 = tf.contrib.layers.dropout(fc1, 0.6,
+                                                is_training=self.is_training)
             fc2 = tf.contrib.layers.fully_connected(fc1, 512,
                                     activation_fn=tf.tanh,
                                     normalizer_fn=bn,
                                     normalizer_params=bn_params,
-                                    weights_regularizer=reg)
+                                    weights_regularizer=reg)            
+            if self.model == 'bn':
+                fc2 = tf.contrib.layers.dropout(fc2, 0.6,
+                                                is_training=self.is_training)
             fc3 = tf.contrib.layers.fully_connected(fc2, 512,
                                     activation_fn=tf.tanh,
                                     normalizer_fn=bn,
@@ -97,6 +115,7 @@ class DNN:
             self.accuracy = tf.reduce_mean(tf.cast(correct, tf.float32))
 
         self.init = tf.global_variables_initializer()
+        self.saver = tf.train.Saver()
 
         self.execute()
 
@@ -110,6 +129,8 @@ class DNN:
 
         with tf.Session() as s:
             self.init.run()
+            
+            best = sys.maxint
 
             print('----------------------')
             print('DNN model type', self.model)
@@ -126,12 +147,28 @@ class DNN:
                     s.run(self.train_op, feed_dict=feed_dict)
 
                 feed_dict = {self.X: self.tr_x, self.y: self.tr_y}
+                if self.model == 'bn':
+                    feed_dict[self.is_training] = False
                 acc = self.accuracy.eval(feed_dict=feed_dict)
                 lp = self.lp.eval(feed_dict=feed_dict)
+                
+                feed_dict = {self.X: self.val_x, self.y: self.val_y}
+                if self.model == 'bn':
+                    feed_dict[self.is_training] = False                
+                val_acc = self.accuracy.eval(feed_dict=feed_dict)
+                val_lp = self.lp.eval(feed_dict=feed_dict)
 
-                print("%d   acc %.3f    lp %.3f" % (epoch, acc, lp))
+                print("train %d   acc %.3f    lp %.3f" % (epoch, acc, lp))
+                print("tune %d   acc %.3f    lp %.3f" % (epoch, val_acc, val_lp))
 
-            ### final validation tests ###
+                
+                if val_lp < best:
+                    best = val_lp
+                    self.saver.save(s, self.save_path)
+
+        ### final validation tests ###
+        with tf.Session() as s:
+            self.saver.restore(s, self.save_path)
             feed_dict = {self.X: self.te_x, self.y: self.te_y}
             if self.model == 'bn':
                 feed_dict[self.is_training] = False

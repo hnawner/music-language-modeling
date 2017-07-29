@@ -6,8 +6,10 @@ from __future__ import division
 
 import numpy as np
 import tensorflow as tf
-from utils import setup
+import utils
+import sys
 from sklearn.utils import shuffle
+from sklearn.model_selection import train_test_split as tts
 
 
 class RNN:
@@ -15,16 +17,25 @@ class RNN:
     min_pitch = 40
     max_pitch = 95
     n_outputs = max_pitch - min_pitch
-    n_features = 20
-    batch_size = 64
-    n_epochs = 25
+    n_features = None
+    batch_size = 128
+    n_epochs = 100
 
-    def __init__(self, data_tr, data_te, n_units):
-        self.tr_x, self.tr_y, self.te_x, self.te_y, self.max_len = setup(
+    def __init__(self, data_tr, data_te, n_units, d_type):
+        self.tr_x, self.tr_y, self.te_x, self.te_y, self.max_len = utils.setup(
                                                                    data_tr,
                                                                    data_te,
+                                                                   d_type,
                                                                    RNN.min_pitch,
                                                                    RNN.n_outputs)
+        self.tr_x, self.val_x, self.tr_y, self.val_y = tts(self.tr_x, self.tr_y,
+        	test_size = 0.2)
+        if d_type == "pitch":
+        	RNN.n_outputs = RNN.max_pitch - RNN.min_pitch
+        	RNN.n_features = 20
+        elif d_type == "rhythm":
+        	RNN.n_outputs = len(utils.r_dict)
+        	RNN.n_features = len(utils.r_dict) 
         self.X = tf.placeholder(tf.float32,
                                 shape=[None, self.max_len, RNN.n_features],
                                 name="X")
@@ -32,6 +43,7 @@ class RNN:
                                 shape=[None, self.max_len, RNN.n_outputs],
                                 name='y')
         self.n_units = n_units
+        self.save_path = "rnn"+d_type+str(n_units)+"/best.ckpt"
         self.build()
 
     def loss_fn(self):
@@ -81,6 +93,7 @@ class RNN:
             self.accuracy = self.accuracy_fn()
 
         self.init = tf.global_variables_initializer()
+        self.saver = tf.train.Saver()
         self.execute()
 
     def next_batch(self, x, y, batch):
@@ -93,6 +106,7 @@ class RNN:
 
         with tf.Session() as s:
             self.init.run()
+            best = sys.maxint
 
             print('--------------')
             print('RNN, units %d' % self.n_units)
@@ -106,24 +120,30 @@ class RNN:
                     feed_dict = {self.X: xbatch, self.y: ybatch}
                     s.run(self.train_op, feed_dict=feed_dict)
 
-                feed_dict = {self.X: self.tr_x, self.y: self.tr_y}
-                acc = self.accuracy.eval(feed_dict=feed_dict)
-                lp = self.lp.eval(feed_dict=feed_dict)
+                #feed_dict = {self.X: self.tr_x, self.y: self.tr_y}
+                #acc = self.accuracy.eval(feed_dict=feed_dict)
+                #lp = self.lp.eval(feed_dict=feed_dict)
+                
+                feed_dict = {self.X: self.val_x, self.y: self.val_y}              
+                val_acc = self.accuracy.eval(feed_dict=feed_dict)
+                val_lp = self.lp.eval(feed_dict=feed_dict)
 
-                print("%d   acc: %.3f   lp: %.3f" % (e, acc, lp))
+                #print("%d   acc: %.3f   lp: %.3f" % (e, acc, lp))                
+                print("tune %d   acc %.3f    lp %.3f" % (e, val_acc, val_lp))
+               
+                if val_lp < best:
+                    best = val_lp
+                    self.saver.save(s, self.save_path)
 
-            ### final validation tests ###
-            n_batches_te = int(np.ceil(len(self.te_x) / RNN.batch_size))
-            acc_te = 0
-            lp_te = 0
+        ### final validation tests ###
+        with tf.Session() as s:
+            self.saver.restore(s, self.save_path)
+ 
+            fd_te = {self.X: self.te_x, self.y: self.te_y}
+            acc_te = self.accuracy.eval(feed_dict=fd_te)
+            lp_te = self.lp.eval(feed_dict=fd_te)
 
-            for b in range(n_batches_te):
-                xbatch, ybatch = self.next_batch(self.te_x, self.te_y, b)
-                fd_te = {self.X: xbatch, self.y: ybatch}
-                acc_te += self.accuracy.eval(feed_dict=fd_te)
-                lp_te += self.lp.eval(feed_dict=fd_te)
-
-            print('accuracy: %.3f' % (acc_te / n_batches_te))
-            print('log prob: %.3f' % (lp_te / n_batches_te))
+            print('accuracy: %.3f' % (acc_te))
+            print('log prob: %.3f' % (lp_te))
 
 

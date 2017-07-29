@@ -9,15 +9,13 @@ offsets = { "C":0, "C-sharp":1, "D-flat":1, "D":2, "D-sharp":3, "E-flat":3,
             "G":7, "G-sharp":8, "A-flat":8, "A":9,
             "A-sharp":10, "B-flat":10, "B":11, "B-sharp":0, "C-flat":11 }
 
-r_dict = {"unkown": 0}
+r_dict = {"unknown": 0}
 
 def read_files(folder, p_max, p_min, trans, train):
     files = os.listdir(folder)
 
     mels = []
     rhys = []
-
-
 
     for f in files:
         path = folder + "/" + f
@@ -41,17 +39,18 @@ def read_files(folder, p_max, p_min, trans, train):
                     onset = int(float(parsed[1]))
                     offset = int(float(parsed[2]))
                     length = offset - onset
-                    add_to_r_dict(length, True, train)
                     if rhy == []: # starts with rest
                         if onset != 0:
                             rhy.append([0, onset])
                             mel.append(-1) # rest token
+                            add_to_r_dict((onset), True, train)
                     elif onset > rhy[-1][1]: # rest
                         rhy.append([rhy[-1][1], onset])
                         mel.append(-1) # rest token
-
+                        add_to_r_dict((onset - rhy[-1][1]), True, train)
                     rhy.append([onset, offset])
                     mel.append(pitch)
+                    add_to_r_dict(length, True, train)              
                
             rhys.append(rhy)
             mels.append(mel)
