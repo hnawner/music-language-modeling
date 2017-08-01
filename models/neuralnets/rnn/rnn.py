@@ -120,15 +120,11 @@ class RNN:
                     feed_dict = {self.X: xbatch, self.y: ybatch}
                     s.run(self.train_op, feed_dict=feed_dict)
 
-                #feed_dict = {self.X: self.tr_x, self.y: self.tr_y}
-                #acc = self.accuracy.eval(feed_dict=feed_dict)
-                #lp = self.lp.eval(feed_dict=feed_dict)
                 
                 feed_dict = {self.X: self.val_x, self.y: self.val_y}              
                 val_acc = self.accuracy.eval(feed_dict=feed_dict)
                 val_lp = self.lp.eval(feed_dict=feed_dict)
 
-                #print("%d   acc: %.3f   lp: %.3f" % (e, acc, lp))                
                 print("tune %d   acc %.3f    lp %.3f" % (e, val_acc, val_lp))
                
                 if val_lp < best:

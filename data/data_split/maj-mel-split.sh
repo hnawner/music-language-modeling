@@ -1,13 +1,13 @@
 #!/bin/bash
 
-mkdir folk_minor/
+mkdir ../maj_min_split/minor_test/
 
-FILES=folk/*
+FILES=../maj_min_split/test/*
 
 for file in $FILES
 do
     if grep -q "Minor" "${file}"
     then
-        mv -v "${file}" "folk_minor/"
+        mv -v "${file}" "../maj_min_split/minor_test/"
     fi
 done

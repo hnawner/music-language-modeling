@@ -19,7 +19,9 @@ class DNN:
     batch_size = 64
     n_epochs = 250
 
-    def __init__(self, data_tr, data_te, n, d_type, model_type = 'default', trans = True):
+    def __init__(self, data_tr, data_te, n, d_type, 
+    			model_type = 'default', trans = True,
+    			encode = "pc"):
         DNN.ngram = n
         self.tr_x, self.tr_y, self.te_x, self.te_y = utils.setup(data_tr,
                                                            data_te, 
@@ -27,7 +29,8 @@ class DNN:
                                                            d_type,
                                                            DNN.min_pitch,
                                                            DNN.n_outputs,
-                                                           trans)
+                                                           trans,
+                                                           encode)
         self.tr_x, self.val_x, self.tr_y, self.val_y = tts(self.tr_x, self.tr_y,
         	test_size = 0.2)
         if d_type == "pitch":

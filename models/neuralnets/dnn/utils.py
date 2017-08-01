@@ -99,20 +99,22 @@ def make_ngrams(seqs, n):
     return grams
 
 
-def pitch_encode(grams, p_min, pr):
+def pitch_encode(grams, p_min, pr, encode):
     vecs_list = []
     targets = []
     for gram in grams:
         vecs = []
         for g in gram[:-1]:
-            #pitch = [0] * pr
-            #pitch[(g - p_min)] = 1
-            #vecs += pitch
-            pc = [0] * 12
-            octave = [0] * 8
-            pc[g % 12] = 1
-            octave[g // 12] = 1
-            vecs += pc + octave
+        	if encode == "abs":
+        		pitch = [0] * pr
+        		pitch[(g - p_min)] = 1
+        		vecs += pitch
+        	elif encode == "pc":
+        		pc = [0] * 12
+				octave = [0] * 8
+				pc[g % 12] = 1
+				octave[g // 12] = 1
+				vecs += pc + octave
         target = gram[-1] - p_min
         vecs_list.append(vecs)
         targets.append(target)
@@ -138,7 +140,7 @@ def rhythm_encode(grams):
     return vecs_list, targets
 
 
-def setup(tr_folder, te_folder, n, d_type, p_min = 40, pr = 55, trans = True):
+def setup(tr_folder, te_folder, n, d_type, p_min = 40, pr = 55, trans = True, encode = "pc"):
     tr_mels, te_mels = read_mels(tr_folder, trans), read_mels(te_folder, trans)
     if d_type == "rhythm":
     	tr_mels, te_mels = read_rhythms(tr_folder, True), \
@@ -146,8 +148,8 @@ def setup(tr_folder, te_folder, n, d_type, p_min = 40, pr = 55, trans = True):
     tr_grams, te_grams = make_ngrams(tr_mels, n), make_ngrams(te_mels, n)
     tr_x, tr_y, te_x, te_y = None, None, None, None
     if d_type == "pitch":
-    	tr_x, tr_y = pitch_encode(tr_grams, p_min, pr)
-    	te_x, te_y = pitch_encode(te_grams, p_min, pr)
+    	tr_x, tr_y = pitch_encode(tr_grams, p_min, pr, encode)
+    	te_x, te_y = pitch_encode(te_grams, p_min, pr, encode)
     if d_type == "rhythm":
     	tr_x, tr_y = rhythm_encode(tr_grams)
     	te_x, te_y = rhythm_encode(te_grams)
