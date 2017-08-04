@@ -89,7 +89,7 @@ def setup_test(folder, p_max, p_min, start, trans):
     return X_p, y_p, X_r, y_r
 
 
-def setup_rnn(folder, start, trans):
+def setup_train(folder, start, trans):
     p_max, p_min = 80, 40 # intital range
     mels, rhys, p_max, p_min = read_files(folder, p_max, p_min, trans, True)
     X_p = pitch_X_encoder(mels, start, p_max, p_min)

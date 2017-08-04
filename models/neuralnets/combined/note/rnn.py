@@ -36,7 +36,7 @@ class RNN:
         (self.X_tr_r, self.X_te_r, self.y_tr_r, self.y_te_r, 
                 self.X_tr_p, self.X_te_p, self.y_tr_p, self.y_te_p), \
                 (self.p_max, self.p_min) = \
-                utils.setup_rnn(self.train_path, self.start, self.trans)
+                utils.setup_train(self.train_path, self.start, self.trans)
 
         # data set sizes
         self.train_size = len(self.X_tr_r)
