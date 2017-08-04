@@ -2,6 +2,7 @@
 
 import os
 import numpy as np
+import tensorflow as tf
 from sklearn.model_selection import train_test_split as tts
 
 offsets = { "C":0, "C-sharp":1, "D-flat":1, "D":2, "D-sharp":3, "E-flat":3,
@@ -99,7 +100,7 @@ def setup_rnn(folder, start, trans):
         X_p[i] = X_p[i][:-1]
         X_r[i] = X_r[i][:-1]
     X_tr_r, X_te_r, y_tr_r, y_te_r, X_tr_p, X_te_p, y_tr_p, y_te_p = \
-            tts(X_r, y_r, X_p, y_p, test_size=0.2)
+            tts(X_r, y_r, X_p, y_p, test_size=0.1)
     return (X_tr_r, X_te_r, y_tr_r, y_te_r, X_tr_p, X_te_p, y_tr_p, y_te_p), \
                                                              (p_max, p_min)
 
@@ -165,7 +166,7 @@ def pitch_y_encoder(y, p_max, p_min):
             if pitch == -1:
                 vector[0] = 1 # rest token
             pitch = pitch - p_min
-            if pitch >= 0 and pitch < p_max:
+            if pitch > 0 and pitch < pr:
                 vector[pitch] = 1
             mel_vecs.append(vector)
 
@@ -206,5 +207,67 @@ def rhythm_y_encoder(y):
         y_list.append(vecs)
 
     return y_list
+
+
+# softmax cross entropy
+def loss_fn(logits, Y):
+		xentropy = Y * tf.log(tf.nn.softmax(logits))
+		xentropy = -tf.reduce_sum(xentropy, reduction_indices=2)
+		mask = tf.sign(tf.reduce_max(tf.abs(Y), reduction_indices=2))
+		xentropy *= mask
+		xentropy = tf.reduce_sum(xentropy, reduction_indices=1)
+		xentropy /= tf.reduce_sum(mask, reduction_indices=1)
+		return tf.reduce_mean(xentropy)
     
+
+# accuracy 
+def accuracy_fn(logits, Y):
+		_, l_inds = tf.nn.top_k(logits, 1)
+		_, y_inds = tf.nn.top_k(Y, 1)
+		comparison = tf.equal(l_inds, y_inds)
+		comparison = tf.reduce_mean(tf.cast(comparison, tf.float32), axis=2)
+		mask = tf.sign(tf.reduce_max(tf.abs(Y), reduction_indices=2))
+		acc = comparison * mask
+		acc = tf.reduce_sum(acc, reduction_indices=1)
+		acc /= tf.reduce_sum(mask, reduction_indices=1)
+		return tf.reduce_mean(acc)
+	
+	
+	
+# converts the outputs of the neural net and the targets 
+# from one-hot vectors to note representation
+def out2notes(truth_r, truth_p, pred_r, pred_p):
+		conv_truth_r = []
+		conv_truth_p = []
+		conv_pred_r = []
+		conv_pred_p = []
+	
+		for t_r, t_p, p_r, p_p in zip(truth_r, truth_p, pred_r, pred_p):
+			t_r = [np.argmax(i) for i in t_r if sum(i) != 0]
+			t_p = [np.argmax(i) for i in t_p if sum(i) != 0]
+			p_r = ([np.argmax(i) for i in p_r])[:len(t_r)]
+			p_p = ([np.argmax(i) for i in p_p])[:len(t_p)]
+	
+			conv_truth_r.append(t_r)
+			conv_truth_p.append(t_p)
+			conv_pred_r.append(p_r)
+			conv_pred_p.append(p_p)
+
+	
+		return conv_truth_r, conv_truth_p, conv_pred_r, conv_pred_p
+	
+	
+# computes accuracy predictions in note representation
+def total_acc(truth_r, truth_p, pred_r, pred_p):
+		total = 0
+		correct = 0
+		for t_r, t_p, p_r, p_p in zip(truth_r, truth_p, pred_r, pred_p):
+			for i in range(len(t_r)):
+				if (t_r[i] == p_r[i]) and (t_p[i] == p_p[i]):
+					correct += 1
+				total += 1
+	
+		acc = float(correct) / total
+	
+		return acc 
    

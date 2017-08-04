@@ -1,0 +1,68 @@
+DEEP LEARNING OF MUSICAL FORMS
+Harleigh Awner, Daniel Gildea, Adrian Eldridge, David Temperley
+
+DATA:
+data_split - script files to split the data files in various ways
+krn_parser.py - python script to convert “kern” files to “mel” files
+krnfiles - folder of all original kern files
+maj_min_split - mel files split by train/test set and major/minor keys
+melfiles - mel files split into train and test folders
+rename.sh - bash script to rename “krn” or “mel” files to “.txt”
+
+KEY-METER-ID:
+(still being developed)
+
+MODELS:
+neural nets - all neural net models:
+    combined - models that predict pitch AND rhythm:
+        note - models that use note representation
+            To run these models:
+                python run_model.py
+            Parameters must be set in run_model.py:
+                model - model type: "RNN" "CRNN" or "DNN"
+                train - folder of training mel files
+                test - folder of final test mel files (or None for tuning)
+                model_type - pitch and rhythm interact? - True/False
+                transpose - Transpose melodies to common key?: True/False
+        timestep - models that use timestep representation
+            (still being developed)
+
+    separate - models that predict pitch OR rhythm:
+        dnn - deep neural network
+            To run this model:
+                python dnn_run.py
+            Parameters must be set in dnn_run.py:
+                train - folder of training mel files
+                test - folder of final test mel files (or None for tuning)
+                n - length of input in number of notes
+                data_type - “pitch” or “rhythm”
+                model_type - regularization type: “default” = no regularization
+                                  “bn” = batch normalization and dropout
+                                  “l2” = l2 regularization
+                transpose - Transpose melodies to common key?: True/False
+                encode - type of pitch encoding: “pc” = pitch class + octave
+                                 “abs” = absolute chromatic pitch
+        rnn - recurrent neural network
+            To run this model:
+                python rnn_run.py
+            Parameters must be set in rnn_run.py:
+                train - folder of training mel files
+                test - folder of final test mel files (or None for tuning)
+                n_neurons - number of neurons in each RNN layer
+                data_type - “pitch” or “rhythm”
+
+ngrams - all ngram baseline models:
+    combined - pitch and rhythm combined baseline
+        To run this model (unigram and bigram):
+            python run_combined_tests.py [train folder] [test folder]
+    
+    pitch - pitch only baseline
+        To run this model (pitch and interval unigram and bigram):
+            python run_pitch_tests.py [train folder] [test folder]
+    
+    rhythm - rhtyhm only baseline
+        To run this model (unigram and bigram):
+            python run_rhythm_tests.py [train folder] [test folder] 
+            
+    time_steps - time step representation baseline
+        (still being developed)
